@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736230702.98295 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" "intro_to_data_science.pdf" "intro_to_data_science" 1736230703.77077 0
-  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" 1736230702.79008 8150 34810885f93d05ada2763487bad8dedd ""
+["pdflatex"] 1736230841.86026 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" "intro_to_data_science.pdf" "intro_to_data_science" 1736230842.64882 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" 1736230840.86355 4020 875c7f9615e0135a0b724d16249d2aeb ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrb7t.tfm" 1136768653 960 4ab65358b8406f30ef5496c8c096d22b ""
@@ -35,7 +35,6 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb" 1136849748 50493 4ed1f7e9eba8f1f3e1ec25195460190d ""
@@ -215,8 +214,8 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "images/1.png" 1736229896.64456 25728 7fae4ad81eab21682d6ee83d29e17389 ""
-  "intro_to_data_science.aux" 1736230703.69595 1350 a5668fa7b3402f8f47f71992dbbf4bea "pdflatex"
-  "intro_to_data_science.tex" 1736230702.79008 8150 34810885f93d05ada2763487bad8dedd ""
+  "intro_to_data_science.aux" 1736230842.57378 510 259bd9b61e001519f07f34e28678c034 "pdflatex"
+  "intro_to_data_science.tex" 1736230840.86355 4020 875c7f9615e0135a0b724d16249d2aeb ""
   (generated)
   "intro_to_data_science.aux"
   "intro_to_data_science.log"

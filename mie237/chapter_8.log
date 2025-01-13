@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  12 JAN 2025 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  12 JAN 2025 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/edwynzhou/Downloads/uoft/y2/notes/notes/template/main.tex
-(/Users/edwynzhou/Downloads/uoft/y2/notes/notes/template/main.tex
+**/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie237/chapter_8.tex
+(/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie237/chapter_8.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -774,8 +774,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count361
 \l__pdf_internal_box=\box132
-) (./main.aux)
-\openout1 = `main.aux'.
+) (./chapter_8.aux)
+\openout1 = `chapter_8.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
@@ -852,7 +852,7 @@ Package caption Info: End \AtBeginDocument code.
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(./main.aux)
+(./chapter_8.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -860,14 +860,14 @@ L3 programming layer <2024-02-20>
  ) 
 Here is how much of TeX's memory you used:
  26159 strings out of 474116
- 549358 string characters out of 5743681
+ 549412 string characters out of 5743681
  1928187 words of memory out of 5000000
  48065 multiletter control sequences out of 15000+600000
  567431 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,5n,107p,492b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,5n,107p,495b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (1 page, 24580 bytes).
+Output written on chapter_8.pdf (1 page, 27577 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream

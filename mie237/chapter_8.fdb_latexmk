@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736733123.8721 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/template/main.tex" "main.pdf" "main" 1736733124.63132 0
-  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/template/main.tex" 1736733123.64932 2587 810d8abba7ae868e12ebfea19ef9fe07 ""
+["pdflatex"] 1736733215.24611 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie237/chapter_8.tex" "chapter_8.pdf" "chapter_8" 1736733216.00549 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie237/chapter_8.tex" 1736733214.27913 2591 0eb29c0784cad8fe0c971b07cfe36a98 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -177,10 +177,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1736733124.57002 515 60de16840b8f0df7855397524a7110c6 "pdflatex"
-  "main.tex" 1736733123.64932 2587 810d8abba7ae868e12ebfea19ef9fe07 ""
+  "chapter_8.aux" 1736733215.94636 520 491502b074569ec2cb06fb2401faad48 "pdflatex"
+  "chapter_8.tex" 1736733214.27913 2591 0eb29c0784cad8fe0c971b07cfe36a98 ""
   (generated)
-  "main.aux"
-  "main.log"
-  "main.pdf"
+  "chapter_8.aux"
+  "chapter_8.log"
+  "chapter_8.pdf"
   (rewritten before read)

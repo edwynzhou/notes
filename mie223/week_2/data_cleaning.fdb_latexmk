@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736891818.98943 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_2/data_cleaning.tex" "data_cleaning.pdf" "data_cleaning" 1736891821.92474 0
-  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_2/data_cleaning.tex" 1736891815.81066 20565 8aa9f0695f0c9983e370baa77a8e4571 ""
+["pdflatex"] 1736892287.7509 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_2/data_cleaning.tex" "data_cleaning.pdf" "data_cleaning" 1736892290.77082 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_2/data_cleaning.tex" 1736892284.57934 20578 e9dd0d56a311c767770a2ac29168c4ed ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -202,8 +202,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "data_cleaning.aux" 1736891821.853 5000 fdfb956796ecf97ffd176b484a1620f3 "pdflatex"
-  "data_cleaning.tex" 1736891815.81066 20565 8aa9f0695f0c9983e370baa77a8e4571 ""
+  "data_cleaning.aux" 1736892290.70023 5000 5b24638b872b7962171cca57c8f21238 "pdflatex"
+  "data_cleaning.tex" 1736892284.57934 20578 e9dd0d56a311c767770a2ac29168c4ed ""
   "images/1.png" 1736788636.3275 111855 5a5e5195f4561cb45518fd1cf4e6d14f ""
   "images/10.png" 1736889987.75456 168173 ee81e4f18eba07f62be66614c10b22b5 ""
   "images/11.png" 1736890160.93262 166827 b13d6a0dbdfc252ce74218040749a2e9 ""

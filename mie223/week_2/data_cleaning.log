@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  14 JAN 2025 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  14 JAN 2025 14:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -963,14 +963,19 @@ Package pdftex.def Info: ./images/17.png  used on input line 511.
 <./images/18.png, id=120, 2384.91pt x 1230.5975pt>
 File: ./images/18.png Graphic file (type png)
 <use ./images/18.png>
-Package pdftex.def Info: ./images/18.png  used on input line 540.
-(pdftex.def)             Requested size: 469.75502pt x 242.37843pt.
+Package pdftex.def Info: ./images/18.png  used on input line 541.
+(pdftex.def)             Requested size: 234.8775pt x 121.18921pt.
 <./images/19.png, id=121, 2382.9025pt x 1238.6275pt>
 File: ./images/19.png Graphic file (type png)
 <use ./images/19.png>
-Package pdftex.def Info: ./images/19.png  used on input line 541.
-(pdftex.def)             Requested size: 469.75502pt x 244.16792pt.
- [14] [15 <./images/18.png> <./images/19.png>] 
+Package pdftex.def Info: ./images/19.png  used on input line 542.
+(pdftex.def)             Requested size: 234.8775pt x 122.07451pt.
+
+Overfull \hbox (2.08049pt too wide) in paragraph at lines 541--543
+[][] [] 
+ []
+
+[14 <./images/18.png> <./images/19.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./data_cleaning.aux)
  ***********
@@ -987,10 +992,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  101i,5n,107p,506b,404s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on data_cleaning.pdf (15 pages, 2724455 bytes).
+Output written on data_cleaning.pdf (14 pages, 2724234 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  247 words of extra memory for PDF output out of 10000 (max. 10000000)
 

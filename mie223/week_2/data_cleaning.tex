@@ -293,7 +293,7 @@ The data was rejected as unreasonable by data quality control algorithms.
         \item Mode
         \begin{itemize}
             \item Value that occurs most frequently in discrete data
-            \item Value with highest probability in continuous data
+            \item Value with highest frequency (or value range with highest frequency) in continuous data
             \item Informally: \# peaks in numeric data – unimodal, bimodal, trimodal, multimodal, ...
         \end{itemize}
     \end{itemize}
@@ -311,11 +311,232 @@ The data was rejected as unreasonable by data quality control algorithms.
         and plot outlier individually
         \item Outlier: usually, a value higher/lower than 1.5 x IQR
     \end{itemize}
-    \item Variance and standard deviation (sample: s, population: sigma)
+    \item Variance and standard deviation (sample: s, population: $\sigma$)
     \begin{itemize}
         \item Variance: (algebraic, scalable computation)
-        \item \includegraphics[width=\textwidth]{7.png}
-        % \item Standard deviation s (or sigma) is the square root of variance s^2 (or sigma^2)
+        \item \includegraphics[width=\textwidth - 51.46509pt]{7.png}
+        \item Standard deviation $s$ (or $\sigma$) is the square root of variance $s^2$ (or $\sigma^2$)
     \end{itemize}
 \end{itemize}
+\subsection{Boxplot Analysis}
+\begin{itemize}
+    \item Five-number summary of a distribution:
+    \begin{itemize}
+        \item Minimum, Q1, M, Q3, Maximum (IQR=Q3-Q1)
+    \end{itemize}
+    \item Historical Boxplot
+    \begin{itemize}
+        \item Data is represented with a box
+        \item The ends of the box are at the first and third
+        quartiles (Q1,Q3), i.e., the height of the box is IQR
+        \item The median is marked by a line within the box
+        \item Whiskers: two lines outside the box extend to
+        Minimum and Maximum
+        \item Shows asymmetry unlike mean ± std 
+    \end{itemize}
+\end{itemize}
+\begin{note}
+    Beware boxplots can hide multimodality.
+    
+    \includegraphics[height=\textheight/4]{8.png}
+\end{note}
+\subsection{Python Boxplot (not all Boxplots are the same)}
+\includegraphics[width=\textwidth]{9.png}
+\subsection{Understanding the Data Distribution: Histograms}
+\begin{note}
+    The normal distribution is unimodal.
+\end{note}
+\begin{itemize}
+    \item Summary statistics
+    like standard deviation
+    can be very misleading if
+    you don’t know the
+    distribution
+    \item A Histogram shows an
+    empirical density
+    \begin{itemize}
+        \item I.e., the frequency of
+        binned value ranges of
+        your variable (column)
+        \item Use a bar chart of
+        frequencies if variable is
+        discrete
+    \end{itemize}
+\end{itemize}
+\includegraphics[width=\textwidth]{10.png}
+\subsection{Processes Generate Different Distributions}
+\includegraphics[width=\textwidth]{11.png}
+\begin{itemize}
+    \item Mean, median, and mode are same for Gaussian data, but (very) different for power law data.
+\end{itemize}
+\subsection{Symmetric vs. Skewed Data}
+\begin{itemize}
+    \item Median, mean and mode of symmetric,
+    positively and negatively skewed data
+\end{itemize}
+\includegraphics[width=\textwidth/4]{12.png}
+\includegraphics[width=\textwidth]{13.png}
+\subsection{Properties of Normal Distribution Curve}
+\begin{itemize}
+    \item The normal (distribution) curve
+    \item From $\mu$–$\sigma$ to $\mu$+$\sigma$: contains about 68\% of the measurements
+    ($\mu$: mean, $\sigma$: standard deviation)
+    \item From $\mu$–2$\sigma$ to $\mu$+2$\sigma$: contains about 95\% of it
+    \item From $\mu$–3$\sigma$ to $\mu$+3$\sigma$: contains about 99.7\% of it
+    \item Useful for interpreting z-scores (cf. transformation slides)
+\end{itemize}
+\includegraphics[width=\textwidth]{14.png}
+\section{Data Cleaning: Missing Values}
+\subsection{Missing Values}
+\begin{itemize}
+    \item Missing Completely at Random (MCAR): the random process by which data is
+    missing does not depend on any other observed (i.e., column) nor latent
+    (i.e., unobserved) variable
+    \begin{itemize}
+        \item e.g., for column "income" uniformly randomly pick a row and with probability P, delete the
+        "income" entry at that row
+    \end{itemize}
+    \item Missing at Random (MAR): the random process by which the data is missing
+    depends on another variable (column), but not on a latent variable
+    \begin{itemize}
+        \item e.g., for column "income" uniformly randomly pick a row and with probability P if that row has
+        "gender=Male" or probability Q if that row has "gender=Female", delete "income" at that row
+    \end{itemize}
+    \item Missing Not at Random (MNAR): the random process by which the data is missing depends on a latent variable
+    \begin{itemize}
+        \item e.g., for column "income" delete the "income" at a row *if* the day the row is added to the
+        table is on a Monday (where the timestamp of when a row was added is not recorded in any
+        column and is hence latent)
+        \item e.g., for column "income", the "income" at a row is missing if it was below \$10,000 – here, the
+        value that made it missing is not recorded in the table and therefore a latent cause
+    \end{itemize}
+\end{itemize}
+\subsection{Example Customer Data}
+\includegraphics[width=\textwidth]{15.png}
+\subsection{Imputation}
+\begin{itemize}
+    \item Imputation is risky (makes assumptions and “creates” missing values)
+    \begin{itemize}
+        \item If very few rows are missing data, it may be better to delete those rows
+        \item But if high rate of missingness, cannot delete most of data!
+    \end{itemize}
+    \item Some downstream analysis requires complete data in rows
+    \begin{itemize}
+        \item Correlation between all pairs of variables
+        \item Classification and regression in most of machine / deep learning
+    \end{itemize}
+    \item Impute if you must, but imputer beware
+    \begin{itemize}
+        \item As they said in Ancient Rome: caveat imputor
+    \end{itemize}
+\end{itemize}
+\subsection{Imputation Methods}
+\begin{itemize}
+    \item String or categorical data
+    \begin{itemize}
+        \item Most frequent value (or mode)
+    \end{itemize}
+    \item Integer data
+    \begin{itemize}
+        \item Median makes more sense than mean (because it is an integer value)
+        \item Mode?
+    \end{itemize}
+    \item Continuous (floating point) data
+    \begin{itemize}
+        \item Mean
+        \item Median (can differ significantly from Mean for asymmetric distribution)
+    \end{itemize}
+    \item Consider a specific value if MNAR
+    \begin{itemize}
+        \item No response to a survey could mean “No” be default
+    \end{itemize}
+\end{itemize}
+\subsection{Conditional Imputation}
+\begin{itemize}
+    \item But wait, we can also conditionally impute!
+    \begin{itemize}
+        \item Can use “groupby” and aggregation on one or more other columns
+        \begin{itemize}
+            \item E.g., Impute “Income” conditioned on median income grouped by “Job”
+        \end{itemize}
+        \item Could train a classifier or predictor from other columns (be careful)
+    \end{itemize}
+    \item If Data is MCAR
+    \begin{itemize}
+        \item Consider how other columns may impact prediction
+        \begin{itemize}
+            \item E.g., “Sex=male” gives a strong hint about “Is Pregnant?”
+        \end{itemize}
+    \end{itemize}
+    \item If Data is MAR
+    \begin{itemize}
+        \item Consider if the missingness condition should influence the prediction
+        \begin{itemize}
+            \item E.g., all stores in “North Yorkville” did not report client income
+        \end{itemize}
+        \item Note: columns that influence missingness do not necessarily influence the prediction
+        \begin{itemize}
+            \item E.g., “Income” missing for “Location=Scarborough” but may be most influenced by “Age” and “Job”
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\section{Data Cleaning: Noise,
+Inconsistency, Redundancy}
+\subsection{Reality Check from Summary Statistics and Domain Knowledge}
+\begin{itemize}
+    \item Range
+    \begin{itemize}
+        \item Minimum: can height be -10m?
+        \item Maximum: can height be 3m?
+    \end{itemize}
+    \item Central Tendency:
+    \begin{itemize}
+        \item Mean: can mean height be 1.8m? (may be skewed by some outliers)
+        \item Median: can median height be 1.8m? (says that half of the people are >= 1.8m)
+        \item Mode: can mode height be 1.8m?
+        \begin{itemize}
+            \item Can height be multimodal?
+        \end{itemize}
+    \end{itemize}
+    \item If Data is non-numeric, consider frequencies or percentages
+    \begin{itemize}
+        \item Can the most frequent word be “computer”?
+        \item Can 75\% of the jobs in your database be neurosurgeon?
+    \end{itemize}
+    \item For sorted strings, do both “Microsft” and “Microsoft” appear?
+\end{itemize}
+\subsection{Identify Outliers and Potential Errors}
+\includegraphics[width=\textwidth]{16.png}
+\subsection{Data Cleaning Task: Entity Matching}
+\includegraphics[width=\textwidth]{17.png}
+\begin{itemize}
+    \item Duplicates often occur in data integrated from multiple sources
+    \item Or duplicates can simply result from redundant data entry
+    \item Without merging / deduplication: will overcount records
+    \begin{itemize}
+        \item Deduplication methods provided by record linkage or entity linkage
+    \end{itemize}
+\end{itemize}
+\section{Data Transformation:
+Improve Interpretability}
+\subsection{Data Transformation}
+\begin{itemize}
+    \item Smoothing: remove noise from data
+    \item Aggregation: summarization
+    \item Generalization: back off labels to a concept hierarchy
+    \item Attribute/feature construction
+    \begin{itemize}
+        \item New attributes derived from the given ones
+    \end{itemize}
+    \item Normalization: scaled to fall within a small, specified range
+    \begin{itemize}
+        \item min-max normalization
+        \item subtract mean (preserves magnitude)
+        \item z-score normalization
+        \item log normalization
+    \end{itemize}
+\end{itemize}
+\subsection{Data Transformation: Normalization}
+\includegraphics[width=\textwidth]{18.png}
+\includegraphics[width=\textwidth]{19.png}
 \end{document}

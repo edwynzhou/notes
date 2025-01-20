@@ -388,6 +388,9 @@ The data was rejected as unreasonable by data quality control algorithms.
 \includegraphics[width=\textwidth]{14.png}
 \section{Data Cleaning: Missing Values}
 \subsection{Missing Values}
+\begin{note}
+    It's important to understand how your data is missing.
+\end{note}
 \begin{itemize}
     \item Missing Completely at Random (MCAR): the random process by which data is
     missing does not depend on any other observed (i.e., column) nor latent
@@ -397,10 +400,11 @@ The data was rejected as unreasonable by data quality control algorithms.
         "income" entry at that row
     \end{itemize}
     \item Missing at Random (MAR): the random process by which the data is missing
-    depends on another variable (column), but not on a latent variable
+    depends on another variable (column), but not on a latent (unobserved) variable
     \begin{itemize}
         \item e.g., for column "income" uniformly randomly pick a row and with probability P if that row has
         "gender=Male" or probability Q if that row has "gender=Female", delete "income" at that row
+        \item \textbf{it can depend on the row itself, but not on the missing value}
     \end{itemize}
     \item Missing Not at Random (MNAR): the random process by which the data is missing depends on a latent variable
     \begin{itemize}
@@ -439,7 +443,7 @@ The data was rejected as unreasonable by data quality control algorithms.
     \item Integer data
     \begin{itemize}
         \item Median makes more sense than mean (because it is an integer value)
-        \item Mode?
+        \item Mode? (consider conditional mode)
     \end{itemize}
     \item Continuous (floating point) data
     \begin{itemize}
@@ -486,8 +490,8 @@ Inconsistency, Redundancy}
 \begin{itemize}
     \item Range
     \begin{itemize}
-        \item Minimum: can height be -10m?
-        \item Maximum: can height be 3m?
+        \item Minimum: height shouldn't be negative
+        \item Maximum: can height be 3m? can be found in stats instead
     \end{itemize}
     \item Central Tendency:
     \begin{itemize}
@@ -495,7 +499,7 @@ Inconsistency, Redundancy}
         \item Median: can median height be 1.8m? (says that half of the people are >= 1.8m)
         \item Mode: can mode height be 1.8m?
         \begin{itemize}
-            \item Can height be multimodal?
+            \item Can height be multimodal? yes
         \end{itemize}
     \end{itemize}
     \item If Data is non-numeric, consider frequencies or percentages
@@ -506,6 +510,13 @@ Inconsistency, Redundancy}
     \item For sorted strings, do both “Microsft” and “Microsoft” appear?
 \end{itemize}
 \subsection{Identify Outliers and Potential Errors}
+Could be bad values, poor data collection
+\begin{note}
+    Outliers can be real data, but they can also be errors. Your analysis is skewed by outliers if they are not truly outliers.
+    They can be removed if they are not representative of the population you intend to analyze.
+\end{note}
+
+
 \includegraphics[width=\textwidth]{16.png}
 \subsection{Data Cleaning Task: Entity Matching}
 \includegraphics[width=\textwidth]{17.png}
@@ -522,8 +533,8 @@ Inconsistency, Redundancy}
 Improve Interpretability}
 \subsection{Data Transformation}
 \begin{itemize}
-    \item Smoothing: remove noise from data
-    \item Aggregation: summarization
+    \item Smoothing: remove noise from data by taking a local average
+    \item Aggregation: summarization but lose the details
     \item Generalization: back off labels to a concept hierarchy
     \item Attribute/feature construction
     \begin{itemize}
@@ -538,6 +549,9 @@ Improve Interpretability}
     \end{itemize}
 \end{itemize}
 \subsection{Data Transformation: Normalization}
+\begin{note}
+    Min-Max normalization does not consider standard deviation. If your data is dynamic then the range changes, so Z-score is preferred as it is more stable.
+\end{note}
 \includegraphics[width=\textwidth/2]{18.png}
 \includegraphics[width=\textwidth/2]{19.png}
 \end{document}

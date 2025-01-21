@@ -222,5 +222,188 @@ intuition for notation
 Aliens in your backyard
 
 \includegraphics[width=\textwidth]{6.png}
+\subsection{Rules of Probability}
+\begin{itemize}
+  \item Joint and conditional distributions:
+  \begin{equation}
+    P(X,Y) = P(X|Y)P(Y) = P(Y|X)P(X)
+  \end{equation}
+  \item Marginalization:
+  \begin{equation}
+    P(X) = \sum_{y} P(X,Y)
+  \end{equation}
+  \item Conditional probability \& Bayes rule:
+  \begin{equation}
+    P(X|Y) = \frac{P(Y|X)P(X)}{P(Y)}
+  \end{equation}
+\end{itemize}
+\subsection{Manipulating Distributions}
+\begin{itemize}
+  \item Sometimes we don’t just want P(R=1,C=2) = .4
+  \item We want to work with full distributions P(R,C)
+  \item How to apply previous rules to full distributions?
+  \item easy, just do once for each case and store in table
+  \item Marginalization:
+  \item \includegraphics[width=\textwidth/2]{9.png}
+  \item Binary Multiplication
+  \item \includegraphics[width=\textwidth/2]{10.png}
+\end{itemize}
+\section{Feature Analysis}
+Frequency, Correlation,
+(Pointwise) Mutual Information,
+Conditional Entropy
+\subsection{Feature Analysis: Frequency}
+\begin{itemize}
+  \item Always produce summary frequency statistics
+  \item Always look at samples of data
+  \item \includegraphics[width=\textwidth/2]{11.png}
+\end{itemize}
+\subsection{Feature (In)dependence}
+Often we want to know whether one feature column
+predicts another (bivariate feature analysis)
+\begin{itemize}
+  \item What do you see here?
+  \item How would quantify / visualize / automatically detect this?
+  \item \includegraphics[width=\textwidth/2]{12.png}
+\end{itemize}
+\subsection{Feature Independence}
+\begin{itemize}
+  \item X is independent of Y means that knowing Y
+  does not change our belief about X
+  \item p(X|Y=y) = p(X)
+  \item In words: knowing Y=y has no impact on
+  our belief in the distribution of X
+  \item Occurs if: p(X=x, Y=y) = p(X=x)*p(Y=y)
+\end{itemize}
+\subsection{Information Theory}
+\begin{itemize}
+  \item P(X) encodes our uncertainty about X
+  \item Some variables are more uncertain that others
+  \item \includegraphics[width=\textwidth/2]{13.png}
+  \item How can we quantify this intuition?
+  \item Entropy: average number of bits required to encode X
+  \item \includegraphics[width=\textwidth/2]{14.png}
+  \item In short: low bits, low entropy → low uncertainty
+  \item We can define conditional entropy (CE) similarly
+  \item \includegraphics[width=\textwidth/2]{15.png}
+  \item i.e. once Y is known, we only need H(X,Y) – H(Y) bits
+  \item Higher CE is more uncertain (y is less predictive),
+  lower CE is more certain (y is more predictive)
+\end{itemize}
+\subsection{(Pointwise) Mutual Information}
+\begin{note}
+  Mutual information is just a test of independence. It only applies to discrete variables. Correlation does not apply to binary variables. If X and Y are non-linear, MI will capture that unlike correlation coefficient.
+\end{note}
+\begin{itemize}
+  \item Mutual Information
+  \item \includegraphics[width=\textwidth/2]{16.png}
+  \item For discrete random
+  variables: can also
+  be generalized to
+  continuous case
+  \item PMI: target specific values x and y (pointwise)
+  \item \includegraphics[width=\textwidth/2]{17.png}
+  \item Lower MI and PMI → More independent, Higher MI and PMI → More dependent
+\end{itemize}
+\subsection{Discrete Feature Analysis Summary}
+If we look at two feature columns X and Y, can analyze:
+\begin{itemize}
+  \item MI(X,Y): test independence (fix neither variable)
+  \begin{itemize}
+    \item MI=0 → independent,
+    \item The higher the value, the more dependence
+    \item Chi2(X,Y) / Chi-squared(X,Y): independence test similar to MI
+  \end{itemize}
+  \item CE(X|Y=b): test how well Y=b predicts X (fix Y)
+  \begin{itemize}
+    \item Low conditional entropy when X is well-predicted, why?
+    \item CE=0 → perfect prediction! CE=1 → complete noise!
+  \end{itemize}
+  \item PMI(X=a,Y=b): test if X=a, Y=b dependent (fix X and Y)
+  \begin{itemize}
+    \item Hard to interpret absolute numerical meaning (0 is still independent)
+    \item Primarily useful when ranking features... why?
+  \end{itemize}
+\end{itemize}
+\subsection{Predictive Feature Analysis:
+Mutual Information (MI) or Pointwise MI}
+E.g., top 5 term features for Twitter topics
+– Use mutual information to know what is
+predictive / important
+\subsection{Mean, Median, and Power Laws}
+\begin{itemize}
+  \item A lot of human data is power law (income, \#friends)
+  \item Discrete power law (Zipf) for freq f:
+  \item \includegraphics[width=\textwidth/5]{18.png}
+  \item Continuous power law:
+  \item \includegraphics[width=\textwidth/4]{19.png}
+  \item E.g., Probability
+  mass of
+  population with
+  different income
+  levels, or \#friends
+  on Facebook
+  \item \includegraphics[width=\textwidth/2]{20.png}
+  \item Not symmetric like Gaussian, mean $\neq$ median
+  \item I.e., the average case is much closer to the max case!
+  \item 80/20 rule: top 20\% of values account for 80\% of mass
+\end{itemize}
+\subsection{Box Plots}
+Most data is not Gaussian, often power law or log-Normal
 
+\includegraphics[width=\textwidth]{21.png}
+
+An example where most informative = mean
+informative (but not median)... why?
+
+\includegraphics[width=\textwidth]{22.png}
+\begin{itemize}
+  \item Median favorites were largely generic
+  \item Most informative (max $\approx$ avg) were largely specialized
+\end{itemize}
+\subsection{Violin Plots}
+Compactly show full distributions side-by-side. Like compact histogram, can show bimodality unlike Boxplot
+
+Plot of tooth length vs. vitamin C dose
+
+\includegraphics[width=\textwidth/2]{23.png}
+\subsection{Discrete Heatmaps}
+Better than a table... visualize numbers!
+
+\includegraphics[width=\textwidth]{24.png}
+\subsection{Scatterplots: don’t need linear relationship to
+be informative!}
+\begin{itemize}
+  \item Large groups tend not to be predictive
+  \item Most informative groups were small
+\end{itemize}
+\includegraphics[width=\textwidth]{25.png}
+
+\subsection{Heatmaps / Density Plots}
+\includegraphics[width=\textwidth]{26.png}
+
+Important to use when points in a scatterplot
+are dense and do not reflect density
+
+\subsection{Bubble Plots}
+Sometimes scatterplots not
+dense enough for a heatmap
+
+\includegraphics[width=\textwidth/2]{27.png}
+\begin{itemize}
+  \item And may have a third data
+  dimension
+  \item So don’t want density=color
+\end{itemize}
+
+\includegraphics[width=\textwidth/2]{28.png}
+
+Enter the bubble plot
+\begin{itemize}
+  \item X-axis: age
+  \item Y-axis: hours worked per week
+  \item Bubble size is relative mass
+  (density in a heatmap)
+  \item Color is income (purple=higher)
+\end{itemize}
 \end{document}

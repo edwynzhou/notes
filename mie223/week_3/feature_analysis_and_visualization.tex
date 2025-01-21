@@ -150,7 +150,7 @@ association between two variables
   be described by the following equation:
 \end{itemize}
 \begin{equation}
-  y = \alpha + \beta x, \beta != 0
+  y = \alpha + \beta x, \beta \neq 0
 \end{equation}
 \begin{itemize}
   \item This relationship will not be exact
@@ -159,6 +159,68 @@ association between two variables
   \item $\epsilon$ is the error term for the relationship
 \end{itemize}
 \begin{equation}
-  y = \alpha + \beta x + \epsilon, \beta != 0
+  y = \alpha + \beta x + \epsilon, \beta \neq 0
 \end{equation}
+\subsection{Pearson correlation coefficient}
+\begin{itemize}
+  \item In order to test the linear association
+  between two variables x and y we can use
+  the Pearson correlation coefficient r$_{xy}$
+
+  \includegraphics[width=\textwidth/2]{3.png}
+  \item Pearson correlation is in the range [-1,1]
+  \begin{itemize}
+    \item 1: perfect/strong and positive linear correlation
+    \item -1: perfect/strong and negative linear correlation
+    \item 0: no linear correlation
+  \end{itemize}
+  \item It is very crucial to understand that this
+  correlation coefficient can only examine
+  linear associations between two variables
+
+  \includegraphics[width=\textwidth/2]{4.png}
+\end{itemize}
+\begin{note}
+  \begin{itemize}
+    \item Pearson correlation coefficient is sensitive to
+    outliers
+    \item It is not robust to outliers
+    \item It is not a good measure of correlation for
+    non-linear relationships
+  \end{itemize}
+\end{note}
+\section{Feature Analysis: Probability Recap}
+This is mathematical so we first
+we need to make sure everyone
+has the same understanding and
+intuition for notation
+\subsection{Random Variables}
+\begin{itemize}
+  \item Random variable (RV) denoted by uppercase letter (e.g. X)
+  \item RVs take value assignments X = x where X is a
+  \begin{itemize}
+    \item Discrete RV if x is in a countable set (binary: x $\in$ {0,1}; or dice)
+    \item Continuous RV if x is in an uncountable set (real: x $\in$ Reals)
+  \end{itemize}
+  \item Write x $\in$ X for possible value assignments of X
+  \item For all x, P(X = x) $\in$ [0,1]
+  \item P(X = x) is a proper distribution
+  \begin{itemize}
+    \item Discrete RV: 
+    \item \includegraphics[width=\textwidth/4]{7.png}
+    \item Continuous RV:
+    \item \includegraphics[width=\textwidth/4]{8.png}
+  \end{itemize}
+  \item Write P(x) for P(X=x), write P(X) for full distribution
+  \item Representing probability distributions
+  \begin{itemize}
+    \item Discrete (finite) RV: tabular
+    \item Continuous (infinite) RV: function
+  \end{itemize}
+\end{itemize}
+\subsection{Joint Distributions on RVs}
+Aliens in your backyard
+
+\includegraphics[width=\textwidth]{6.png}
+
 \end{document}

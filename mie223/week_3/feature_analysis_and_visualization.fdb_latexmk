@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1737396000.97116 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_3/feature_analysis_and_visualization.tex" "feature_analysis_and_visualization.pdf" "feature_analysis_and_visualization" 1737396001.87409 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_3/feature_analysis_and_visualization.tex" 1737396000.74184 4861 e1683cafb96585beaeac3938f587dbb3 ""
+["pdflatex"] 1737494874.53822 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_3/feature_analysis_and_visualization.tex" "feature_analysis_and_visualization.pdf" "feature_analysis_and_visualization" 1737494875.76591 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_3/feature_analysis_and_visualization.tex" 1737494873.02741 7008 78fa1e94fd87e68a40f244620d42d59f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -27,7 +27,9 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1229303445 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1229303445 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1136849748 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1136849748 46026 6dab18b61c907687b520c72847215a68 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf" 1136768653 1372 788387fea833ef5963f4c5bffe33eb89 ""
@@ -202,10 +204,15 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "feature_analysis_and_visualization.aux" 1737396001.8067 1004 35467ce931af1b504ce174794fb22829 "pdflatex"
-  "feature_analysis_and_visualization.tex" 1737396000.74184 4861 e1683cafb96585beaeac3938f587dbb3 ""
+  "feature_analysis_and_visualization.aux" 1737494875.69582 1479 b82c173548320d13ff438f6914b9fbaf "pdflatex"
+  "feature_analysis_and_visualization.tex" 1737494873.02741 7008 78fa1e94fd87e68a40f244620d42d59f ""
   "images/1.png" 1737395065.43004 259335 b1c509237483621274b8c0171db1de61 ""
   "images/2.png" 1737395348.46958 49310 08bab24d8b163b94ec9606d066f7a08a ""
+  "images/3.png" 1737494080.43916 18409 76e3cb0f7dbbbc761188ebba270b926d ""
+  "images/4.png" 1737494212.32193 480975 827a79af77be21bb625ed2d4a0fb7912 ""
+  "images/6.png" 1737494648.87701 295414 dd8b0aac984e84d3d81ed36b2594d338 ""
+  "images/7.png" 1737494691.51594 11842 493ca3ee537bc9a021a75fc6dc6a8e26 ""
+  "images/8.png" 1737494701.8757 12922 53a6c7ada183f63893ca63dc1fe67398 ""
   (generated)
   "feature_analysis_and_visualization.aux"
   "feature_analysis_and_visualization.log"

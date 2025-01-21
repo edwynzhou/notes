@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  20 JAN 2025 10:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  21 JAN 2025 13:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -877,7 +877,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 152.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [3] 
+)
+<./images/3.png, id=55, 1051.93pt x 277.035pt>
+File: ./images/3.png Graphic file (type png)
+<use ./images/3.png>
+Package pdftex.def Info: ./images/3.png  used on input line 170.
+(pdftex.def)             Requested size: 234.8775pt x 61.85674pt.
+<./images/4.png, id=56, 2144.01pt x 794.97pt>
+File: ./images/4.png Graphic file (type png)
+<use ./images/4.png>
+Package pdftex.def Info: ./images/4.png  used on input line 181.
+(pdftex.def)             Requested size: 234.8775pt x 87.08305pt.
+ [3 <./images/3.png> <./images/4.png>]
+<./images/7.png, id=66, 580.1675pt x 166.6225pt>
+File: ./images/7.png Graphic file (type png)
+<use ./images/7.png>
+Package pdftex.def Info: ./images/7.png  used on input line 210.
+(pdftex.def)             Requested size: 117.43875pt x 33.72815pt.
+<./images/8.png, id=67, 612.2875pt x 142.5325pt>
+File: ./images/8.png Graphic file (type png)
+<use ./images/8.png>
+Package pdftex.def Info: ./images/8.png  used on input line 212.
+(pdftex.def)             Requested size: 117.43875pt x 27.33807pt.
+<./images/6.png, id=68, 2198.2125pt x 1371.1225pt>
+File: ./images/6.png Graphic file (type png)
+<use ./images/6.png>
+Package pdftex.def Info: ./images/6.png  used on input line 224.
+(pdftex.def)             Requested size: 469.75502pt x 293.00725pt.
+ [4 <./images/7.png> <./images/8.png>] [5 <./images/6.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./feature_analysis_and_visualization.aux)
  ***********
@@ -886,18 +913,18 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26275 strings out of 474116
- 551734 string characters out of 5743681
- 1931187 words of memory out of 5000000
- 48153 multiletter control sequences out of 15000+600000
+ 26322 strings out of 474116
+ 552626 string characters out of 5743681
+ 1935187 words of memory out of 5000000
+ 48200 multiletter control sequences out of 15000+600000
  574213 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,5n,107p,527b,291s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on feature_analysis_and_visualization.pdf (3 pages, 311706 bytes).
+ 101i,5n,107p,527b,318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on feature_analysis_and_visualization.pdf (5 pages, 930022 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

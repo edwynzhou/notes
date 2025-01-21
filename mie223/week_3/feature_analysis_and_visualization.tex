@@ -327,6 +327,7 @@ If we look at two feature columns X and Y, can analyze:
 \end{itemize}
 \subsection{Predictive Feature Analysis:
 Mutual Information (MI) or Pointwise MI}
+We can predict topics based on popular terms. The top 5 terms from a selected topic are the terms that have high mutual information.
 E.g., top 5 term features for Twitter topics
 – Use mutual information to know what is
 predictive / important
@@ -405,5 +406,82 @@ Enter the bubble plot
   \item Bubble size is relative mass
   (density in a heatmap)
   \item Color is income (purple=higher)
+\end{itemize}
+\subsection{Choropleths}
+Example: per capita tweet frequency across different
+international and U.S. locations for different topics
+
+\includegraphics[width=\textwidth]{29.png}
+
+\subsection{More than one way to plot time series!}
+\begin{itemize}
+  \item Sometimes \%change or
+  relative growth vs. index
+  is better than the obvious
+  plot of values vs. time
+  \item Note the different insights
+  from these three examples
+  of the same data!
+\end{itemize}
+\includegraphics[width=\textwidth/2]{30.png}
+\includegraphics[width=\textwidth/2]{31.png}
+\includegraphics[width=\textwidth/2]{32.png}
+
+\section{Multimodality and
+Confounders}
+Your data is a mix of generative
+processes: try to understand what
+those generative processes are.
+
+\subsection{Time Series and Data Cleaning}
+\begin{itemize}
+  \item Always evaluate sufficient statistics of data over time
+  \item Don’t ignore a shift... evidence that something changed
+  \begin{itemize}
+    \item Can try to correct if understand source of shift
+  \end{itemize}
+\end{itemize}
+\subsection{Overlapping Histograms}
+Is there a data dependence on a discrete variable?
+Multimodalities are
+always due to some
+underlying discrete
+confounder(s): can
+be explicit or latent!
+
+\includegraphics[width=\textwidth/4]{33.png}
+
+\section{EDA Case Study with
+Confounders}
+Analysis of
+Ambulance Response Times
+
+\subsection{Cardiac Arrest - Case Study}
+What abnormalities would you investigate further?
+What would you plot?
+
+\includegraphics[width=\textwidth/2]{34.png}
+\includegraphics[width=\textwidth/2]{35.png}
+\includegraphics[width=\textwidth/2]{36.png}
+\includegraphics[width=\textwidth/2]{37.png}
+
+\section{Feature Analysis and Viz: Recap}
+\begin{itemize}
+  \item Explore and visualize whenever possible
+  \item Tabular summaries: frequency, summary statistics
+  \begin{itemize}
+    \item Much (human-generated) data is not Gaussian
+    \item Be cautious with summary statistics like mean, standard deviation
+    \item Median, quartiles, quantiles, full distribution much better (boxplot, histogram)
+  \end{itemize}
+  \item Dependency analysis: (pointwise) mutual information, CE, Chi2
+  \item Histogram, Box plot, Violin plot for univariate / bivariate data
+  \item Scatter plot, Heatmap / Density plot for bivariate data
+  \item Bubble plot for 3 or 4 dimensional data
+  \item Choropleth for geographical data
+  \item Beware of bimodalities
+  \begin{itemize}
+    \item Indicate important latent variables
+  \end{itemize}
 \end{itemize}
 \end{document}

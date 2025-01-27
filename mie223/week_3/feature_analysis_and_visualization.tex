@@ -350,7 +350,7 @@ predictive / important
   \item 80/20 rule: top 20\% of values account for 80\% of mass
 \end{itemize}
 \subsection{Box Plots}
-Most data is not Gaussian, often power law or log-Normal
+Most data is not Gaussian, often power law or log-Normal. Lower is more predictive.
 
 \includegraphics[width=\textwidth]{21.png}
 
@@ -359,7 +359,7 @@ informative (but not median)... why?
 
 \includegraphics[width=\textwidth]{22.png}
 \begin{itemize}
-  \item Median favorites were largely generic
+  \item Median favorites were largely generic. The less popular it is the more informative it is.
   \item Most informative (max $\approx$ avg) were largely specialized
 \end{itemize}
 \subsection{Violin Plots}
@@ -377,6 +377,7 @@ be informative!}
 \begin{itemize}
   \item Large groups tend not to be predictive
   \item Most informative groups were small
+  \item The larger the group/page size, the less predictive it is
 \end{itemize}
 \includegraphics[width=\textwidth]{25.png}
 
@@ -384,7 +385,7 @@ be informative!}
 \includegraphics[width=\textwidth]{26.png}
 
 Important to use when points in a scatterplot
-are dense and do not reflect density
+are dense and do not reflect density. These show density.
 
 \subsection{Bubble Plots}
 Sometimes scatterplots not
@@ -409,13 +410,30 @@ Enter the bubble plot
 \end{itemize}
 \subsection{Choropleths}
 Example: per capita tweet frequency across different
-international and U.S. locations for different topics
+international and U.S. locations for different topics. 
+These are all English tweets, so the data is skewed to English-speaking countries.
+French Guyana is identified as a territory of France so it's colored as France.
+
+d) There were bubonic plague outbreaks in Colorado in 2014
+
+e) Start of BLM, murder of Michael Brown
+
+f) NASA space centres are in Texas and Florida
+
+Most tweets about an event are located where the event occurred.
 
 \includegraphics[width=\textwidth]{29.png}
 
 \subsection{More than one way to plot time series!}
+
+E.g. population vs year
+
+E.g. percent  change in population 
+
+E.g. proportion 1960 population to be 100 (indexing)
+
 \begin{itemize}
-  \item Sometimes \%change or
+  \item Sometimes \% change or
   relative growth vs. index
   is better than the obvious
   plot of values vs. time
@@ -434,11 +452,12 @@ processes: try to understand what
 those generative processes are.
 
 \subsection{Time Series and Data Cleaning}
+\includegraphics[width=\textwidth/2]{38.png}
 \begin{itemize}
   \item Always evaluate sufficient statistics of data over time
   \item Don’t ignore a shift... evidence that something changed
   \begin{itemize}
-    \item Can try to correct if understand source of shift
+    \item Can try to correct if understand source of shift (this was caused by UI change, changed to 1-5 scale)
   \end{itemize}
 \end{itemize}
 \subsection{Overlapping Histograms}
@@ -451,19 +470,29 @@ be explicit or latent!
 
 \includegraphics[width=\textwidth/4]{33.png}
 
+
+
 \section{EDA Case Study with
 Confounders}
 Analysis of
 Ambulance Response Times
 
 \subsection{Cardiac Arrest - Case Study}
-What abnormalities would you investigate further?
-What would you plot?
 
-\includegraphics[width=\textwidth/2]{34.png}
+\includegraphics[width=\textwidth/2-2.08049pt]{34.png}
 \includegraphics[width=\textwidth/2]{35.png}
 \includegraphics[width=\textwidth/2]{36.png}
 \includegraphics[width=\textwidth/2]{37.png}
+
+What abnormalities would you investigate further?
+
+Odd times, don't know what format they're in. 00:00:00 is missing data
+
+What would you plot?
+
+Cause of modes: artifacts from data being recorded to the minute.
+
+The farther the distance the longer the response time. But, ambulances positioned on field are quicker to respond regardless of distance
 
 \section{Feature Analysis and Viz: Recap}
 \begin{itemize}

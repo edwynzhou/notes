@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1737498918.40646 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_3/feature_analysis_and_visualization.tex" "feature_analysis_and_visualization.pdf" "feature_analysis_and_visualization" 1737498921.93406 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_3/feature_analysis_and_visualization.tex" 1737498914.57746 16124 22b561316acf91bf36eba76b7440ea22 ""
+["pdflatex"] 1738000087.00975 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_3/feature_analysis_and_visualization.tex" "feature_analysis_and_visualization.pdf" "feature_analysis_and_visualization" 1738000093.63484 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_3/feature_analysis_and_visualization.tex" 1738000086.72412 17178 28620171c323268c52e103999045b2c9 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -208,8 +208,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "feature_analysis_and_visualization.aux" 1737498921.84804 4470 11d274e769ca1b9f85f69b69fef65319 "pdflatex"
-  "feature_analysis_and_visualization.tex" 1737498914.57746 16124 22b561316acf91bf36eba76b7440ea22 ""
+  "feature_analysis_and_visualization.aux" 1738000093.48467 4470 63e312a3462e06830c442f6a784d8e9b "pdflatex"
+  "feature_analysis_and_visualization.tex" 1738000086.72412 17178 28620171c323268c52e103999045b2c9 ""
   "images/1.png" 1737395065.43004 259335 b1c509237483621274b8c0171db1de61 ""
   "images/10.png" 1737495146.77701 124111 29785e154503fdfc8e8c0e82f99d1605 ""
   "images/11.png" 1737495220.81202 449391 c7776a4a7d520fb5cf0d90d3031ebb0e ""
@@ -241,6 +241,7 @@
   "images/35.png" 1737498854.582 124839 9e32494e56c0d2c1d7892d609fc722b2 ""
   "images/36.png" 1737498865.38109 192305 3ef8c1e3363d01acd4e373ad6624549e ""
   "images/37.png" 1737498875.20183 240316 eba9eb48f9c2def52d1c0c3a85a88496 ""
+  "images/38.png" 1737999106.15352 595142 847b2e8271445ce19ad880754e710da8 ""
   "images/4.png" 1737494212.32193 480975 827a79af77be21bb625ed2d4a0fb7912 ""
   "images/6.png" 1737494648.87701 295414 dd8b0aac984e84d3d81ed36b2594d338 ""
   "images/7.png" 1737494691.51594 11842 493ca3ee537bc9a021a75fc6dc6a8e26 ""

@@ -303,9 +303,12 @@ and Decision Trees}
   \begin{itemize}
     \item Sentence boundary
     \item Abbreviations like Inc. or Dr.
-    \item Numbers like .02% or 4.3
+    \item Numbers like .02\% or 4.3
   \end{itemize}
   \item Build a binary classifier
+  \item f(input) = {True, False}
+  \item "The car is traveling 10 m.p.h." 
+  \item Check which period is ending the sentence
   \begin{itemize}
     \item Looks at a “.”
     \item Decides EndOfSentence/NotEndOfSentence
@@ -379,6 +382,23 @@ the: Misses capitalized examples
 [tT]he: Incorrectly returns other or theology
 
 [\^a-zA-Z][tT]he[\^a-zA-Z]
+
+\subsection{Exercise}
+\begin{itemize}
+  \item Write a regular expression to match dates
+  \begin{itemize}
+    \item November 9, 1989
+    \item 17 December 1967
+    \item 11-09-1989 (likely this form on midterm)
+    \item 12/17/67
+  \end{itemize}
+  \item Write a regular expression to match time expressions
+  \begin{itemize}
+    \item Next Wednesday at noon
+    \item Tomorrow morning
+    \item Can't really as there's no general pattern
+  \end{itemize}
+\end{itemize}
 
 \subsection{Errors}
 \begin{itemize}

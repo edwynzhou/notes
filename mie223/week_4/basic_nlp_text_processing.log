@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  28 JAN 2025 14:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  28 JAN 2025 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -944,41 +944,42 @@ Package pdftex.def Info: ./images/5.png  used on input line 281.
 <./images/6.png, id=76, 1146.2825pt x 1011.78pt>
 File: ./images/6.png Graphic file (type png)
 <use ./images/6.png>
-Package pdftex.def Info: ./images/6.png  used on input line 318.
+Package pdftex.def Info: ./images/6.png  used on input line 321.
 (pdftex.def)             Requested size: 234.8775pt x 207.30817pt.
- [6 <./images/6.png>]
-<./images/7.png, id=81, 1515.6625pt x 279.0425pt>
+ [6]
+<./images/7.png, id=80, 1515.6625pt x 279.0425pt>
 File: ./images/7.png Graphic file (type png)
 <use ./images/7.png>
-Package pdftex.def Info: ./images/7.png  used on input line 350.
+Package pdftex.def Info: ./images/7.png  used on input line 353.
 (pdftex.def)             Requested size: 469.75502pt x 86.48099pt.
-<./images/8.png, id=82, 1981.4025pt x 359.3425pt>
+ [7 <./images/6.png>]
+<./images/8.png, id=86, 1981.4025pt x 359.3425pt>
 File: ./images/8.png Graphic file (type png)
 <use ./images/8.png>
-Package pdftex.def Info: ./images/8.png  used on input line 354.
+Package pdftex.def Info: ./images/8.png  used on input line 357.
 (pdftex.def)             Requested size: 469.75502pt x 85.1912pt.
-<./images/9.png, id=83, 1955.305pt x 475.7775pt>
+<./images/9.png, id=87, 1955.305pt x 475.7775pt>
 File: ./images/9.png Graphic file (type png)
 <use ./images/9.png>
-Package pdftex.def Info: ./images/9.png  used on input line 361.
+Package pdftex.def Info: ./images/9.png  used on input line 364.
 (pdftex.def)             Requested size: 469.75502pt x 114.29782pt.
- [7 <./images/7.png> <./images/8.png>]
-<./images/10.png, id=90, 1310.8975pt x 469.755pt>
+<./images/10.png, id=88, 1310.8975pt x 469.755pt>
 File: ./images/10.png Graphic file (type png)
 <use ./images/10.png>
-Package pdftex.def Info: ./images/10.png  used on input line 366.
+Package pdftex.def Info: ./images/10.png  used on input line 369.
 (pdftex.def)             Requested size: 469.75502pt x 168.33037pt.
-<./images/11.png, id=91, 2166.0925pt x 859.21pt>
+<./images/11.png, id=89, 2166.0925pt x 859.21pt>
 File: ./images/11.png Graphic file (type png)
 <use ./images/11.png>
-Package pdftex.def Info: ./images/11.png  used on input line 369.
+Package pdftex.def Info: ./images/11.png  used on input line 372.
 (pdftex.def)             Requested size: 469.75502pt x 186.32602pt.
-<./images/12.png, id=92, 1220.56pt x 521.95pt>
+ [8 <./images/7.png> <./images/8.png> <./images/9.png> <./images/10.png>]
+<./images/12.png, id=97, 1220.56pt x 521.95pt>
 File: ./images/12.png Graphic file (type png)
 <use ./images/12.png>
-Package pdftex.def Info: ./images/12.png  used on input line 372.
+Package pdftex.def Info: ./images/12.png  used on input line 375.
 (pdftex.def)             Requested size: 469.75502pt x 200.88367pt.
- [8 <./images/9.png> <./images/10.png> <./images/11.png>] [9 <./images/12.png>] [10] 
+ [9 <./images/11.png> <./images/12.png>] [10] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./basic_nlp_text_processing.aux)
  ***********
@@ -993,9 +994,9 @@ Here is how much of TeX's memory you used:
  48252 multiletter control sequences out of 15000+600000
  575879 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,5n,107p,518b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,6n,107p,518b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on basic_nlp_text_processing.pdf (10 pages, 1578084 bytes).
+Output written on basic_nlp_text_processing.pdf (10 pages, 1579261 bytes).
 PDF statistics:
  143 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream

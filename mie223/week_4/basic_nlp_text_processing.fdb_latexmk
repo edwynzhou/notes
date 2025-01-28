@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1738103991.69241 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_4/basic_nlp_text_processing.tex" "basic_nlp_text_processing.pdf" "basic_nlp_text_processing" 1738103995.08734 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_4/basic_nlp_text_processing.tex" 1738103991.43379 12853 6108aa8a250a6efbd895cb0bdb487c18 ""
+["pdflatex"] 1738104604.46308 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_4/basic_nlp_text_processing.tex" "basic_nlp_text_processing.pdf" "basic_nlp_text_processing" 1738104607.84197 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_4/basic_nlp_text_processing.tex" 1738104604.19795 13114 f06e6ba524c27f58ce11db6f8a02f6ac ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -210,8 +210,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "basic_nlp_text_processing.aux" 1738103994.94308 3988 c5c8105e3e6574e430bb77adcac0b0cd "pdflatex"
-  "basic_nlp_text_processing.tex" 1738103991.43379 12853 6108aa8a250a6efbd895cb0bdb487c18 ""
+  "basic_nlp_text_processing.aux" 1738104607.70334 4094 894273672952e921b059d652ddeabd1f "pdflatex"
+  "basic_nlp_text_processing.tex" 1738104604.19795 13114 f06e6ba524c27f58ce11db6f8a02f6ac ""
   "images/1.png" 1738099570.31194 112381 b1aad36285da61f3989c3ba320071040 ""
   "images/10.png" 1738101526.15782 77574 9e82c9783cd16375db570a62d08d548e ""
   "images/11.png" 1738101557.39964 390921 1f82739bfac35cfa8cfbaab94675f9f7 ""

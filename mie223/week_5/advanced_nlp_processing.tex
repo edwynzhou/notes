@@ -190,12 +190,21 @@ Open vs. Closed classes
   \item 40\% of the word tokens are ambiguous
 \end{itemize}
 
+\begin{verbatim}
+  no POS tagging tested on exams.
+\end{verbatim}
+
 \section{Phrase Chunking and
 Special Noun Phrases}
 
 \subsection{Phrase Chunking}
 Find all non-recursive noun phrases (NPs) and verb
 phrases (VPs) in a sentence.
+
+\begin{note}
+  A phrase should not contain a subphrase of the same type.
+  i.e. "New York Times" is a NP, but "New York" is not.
+\end{note}
 
 \begin{itemize}
   \item [NP I] [VP ate] [NP the spaghetti] [PP with] [NP meatballs].

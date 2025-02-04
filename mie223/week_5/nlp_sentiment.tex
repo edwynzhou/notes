@@ -99,5 +99,198 @@ Winter 2025
   scenes.
 \end{itemize}
 
+\subsection{Google Product Search}
+\includegraphics[width=\textwidth]{5.png}
+\begin{verbatim}
+  How do we find the sentiment of a review? you can automatically 
+  extract common tokens and phrases from the reviews and use them 
+  to determine the sentiment of the review. We use phrase chunking 
+  to get key phrases. use entailment to determine if a sentence 
+  is relevant to a specific key phrase.
+  determine whether phrase is positive or negative
+  called polarity analysis.
+\end{verbatim}
+
+\subsection{Bing Shopping}
+\includegraphics[width=\textwidth]{6.png}
+\begin{verbatim}
+  sentiment analysis is heavily used for product reviews
+\end{verbatim}
+
+\subsection{Twitter sentiment versus Gallup Poll of
+Consumer Confidence}
+\includegraphics[width=\textwidth]{7.png}
+\begin{itemize}
+  \item gallup poll can be used to survey public opinion
+  \item twitter sentiment can be used to predict public opinion
+\end{itemize}
+
+\subsection{Twitter sentiment:}
+\includegraphics[width=\textwidth/2]{8.png}
+\begin{itemize}
+  \item CALM predicts
+  DJIA 3 days
+  later
+  \item At least one
+  current hedge
+  fund uses this
+  algorithm
+\end{itemize}
+\includegraphics[width=\textwidth/2]{9.png}
+\begin{itemize}
+  \item an efficient market makes use of information
+  \item twitter sentiment can be used to predict stock prices
+  \item the results are terrible
+  \item ideas are good, nuanced emotions can influence the stock market
+  \item different events give rise to different emotions which can be measured
+\end{itemize}
+
+\subsection{Beware: Spurious Correlations}
+\includegraphics[width=\textwidth]{10.png}
+\begin{itemize}
+  \item data matching correlations are similar but not true
+\end{itemize}
+
+\subsection{Target Sentiment on Twitter}
+\includegraphics[width=\textwidth]{11.png}
+
+\subsection{Sentiment analysis has many other names}
+\begin{itemize}
+  \item Opinion extraction
+  \item Opinion mining
+  \item Sentiment mining
+  \item Subjectivity analysis
+\end{itemize}
+
+\subsection{Why sentiment analysis?}
+\begin{itemize}
+  \item Movie: is this review positive or negative?
+  \item Products: what do people think about the new iPhone?
+  \item Public sentiment: how is consumer confidence? Is despair
+  increasing?
+  \item Politics: what do people think about this candidate or issue?
+  \item Prediction: predict election outcomes or market trends from
+  sentiment
+\end{itemize}
+
+\subsection{Scherer Typology of Affective States}
+\begin{itemize}
+  \item Emotion: brief organically synchronized ... evaluation of a major event
+  \item angry, sad, joyful, fearful, ashamed, proud, elated
+  \item Mood: diffuse non-caused low-intensity long-duration change in subjective feeling
+  \item cheerful, gloomy, irritable, listless, depressed, buoyant
+  \item Interpersonal stances: affective stance toward another person in a specific interaction
+  \item friendly, flirtatious, distant, cold, warm, supportive, contemptuous
+  \item Attitudes: enduring, affectively colored beliefs, dispositions towards objects or persons
+  \item liking, loving, hating, valuing, desiring
+  \item Personality traits: stable personality dispositions and typical behavior tendencies
+  \item nervous, anxious, reckless, morose, hostile, jealous
+\end{itemize}
+\begin{note}
+  Majority of review sentiment focuses on attitudes. Public mood predits stock market
+\end{note}
+
+\subsection{Sentiment Analysis}
+\begin{itemize}
+  \item Sentiment analysis is the detection of attitudes
+  \item “enduring, affectively colored beliefs, dispositions towards objects or persons”
+\end{itemize}
+\begin{enumerate}
+  \item Holder (source) of attitude
+  \item Target (aspect) of attitude
+  \item Type of attitude
+  \begin{itemize}
+    \item From a set of types like, love, hate, value, desire, etc.
+    \item Or (more commonly) simple weighted polarity: 
+    \item positive, negative, neutral, together with strength
+  \end{itemize}
+  \item Text containing the attitude like sentence or entire document
+\end{enumerate}
+\begin{itemize}
+  \item Simplest task:
+  \item Is the attitude of this text positive or negative?
+  \item More complex:
+  \item Rank the attitude of this text from 1 to 5
+  \item Advanced:
+  \item Detect the target, source, or complex attitude types
+\end{itemize}
+
+\section{Text Processing and
+Sentiment Classifier
+Limitations}
+\subsection{Sentiment Classification in Movie Reviews}
+\begin{itemize}
+  \item Polarity detection:
+  \item Is an IMDB movie review positive or negative?
+\end{itemize}
+
+\subsection{IMDB data in the Pang and Lee database}
+\includegraphics[width=\textwidth]{12.png}
+
+\subsection{Sentiment Analysis and Prediction}
+\begin{itemize}
+  \item Sentiment-aware tokenization
+  \item Important if text analysis should be sensitive to sentiment
+\end{itemize}
+\begin{itemize}
+  \item Prediction using different classifiers / regressors
+  \item Could learn with Naïve Bayes, Logistic Regression, SVM
+  \begin{itemize}
+    \item Vader is an off-the-shelf tool for predicting sentiment
+    \item Actually a regressor, predicts strength of polarity [-1,+1]
+    \item +1 = Most positive, -1 = Most negative, 0 = Neutral
+  \end{itemize}
+\end{itemize}
+
+\subsection{Sentiment Tokenization Issues}
+Let’s consider tokenization
+text analysis should be
+sensitive to sentiment
+
+\begin{itemize}
+  \item Capitalization
+  \begin{itemize}
+    \item Preserve capital letters
+    \item Why?
+  \end{itemize}
+  \item Emoticons
+  \item Useful code Regex
+\end{itemize}
+\includegraphics[width=\textwidth]{13.png}
+
+\subsection{Classification Results}
+\begin{itemize}
+  \item Trained classifier achieves 92.1\% accuracy on movies
+  \item Off-the-shelf Vader would do well: around 80-85\% accuracy
+\end{itemize}
+\begin{itemize}
+  \item Need to train a classifier per domain for best results
+  \item Scary movie = good!
+  \item Scary hotel = bad!
+  \item Hotel with “thin walls”?
+\end{itemize}
+
+\subsection{Classifiers don’t capture everything}
+Subtlety:
+
+\begin{itemize}
+  \item Perfume review in Perfumes: the Guide:
+  \begin{itemize}
+    \item “If you are reading this because it is your darling fragrance,
+    please wear it at home exclusively, and tape the windows
+    shut.”
+  \end{itemize}
+  \item Dorothy Parker on Katherine Hepburn
+  \begin{itemize}
+    \item "She runs the gamut of emotions from A to B”
+  \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+  \item Word interactions:
+  \begin{itemize}
+    \item 
+  \end{itemize}
+\end{itemize}
 
 \end{document}

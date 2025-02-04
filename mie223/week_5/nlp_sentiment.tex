@@ -205,6 +205,7 @@ Consumer Confidence}
     \item positive, negative, neutral, together with strength
   \end{itemize}
   \item Text containing the attitude like sentence or entire document
+  \item Coreference resolution: who is talking about what?
 \end{enumerate}
 \begin{itemize}
   \item Simplest task:
@@ -289,8 +290,124 @@ Subtlety:
 \begin{itemize}
   \item Word interactions:
   \begin{itemize}
-    \item 
+    \item Raising taxes = bad
+    \item Raising salaries = good
+    \item Lowering taxes = good
+    \item Lowering salaries = bad
+  \end{itemize}
+  \item A solution? Adjective*Noun where...
+  \begin{itemize}
+    \item Raising=+1, Lowering=-1, Taxes=-1, Salaries=+1
+    \item Also supports Adverb*Adjective: very(+2) happy (+1), very (+2) sad (-1)
   \end{itemize}
 \end{itemize}
+
+\subsection{Thwarted Expectations
+and Ordering Effects}
+\begin{itemize}
+  \item “This film should be brilliant. It sounds like a great plot, the actors are first
+  grade, and the supporting cast is good as well, and Stallone is attempting to
+  deliver a good performance. However, it can’t hold up.”
+  \item Well as usual Keanu Reeves is nothing special, but surprisingly, the very
+  talented Laurence Fishbourne is not so good either, I was surprised
+\end{itemize}
+
+\subsection{Sarcasm}
+\begin{itemize}
+  \item Josef Stalin might enjoy this movie.
+  \item As exciting as watching the grass grow.
+  \item This movie should win flop of the year.
+  \item I wondered whether I had checked into the Bates Motel.
+\end{itemize}
+
+\section{Sentiment Lexicons}
+\subsection{The General Inquirer}
+Categories:
+
+\begin{itemize}
+  \item Positiv (1915 words) and Negativ (2291 words)
+  \item Strong vs Weak, Active vs Passive, Overstated versus Understated
+  \item Pleasure, Pain, Virtue, Vice, Motivation, Cognitive Orientation, etc
+\end{itemize}
+
+\subsection{LIWC (Linguistic Inquiry and Word Count)}
+\begin{itemize}
+  \item 2300 words, >70 classes
+  \item Affective Processes
+  \begin{itemize}
+    \item negative emotion (bad, weird, hate, problem, tough)
+    \item positive emotion (love, nice, sweet)
+  \end{itemize}
+  \item Cognitive Processes
+  \item Tentative (maybe, perhaps, guess), Inhibition (block, constraint)
+  \item Pronouns, Negation (no, never), Quantifiers (few, many)
+  \item \$30 or \$90 fee
+\end{itemize}
+
+\subsection{MPQA Subjectivity Cues Lexicon}
+\begin{itemize}
+  \item 6885 words from 8221 lemmas
+  \begin{itemize}
+    \item 2718 positive
+    \item 4912 negative
+  \end{itemize}
+  \item Each word annotated for intensity (strong, weak)
+  \item GNU GPL
+\end{itemize}
+
+\subsection{Bing Liu Opinion Lexicon}
+6786 words
+\begin{itemize}
+  \item 2006 positive
+  \item 4783 negative
+\end{itemize}
+
+\subsection{SentiWordNet (do not use!)}
+\begin{itemize}
+  \item All WordNet synsets automatically annotated for degrees of positivity,
+  negativity, and neutrality/objectiveness
+  \item [estimable(J,3)] “may be computed or estimated”
+  \item [estimable(J,1)] “deserving of respect or high regard
+\end{itemize}
+
+\subsection{Disagreements between polarity lexicons}
+\includegraphics[width=\textwidth]{14.png}
+
+\section{Automatic Polarity
+Analysis (with PMI)}
+
+\subsection{Analyzing the polarity of each word in IMDB}
+\begin{itemize}
+  \item How likely is each word to appear in each sentiment class?
+  \item Count(“bad”) in 1-star, 2-star, 3-star, etc.
+  \item But can’t use raw counts:
+  \item Instead, likelihood:
+  \item Make them comparable between words
+  \item Scaled likelihood:
+\end{itemize}
+\begin{equation}
+  likelihood = \frac{P(w|pos)}{P(w|neg)}
+\end{equation}
+\begin{equation}
+  \text{Scaled likelihood} = \frac{P(w|pos)}{P(w|neg)}
+\end{equation}
+\includegraphics[width=\textwidth/4]{15.png}
+
+\subsection{Analyzing the polarity of each word in IMDB}
+\includegraphics[width=\textwidth]{16.png}
+
+\subsection{Other sentiment feature: Logical negation}
+\begin{itemize}
+  \item Is logical negation (no, not) associated with negative
+  sentiment?
+  \item Potts experiment:
+  \begin{itemize}
+    \item Count negation (not, n’t, no, never) in online reviews
+    \item Regress against the review rating
+  \end{itemize}
+\end{itemize}
+
+\subsection{Potts 2011 Results: More negation in negative sentiment}
+\includegraphics[width=\textwidth]{17.png}
 
 \end{document}

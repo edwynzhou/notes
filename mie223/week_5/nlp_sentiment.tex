@@ -254,7 +254,7 @@ sensitive to sentiment
     \item Preserve capital letters
     \item Why?
   \end{itemize}
-  \item Emoticons
+  \item Emoticons (useful to express emotion)
   \item Useful code Regex
 \end{itemize}
 \includegraphics[width=\textwidth]{13.png}
@@ -269,6 +269,7 @@ sensitive to sentiment
   \item Scary movie = good!
   \item Scary hotel = bad!
   \item Hotel with “thin walls”?
+  \item Vader would deem scary bad even though it may be good for movies
 \end{itemize}
 
 \subsection{Classifiers don’t capture everything}
@@ -280,10 +281,12 @@ Subtlety:
     \item “If you are reading this because it is your darling fragrance,
     please wear it at home exclusively, and tape the windows
     shut.”
+    \item not a good review but has positive adjectives
   \end{itemize}
   \item Dorothy Parker on Katherine Hepburn
   \begin{itemize}
     \item "She runs the gamut of emotions from A to B”
+    \item bad statement but no negative words
   \end{itemize}
 \end{itemize}
 
@@ -295,12 +298,16 @@ Subtlety:
     \item Lowering taxes = good
     \item Lowering salaries = bad
   \end{itemize}
-  \item A solution? Adjective*Noun where...
+  \item A solution? Adjective*Noun where... word interactions
   \begin{itemize}
     \item Raising=+1, Lowering=-1, Taxes=-1, Salaries=+1
     \item Also supports Adverb*Adjective: very(+2) happy (+1), very (+2) sad (-1)
   \end{itemize}
 \end{itemize}
+
+\begin{note}
+  the holder and target matter as well. here the opinion holder is assumed to be an individual, but how would this change if the opinon holder was a government or organization?
+\end{note}
 
 \subsection{Thwarted Expectations
 and Ordering Effects}
@@ -310,6 +317,7 @@ and Ordering Effects}
   deliver a good performance. However, it can’t hold up.”
   \item Well as usual Keanu Reeves is nothing special, but surprisingly, the very
   talented Laurence Fishbourne is not so good either, I was surprised
+  \item many good things but one bad thing turns the entire thing negative
 \end{itemize}
 
 \subsection{Sarcasm}
@@ -326,6 +334,7 @@ Categories:
 
 \begin{itemize}
   \item Positiv (1915 words) and Negativ (2291 words)
+  \item not mispelt, just makes sure that the words aren't classified as words, rather indicators
   \item Strong vs Weak, Active vs Passive, Overstated versus Understated
   \item Pleasure, Pain, Virtue, Vice, Motivation, Cognitive Orientation, etc
 \end{itemize}
@@ -386,12 +395,18 @@ Analysis (with PMI)}
   \item Scaled likelihood:
 \end{itemize}
 \begin{equation}
-  likelihood = \frac{P(w|pos)}{P(w|neg)}
+  likelihood = \frac{f(w|c)}{\sum f(w|c)}
 \end{equation}
 \begin{equation}
-  \text{Scaled likelihood} = \frac{P(w|pos)}{P(w|neg)}
+  \text{Scaled likelihood} = \frac{P(w|c)}{P(w)}
 \end{equation}
 \includegraphics[width=\textwidth/4]{15.png}
+\begin{verbatim}
+  how often does "bad" show up when pertaining to ratings
+  peak at 7 and 10 due to "its not bad" or sheer number of 7 and 10 
+  ratings
+\end{verbatim}
+
 
 \subsection{Analyzing the polarity of each word in IMDB}
 \includegraphics[width=\textwidth]{16.png}

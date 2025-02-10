@@ -123,12 +123,13 @@ Winter 2025
 \subsection{Time Scale Analysis}
 \begin{itemize}
   \item What time scales of variation dominate or account for the
-  majority of temporal variation in the data?
+  majority of temporal variation in the data? seasonal
   \item Is there a strong seasonal cycle in the observations of
-  temperature in Baltimore, MD?
+  temperature in Baltimore, MD? Hope so
   \item Is the association between ambient air pollution and mortality in
   a city primarily driven by large annual changes in pollution
-  levels or by short-term spikes?
+  levels or by short-term spikes? there can be multiple causes of mortality, and need longer timeframe
+  \item granger causality says that you can predict something if you know the past
 \end{itemize}
 
 \subsection{Trend-Season-Residual Decomposition}
@@ -136,9 +137,9 @@ A common tool to use is to
 decompose a time series into
 
 \begin{enumerate}
-  \item 1.Smooth long-term trend
-  \item 2.Seasonal variation
-  \item 3.Residual variation
+  \item Smooth long-term trend (trend)
+  \item Seasonal variation (seasonal)
+  \item Residual variation (day to day)
 \end{enumerate}
 
 The primary benefit is of
@@ -146,6 +147,8 @@ looking at long-term trend
 and seasonal variation is that
 they are highly interpretable
 and are very common.
+
+These graphs can be made by smoothing over different intervals.
 
 \includegraphics[width=\textwidth]{2.png}
 
@@ -158,9 +161,9 @@ and are very common.
   \item What do you think
   could be
   \begin{itemize}
-    \item Long-term trend
-    \item Is there seasonality?
-    \item Cause of variation?
+    \item Long-term trend: climate change
+    \item Is there seasonality? weather seasons
+    \item Cause of variation? day to day fluctuations in the weather
   \end{itemize}
 \end{itemize}
 

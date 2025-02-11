@@ -315,4 +315,50 @@ the cross-correlation does not necessarily peak at 0. the peak is the lag at whi
 (example of 3-point weighted average smoothing)}
 \includegraphics[width = \textwidth]{14.png}
 
+i is the index of the data point, and t is the time index.
+
+\subsection{Non-causal Smoothing}
+\includegraphics[width = \textwidth]{15.png}
+
+you cannot use this form of smoothing for forecasting. the smoothed value depends on future values. causal smoothing is used for forecasting. causal smoothing is used for filtering and forecasting. non-causal smoothing is used for smoothing. causal smoothing is used for filtering and forecasting. 
+
+non-causal is using data from the future to predict the past
+
+filtering and forecasting not tested
+
+\subsection{Causal Smoothing
+(smoothed value does not depend on future)}
+\includegraphics[width = \textwidth]{16.png}
+
+only use lagged values to predict the current value.
+
+\subsection{Triangular-weighted Smoothing Filters}
+\includegraphics[width = \textwidth/2]{17.png}
+
+the weights form a triangle. the weights are highest at the center and decrease as you move away from the center.
+
+\subsection{Smoothing of Neuse River Hydrograph}
+\includegraphics[width = \textwidth/2]{18.png}
+
+\subsection{Smoothing Methods}
+\begin{itemize}
+  \item Box (windowed average) smoothing
+  \begin{itemize}
+    \item Uniform weights within a fixed window size
+  \end{itemize}
+  \item Triangular-weighted and Gaussian smoothing (make it normal)
+  \begin{itemize}
+    \item See previous slide for triangular weighting
+    \item Gaussian just uses Gaussian-shaped weights
+  \end{itemize} 
+  \item Exponential smoothing
+  \begin{itemize}
+    \item Exponential decay to weights, efficiently computed over all history
+  \end{itemize}
+\end{itemize}
+\includegraphics[width = \textwidth/2]{19.png}
+
+ARIMA (not covered) - An autoregressive (trained) predictive regression model
+
+
 \end{document}

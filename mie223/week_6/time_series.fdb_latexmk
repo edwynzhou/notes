@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1739311022.50653 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" "time_series.pdf" "time_series" 1739311026.45874 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" 1739311018.02449 9779 b2ee429152be7fe48b431e474f38f4c7 ""
+["pdflatex"] 1739312208.53762 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" "time_series.pdf" "time_series" 1739312212.94789 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" 1739312203.72527 11472 66424ae60c69b7dc91eb96bf7b3857ec ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -208,6 +208,11 @@
   "images/12.png" 1739208959.71113 174711 f10c2d7130df814653e5441d10d76823 ""
   "images/13.png" 1739209056.09656 141469 be658c6a472ec22a829559cfe4ffc611 ""
   "images/14.png" 1739310990.10031 44667 cc1e8bf14b092c45b63053ef3f6dfbae ""
+  "images/15.png" 1739311446.89901 105273 d74f24db37fb80f4662f68a05611d08c ""
+  "images/16.png" 1739311490.69163 20814 ff55514023b28990d52a1e7c3f07fab0 ""
+  "images/17.png" 1739311518.15659 119752 7fbfe6e6876744292b05601d85b27b09 ""
+  "images/18.png" 1739311570.98875 202278 ad9f01559a8816efc93f2c0629e76b3f ""
+  "images/19.png" 1739311652.70609 27114 20268010d33d444a960c09d7bc933488 ""
   "images/2.png" 1739208185.36651 207131 5ac7332dc23aa7a95881c1978b66dbef ""
   "images/3.png" 1739208292.23109 397675 374f81719d323ca3e5ad62f1149c8273 ""
   "images/4.png" 1739208350.24637 381249 2de3f528dbdd77093f4033fab884e21b ""
@@ -216,8 +221,8 @@
   "images/7.png" 1739208654.75364 156005 8207f31ae40c069c03a2de8ae710642f ""
   "images/8.png" 1739208697.94572 122307 1238ce7038ea0cdf4ddff988fca87e6b ""
   "images/9.png" 1739208771.67057 137865 f41de436c4daa62794b9a13eb229883b ""
-  "time_series.aux" 1739311026.3359 2665 31eaa7c97551985aacab3216dd2ac407 "pdflatex"
-  "time_series.tex" 1739311018.02449 9779 b2ee429152be7fe48b431e474f38f4c7 ""
+  "time_series.aux" 1739312212.82031 3304 0a88f7ffbabf87981b6bba6c94813c25 "pdflatex"
+  "time_series.tex" 1739312203.72527 11472 66424ae60c69b7dc91eb96bf7b3857ec ""
   (generated)
   "time_series.aux"
   "time_series.log"

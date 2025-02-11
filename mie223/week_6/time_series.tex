@@ -354,9 +354,15 @@ the weights form a triangle. the weights are highest at the center and decrease 
   \item Exponential smoothing
   \begin{itemize}
     \item Exponential decay to weights, efficiently computed over all history
+    \item compute the next time point prediction as the observed timepoint + (1-alpha) * previous prediction
   \end{itemize}
 \end{itemize}
 \includegraphics[width = \textwidth/2]{19.png}
+
+s1 = alpha * x1 + (1-alpha) * s0 = x0
+
+s2 = alpha * x2 + (1-alpha) * alpha * x1 + $(1-alpha)^2$ * s0 
+
 
 ARIMA (not covered) - An autoregressive (trained) predictive regression model
 

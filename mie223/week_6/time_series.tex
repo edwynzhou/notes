@@ -119,6 +119,10 @@ Winter 2025
   \item Does public sentiment predict the stock market at a delay?
 \end{itemize}
 
+\begin{note}
+  Smoothing is about the past, filtering is about the present, forecasting is about the future
+\end{note}
+
 \section{Time Scale Analysis}
 \subsection{Time Scale Analysis}
 \begin{itemize}
@@ -186,6 +190,8 @@ MSFT, ZOOM
 
 \includegraphics[width=\textwidth/4]{4.png}
 
+bottom is zoom, middle is google, top is microsoft
+
 \section{Time Series Regression with
 Autocorrelation and
 Cross-correlation}
@@ -205,6 +211,12 @@ between them?
 \subsection{Recap of Covariance}
 \includegraphics[width=\textwidth/2]{5.png}
 
+probability is model based, stats is data based.
+
+\begin{equation}
+  E[XY] = E[X]E[Y] \text{if X and Y are independent}
+\end{equation}
+
 \subsection{Pearson Correlation Coefficient}
 Covariance depends on the units in which X and Y are given
 
@@ -214,11 +226,16 @@ If x and y have standard deviations $\sigma x$ and $\sigma y$ respectively:
 
 \includegraphics[width=\textwidth/2]{6.png}
 
+independence implies correlation should be 0 but not vice versa
+
 \subsection{Autocorrelation}
 Auto-correlation: Compare the correlation of a time series with itself
 moved (lagged) by k positions
 
 \includegraphics[width=\textwidth/2]{7.png}
+
+shift the data by k and see how correlated it is with itself. highest peak represents
+the most correlated point. tracing out the correlation as a vector. have to get 1 at lag = 0
 
 \subsection{Autocorrelation:
 Measure of correlation in time series
@@ -238,6 +255,9 @@ Chenai temperatures
 \end{itemize}
 
 \includegraphics[width=\textwidth/2]{9.png}
+
+daily measurements. negative correlation with the seasonal changes. there is autocorrelation
+in the air temperature. 
 
 \subsection{Cross-correlation}
 \begin{itemize}
@@ -260,6 +280,8 @@ Chenai temperatures
 
 \includegraphics[width=\textwidth/2]{10.png}
 
+takes time for water to flow. the peak of the discharge is delayed behind the peak of the rain.
+
 Sample midterm question: Would you use VADER to predict the stock market?
 
 Answer: No, VADER is a sentiment analysis tool that is used to analyze text data. It is not used to predict the stock market.
@@ -268,12 +290,29 @@ Simple polarity sentiment is not complex enough to analyze the stock market
 \includegraphics[width=\textwidth/4]{11.png}
 \includegraphics[width=\textwidth/4]{12.png}
 
+how do we find the lag automatically? 
+shift at which the correlation peaks is the lag.
+
 \subsection{Cross-correlation
 Measure of correlation between two time series
 at different lags}
 \includegraphics[width=\textwidth/2]{13.png}
 
-\section{Smoothing}
+the cross-correlation does not necessarily peak at 0. the peak is the lag at which the two series are most correlated.
 
+\section{Smoothing}
+\subsection{Smoothing}
+\begin{itemize}
+  \item Given a complete (noisy) dataset, what can I infer about the
+  true state of nature in the past?
+  \item Given a noisily measured signal, can I reconstruct the true
+  signal from the data?
+  \item Now that my spacecraft has flown around the moon, what the
+  distance of its closest approach to the moon?
+\end{itemize}
+
+\subsection{Smoothing
+(example of 3-point weighted average smoothing)}
+\includegraphics[width = \textwidth]{14.png}
 
 \end{document}

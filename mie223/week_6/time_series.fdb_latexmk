@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1739312581.23097 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" "time_series.pdf" "time_series" 1739312585.73244 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" 1739312580.95555 11685 61cd86a2f94f58f5193e497a196ca0e3 ""
+["pdflatex"] 1739313151.9566 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" "time_series.pdf" "time_series" 1739313156.43548 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" 1739313147.07736 11684 2fd96b9a1b778c7ad9dbc7d3810ae01a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -223,8 +223,8 @@
   "images/7.png" 1739208654.75364 156005 8207f31ae40c069c03a2de8ae710642f ""
   "images/8.png" 1739208697.94572 122307 1238ce7038ea0cdf4ddff988fca87e6b ""
   "images/9.png" 1739208771.67057 137865 f41de436c4daa62794b9a13eb229883b ""
-  "time_series.aux" 1739312585.59908 3304 0a88f7ffbabf87981b6bba6c94813c25 "pdflatex"
-  "time_series.tex" 1739312580.95555 11685 61cd86a2f94f58f5193e497a196ca0e3 ""
+  "time_series.aux" 1739313156.30342 3304 0a88f7ffbabf87981b6bba6c94813c25 "pdflatex"
+  "time_series.tex" 1739313147.07736 11684 2fd96b9a1b778c7ad9dbc7d3810ae01a ""
   (generated)
   "time_series.aux"
   "time_series.log"

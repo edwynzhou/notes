@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1740416932.36653 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_1.tex" "social_network_analysis_1.pdf" "social_network_analysis_1" 1740416933.71025 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_1.tex" 1740416924.30208 2943 6ca3bacedf64a4773a408238dd9d7b8c ""
+["pdflatex"] 1740419978.6589 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_1.tex" "social_network_analysis_1.pdf" "social_network_analysis_1" 1740419983.05384 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_1.tex" 1740419978.36108 8749 dadbe0bf87fde76422701483150f5a1f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -180,8 +180,21 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "social_network_analysis_1.aux" 1740416933.60147 420 e14b749196785805fb9c520baacb6a9e "pdflatex"
-  "social_network_analysis_1.tex" 1740416924.30208 2943 6ca3bacedf64a4773a408238dd9d7b8c ""
+  "images/1.png" 1740417135.08715 986556 4a07201ed5b79216daa210cfe85d6338 ""
+  "images/10.png" 1740419455.18557 81741 6766cec8a2849c86a71b4c223a376e63 ""
+  "images/11.png" 1740419538.74249 54948 74adc617514a9a1ee0bf819610619608 ""
+  "images/12.png" 1740419629.79896 1260805 ff11e67b51bb0213b6866e76c65411fc ""
+  "images/13.png" 1740419691.92057 18546 ae7fb90384d50a33e144812b577731d5 ""
+  "images/2.png" 1740417187.00304 653432 b10e38ba5f196d5bf1437543aa5f5fb5 ""
+  "images/3.png" 1740417228.73895 2033560 fdc28df2ce1329607f5d2969bc0aabe2 ""
+  "images/4.png" 1740417275.92215 2323100 2a3c9a18867f8c77110c94f7e691ed8b ""
+  "images/5.png" 1740418466.07468 952182 976171f0996358d6a1bcde10bb8d3a6a ""
+  "images/6.png" 1740419037.42553 92182 3bfcc5e62327544984ab883b92b16645 ""
+  "images/7.png" 1740419062.41693 47996 0b893a6dfd0d9d8b6e2c36295c6a8c0c ""
+  "images/8.png" 1740419277.43123 286309 5de8b1bcb7d681e7d966ec69826ad8c6 ""
+  "images/9.png" 1740419428.18974 241849 7323246440e4cd2b808ad22f18bff49b ""
+  "social_network_analysis_1.aux" 1740419982.93494 3478 1bbfbf8f7cac275ffb7945012e90e58b "pdflatex"
+  "social_network_analysis_1.tex" 1740419978.36108 8749 dadbe0bf87fde76422701483150f5a1f ""
   (generated)
   "social_network_analysis_1.aux"
   "social_network_analysis_1.log"

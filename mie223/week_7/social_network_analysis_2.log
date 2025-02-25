@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  25 FEB 2025 14:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  25 FEB 2025 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -945,43 +945,43 @@ File: ./images/30.png Graphic file (type png)
 <use ./images/30.png>
 Package pdftex.def Info: ./images/30.png  used on input line 227.
 (pdftex.def)             Requested size: 234.8775pt x 181.56064pt.
-<./images/31.png, id=84, 1481.535pt x 1238.6275pt>
+ [5 <./images/25.png> <./images/26.png> <./images/27.png>]
+<./images/31.png, id=90, 1481.535pt x 1238.6275pt>
 File: ./images/31.png Graphic file (type png)
 <use ./images/31.png>
-Package pdftex.def Info: ./images/31.png  used on input line 228.
+Package pdftex.def Info: ./images/31.png  used on input line 229.
 (pdftex.def)             Requested size: 234.8775pt x 196.35115pt.
-<./images/32.png, id=85, 1583.9175pt x 1260.71pt>
+<./images/32.png, id=91, 1583.9175pt x 1260.71pt>
 File: ./images/32.png Graphic file (type png)
 <use ./images/32.png>
-Package pdftex.def Info: ./images/32.png  used on input line 229.
+Package pdftex.def Info: ./images/32.png  used on input line 230.
 (pdftex.def)             Requested size: 234.8775pt x 186.94382pt.
 
-Overfull \hbox (160.746pt too wide) in paragraph at lines 226--230
-[][] [] []
+Overfull \hbox (2.08049pt too wide) in paragraph at lines 229--231
+[][] [] 
  []
 
-[5 <./images/25.png> <./images/26.png> <./images/27.png>]
 <./images/33.png, id=92, 1246.6575pt x 252.945pt>
 File: ./images/33.png Graphic file (type png)
 <use ./images/33.png>
-Package pdftex.def Info: ./images/33.png  used on input line 239.
+Package pdftex.def Info: ./images/33.png  used on input line 240.
 (pdftex.def)             Requested size: 117.43875pt x 23.82545pt.
 <./images/34.png, id=93, 1543.7675pt x 933.4875pt>
 File: ./images/34.png Graphic file (type png)
 <use ./images/34.png>
-Package pdftex.def Info: ./images/34.png  used on input line 247.
+Package pdftex.def Info: ./images/34.png  used on input line 248.
 (pdftex.def)             Requested size: 234.8775pt x 142.02547pt.
- [6 <./images/29.png> <./images/30.png> <./images/31.png> <./images/32.png> <./images/33.png>]
+[6 <./images/29.png> <./images/30.png> <./images/31.png> <./images/32.png> <./images/33.png>]
 <./images/35.png, id=102, 1640.1275pt x 997.7275pt>
 File: ./images/35.png Graphic file (type png)
 <use ./images/35.png>
-Package pdftex.def Info: ./images/35.png  used on input line 250.
+Package pdftex.def Info: ./images/35.png  used on input line 251.
 (pdftex.def)             Requested size: 234.8775pt x 142.87794pt.
  [7 <./images/34.png> <./images/35.png>]
 <./images/36.png, id=109, 1652.1725pt x 989.6975pt>
 File: ./images/36.png Graphic file (type png)
 <use ./images/36.png>
-Package pdftex.def Info: ./images/36.png  used on input line 286.
+Package pdftex.def Info: ./images/36.png  used on input line 288.
 (pdftex.def)             Requested size: 234.8775pt x 140.68602pt.
  [8 <./images/36.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -1000,7 +1000,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  101i,6n,107p,518b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on social_network_analysis_2.pdf (8 pages, 3702354 bytes).
+Output written on social_network_analysis_2.pdf (8 pages, 3702338 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream

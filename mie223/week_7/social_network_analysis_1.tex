@@ -140,6 +140,8 @@ there is a tree pattern in the connections, where there are supernodes with mult
 and other nodes where they only have a few connections.
 you are more likely to friend a node if that node already has a lot of friends.
 
+everyone is at most 60 degrees of connection away from each other
+
 there is a power law connection in how nodes with many connections tend to gain more 
 connections. these have a natural hierarchal structure and are not random.
 \subsection{E.g. 1 (cont.): Link prediction}
@@ -243,7 +245,6 @@ Representing edges (who is adjacent to whom) as a matrix
 
 \subsection{(2) Edge list}
 \begin{itemize}
-    \item Edge list
     \item 2, 3
     \item 2, 4
     \item 3, 2
@@ -289,13 +290,17 @@ use a sparse matrix in python to store this.
     One centrality definition:
 Nodes with more friends are more central.
 \end{note}
-\includegraphics[width=\textwidth/2]{13.png}
+\includegraphics[width=\textwidth/5]{13.png}
 
 Assumption: the connections that your friend has don't matter, it is what they
 can do directly that does (e.g. go have a beer with you, help you build a
 deck...)
 
 \subsection{Indegree and Outdegree}
+\includegraphics[width=\textwidth/2]{14.png}
+
+\subsection{Node degree from matrix values}
+\includegraphics[width=\textwidth/2]{15.png}
 
 
 \end{document}

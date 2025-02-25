@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1740419978.6589 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_1.tex" "social_network_analysis_1.pdf" "social_network_analysis_1" 1740419983.05384 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_1.tex" 1740419978.36108 8749 dadbe0bf87fde76422701483150f5a1f ""
+["pdflatex"] 1740518688.32821 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_1.tex" "social_network_analysis_1.pdf" "social_network_analysis_1" 1740518693.14767 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_1.tex" 1740518683.02079 8931 a5a22a000f13742e6ded5d61e016df27 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -185,6 +185,8 @@
   "images/11.png" 1740419538.74249 54948 74adc617514a9a1ee0bf819610619608 ""
   "images/12.png" 1740419629.79896 1260805 ff11e67b51bb0213b6866e76c65411fc ""
   "images/13.png" 1740419691.92057 18546 ae7fb90384d50a33e144812b577731d5 ""
+  "images/14.png" 1740517972.08653 210740 6622acf5f9f896c4951f28ba3f155a44 ""
+  "images/15.png" 1740518287.92271 267627 085af3ee32e8a80943336a38641fcdd2 ""
   "images/2.png" 1740417187.00304 653432 b10e38ba5f196d5bf1437543aa5f5fb5 ""
   "images/3.png" 1740417228.73895 2033560 fdc28df2ce1329607f5d2969bc0aabe2 ""
   "images/4.png" 1740417275.92215 2323100 2a3c9a18867f8c77110c94f7e691ed8b ""
@@ -193,8 +195,8 @@
   "images/7.png" 1740419062.41693 47996 0b893a6dfd0d9d8b6e2c36295c6a8c0c ""
   "images/8.png" 1740419277.43123 286309 5de8b1bcb7d681e7d966ec69826ad8c6 ""
   "images/9.png" 1740419428.18974 241849 7323246440e4cd2b808ad22f18bff49b ""
-  "social_network_analysis_1.aux" 1740419982.93494 3478 1bbfbf8f7cac275ffb7945012e90e58b "pdflatex"
-  "social_network_analysis_1.tex" 1740419978.36108 8749 dadbe0bf87fde76422701483150f5a1f ""
+  "social_network_analysis_1.aux" 1740518693.03302 3601 6730efa025ac16718135ccfb7a8f9f67 "pdflatex"
+  "social_network_analysis_1.tex" 1740518683.02079 8931 a5a22a000f13742e6ded5d61e016df27 ""
   (generated)
   "social_network_analysis_1.aux"
   "social_network_analysis_1.log"

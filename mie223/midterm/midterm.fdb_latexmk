@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1740951792.53592 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/midterm/midterm.tex" "midterm.pdf" "midterm" 1740951793.89293 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/midterm/midterm.tex" 1740951790.88031 3222 82ac585d18c3af12a58c934456bc1b55 ""
+["pdflatex"] 1740953761.14337 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/midterm/midterm.tex" "midterm.pdf" "midterm" 1740953762.48133 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/midterm/midterm.tex" 1740953759.51223 3797 0ff6669168d838e21f5d1336e2195d2b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -185,8 +185,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "midterm.aux" 1740951793.78348 436 7cb87f152fca5e2b3794787134eaf29d "pdflatex"
-  "midterm.tex" 1740951790.88031 3222 82ac585d18c3af12a58c934456bc1b55 ""
+  "midterm.aux" 1740953762.37151 653 cdeeb8a446224dd2aa7f369e4dd1676d "pdflatex"
+  "midterm.tex" 1740953759.51223 3797 0ff6669168d838e21f5d1336e2195d2b ""
   (generated)
   "midterm.aux"
   "midterm.log"

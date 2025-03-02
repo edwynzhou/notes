@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736301295.87008 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" "intro_to_data_science.pdf" "intro_to_data_science" 1736301298.52084 0
-  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" 1736301295.65641 12256 cfece870dc38c7abcdc744358d1c1313 ""
+["pdflatex"] 1740876909.91947 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" "intro_to_data_science.pdf" "intro_to_data_science" 1740876914.58626 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" 1740876904.87306 13315 1072a527de2333b88955689f952dc319 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -190,8 +190,8 @@
   "images/7.png" 1736297875.90228 175911 4261cb8726d07b4aaf46f42324d9963b ""
   "images/8.png" 1736297926.04668 671221 08d7b70ddb8f24fda3af5a301328b48f ""
   "images/9.png" 1736298290.01006 433871 f266bfc0d733c2eb4e09f7ac6d237bd5 ""
-  "intro_to_data_science.aux" 1736301298.45514 3589 ea5540464642afa3fd532561d5ffc3bb "pdflatex"
-  "intro_to_data_science.tex" 1736301295.65641 12256 cfece870dc38c7abcdc744358d1c1313 ""
+  "intro_to_data_science.aux" 1740876914.47492 3713 f3328c56ea46fcf42166d15ec3fe5da5 "pdflatex"
+  "intro_to_data_science.tex" 1740876904.87306 13315 1072a527de2333b88955689f952dc319 ""
   (generated)
   "intro_to_data_science.aux"
   "intro_to_data_science.log"

@@ -1,8 +1,8 @@
-PWD /Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_1
+PWD /Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex
+INPUT /Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex
 OUTPUT intro_to_data_science.log
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls

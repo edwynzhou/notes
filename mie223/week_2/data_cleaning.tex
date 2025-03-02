@@ -77,6 +77,7 @@
 \newtheorem{exer}{Exercise}
 \newtheorem{note}{Note}
 \graphicspath{ {./images/} }
+\linespread{0.75}
 \begin{document}
 \setcounter{section}{0}
 \title{MIE223 Lecture Notes}
@@ -88,14 +89,17 @@
 {\large MIE223}\\
 Winter 2025
 \end{center}
+
 \section{Why Clean Data?}
 \subsection{Example}
 \includegraphics[width=\textwidth]{1.png}
+\textbf{There are issues with the above data and how it's stored:}
 \begin{itemize}
     \item Apple: Missing Data
     \item IBM: Entity Resolution / Unnormalized Naming
     \item Sally's Lemonade Stand: Unit Mismatch
 \end{itemize}
+
 \subsection{Where is Data Cleaning in the Organization?}
 \includegraphics[width=\textwidth/2]{2.png}
 \begin{itemize}
@@ -104,6 +108,7 @@ Winter 2025
     \item Data science exists in business intelligence and analytics
     \item Data engineers work in application database
 \end{itemize}
+
 \subsection{Cost of Bad Quality Data Over Time}
 \begin{itemize}
     \item Cost for preventing bad data: \$1
@@ -114,43 +119,46 @@ Winter 2025
 \section{Perspectives on Data Science
 and Data Cleaning}
 \subsection{Data Science is an Intersectional Discipline}
+\textbf{Data Science is the intersection of the following fields:}
 \begin{itemize}
     \item Computer Science
     \item Math and Statistics
     \item Domain Knowledge
 \end{itemize}
+
 \subsection{Dirty Data}
 \begin{itemize}
-    \item The Statistics View:
+    \item \textbf{The Statistics View:}
     \begin{itemize}
         \item There is a process that produces data
         \item Any dataset is a sample of the output of that process
         \item Results are probabilistic
         \item You can correct bias in your sample
     \end{itemize}
-    \item The Database View:
+    \item \textbf{The Database View:}
     \begin{itemize}
         \item I got my hands on this data set
         \item Some of the values are missing, corrupted, wrong, duplicated
         \item Results are absolute (relational model)
         \item You get a better answer by improving the quality of the values in your dataset
     \end{itemize}
-    \item The Domain Expert’s View
+    \item \textbf{The Domain Expert’s View}
     \begin{itemize}
         \item This Data Doesn’t look right
         \item This Answer Doesn’t look right
         \item What happened?
     \end{itemize}
-    \item The data scientist's view is a combination of the above.
+    \item \textbf{The data scientist's view is a combination of the above.}
 \end{itemize}
 \begin{note}
     A Data scientist knows more programming than a statistician
     and more statistics than a programmer.
     A Data scientist intimately understands their domain!
 \end{note}
+
 \subsection{Data Quality Problems}
 \begin{itemize}
-    \item Data is dirty on its own
+    \item Data is dirty on its own as a result of the following:
     \begin{itemize}
         \item Human collection or data entry (generally lazy and want to see their children)
     \end{itemize}
@@ -161,8 +169,9 @@ and Data Cleaning}
         \item Constant data transformations introduce errors, noise, data loss
         \item Meanings of labels change over time
     \end{itemize}
-    \item Any combination of the above... and much, much more!
+    \item Can be any combination of the above... and much, much more!
 \end{itemize}
+
 \subsection{Some Data Issues you will Encounter}
 \begin{enumerate}
     \item Parsing text into fields (separator issues)
@@ -176,6 +185,7 @@ and Data Cleaning}
     \item Formatting issues – especially dates
     \item Licensing issues/privacy/cost prevent access to all data
 \end{enumerate}
+
 \subsection{Key Types of Data Quality Issues}
 \begin{itemize}
     \item \textbf{incomplete}: lacking attribute values, lacking certain attributes
@@ -195,6 +205,7 @@ and Data Cleaning}
     \end{itemize}
     \item \textbf{redundancy}: duplicated content
 \end{itemize}
+
 \subsection{Why Is Data Dirty?}
 \begin{itemize}
     \item Incomplete data may come from
@@ -220,14 +231,14 @@ and Data Cleaning}
         \item Human error (could not find previous record), data integration
     \end{itemize}
 \end{itemize}
+
 \section{The Role of Data Cleaning in
 Data Science}
 \subsection{Data Science in the Real World}
-\includegraphics[width=\textwidth]{3.png}
-
-
-\includegraphics[width=\textwidth]{4.png}
+\includegraphics[width=\textwidth/2-2.08049pt]{3.png}
+\includegraphics[width=\textwidth/2]{4.png}
 \includegraphics[width=\textwidth]{5.png}
+
 \subsection{Data Cleaning Makes Everything Okay?}
 \begin{note}
     “The appearance of a hole in the
@@ -241,8 +252,9 @@ were malfunctioning.”
 - National Center for
 Atmospheric Research
 \end{note}
-The data was rejected as unreasonable by data quality control algorithms.
+\textbf{The data was rejected as unreasonable by data quality control algorithms.}
 % \includegraphics[width=\textwidth/3]{6.png}
+
 \section{Principles of Data Cleaning}
 \subsection{Data Cleaning Tasks}
 \begin{itemize}
@@ -252,9 +264,10 @@ The data was rejected as unreasonable by data quality control algorithms.
     \item Correct inconsistent data
     \item Resolve redundancy
 \end{itemize}
+
 \section{Data Cleaning: Data Summary}
 \subsection{Data Summary Procedure}
-\begin{itemize}
+\begin{enumerate}
     \item Look at data types of columns
     \begin{itemize}
         \item Beware of "Object" columns, indicator that you've mixed types (e.g., "2" and 2)
@@ -278,7 +291,8 @@ The data was rejected as unreasonable by data quality control algorithms.
         \item Compute summary statistics
         \item View a histogram (but before you do this, hypothesize what you will see)
     \end{itemize}
-\end{itemize}
+\end{enumerate}
+
 \subsection{Summary Statistics and for Each Variable (Column)}
 \begin{itemize}
     \item Range
@@ -300,6 +314,10 @@ The data was rejected as unreasonable by data quality control algorithms.
     \item If Data is non-numeric, consider frequencies below (e.g., mean frequency of jobs in “Job”)
     \item If Data is a string, consider sorting it and looking at nearby values
 \end{itemize}
+\begin{equation}
+    \mu = \frac{1}{n}\sum_{i=1}^{n}x_i
+\end{equation}
+
 \subsection{Measuring the Dispersion of Data}
 \begin{itemize}
     \item Quartiles, outliers and boxplots
@@ -318,6 +336,7 @@ The data was rejected as unreasonable by data quality control algorithms.
         \item Standard deviation $s$ (or $\sigma$) is the square root of variance $s^2$ (or $\sigma^2$)
     \end{itemize}
 \end{itemize}
+
 \subsection{Boxplot Analysis}
 \begin{itemize}
     \item Five-number summary of a distribution:
@@ -340,8 +359,9 @@ The data was rejected as unreasonable by data quality control algorithms.
     
     \includegraphics[height=\textheight/4]{8.png}
 \end{note}
+
 \subsection{Python Boxplot (not all Boxplots are the same)}
-\includegraphics[width=\textwidth]{9.png}
+\includegraphics[width=\textwidth/2]{9.png}
 \subsection{Understanding the Data Distribution: Histograms}
 \begin{note}
     The normal distribution is unimodal.
@@ -352,7 +372,7 @@ The data was rejected as unreasonable by data quality control algorithms.
     can be very misleading if
     you don’t know the
     distribution
-    \item A Histogram shows an
+    \item A \textbf{Histogram shows an}
     empirical density
     \begin{itemize}
         \item I.e., the frequency of
@@ -374,7 +394,9 @@ The data was rejected as unreasonable by data quality control algorithms.
     \item Median, mean and mode of symmetric,
     positively and negatively skewed data
 \end{itemize}
+
 \includegraphics[width=\textwidth/4]{12.png}
+
 \includegraphics[width=\textwidth]{13.png}
 \subsection{Properties of Normal Distribution Curve}
 \begin{itemize}
@@ -386,6 +408,7 @@ The data was rejected as unreasonable by data quality control algorithms.
     \item Useful for interpreting z-scores (cf. transformation slides)
 \end{itemize}
 \includegraphics[width=\textwidth]{14.png}
+
 \section{Data Cleaning: Missing Values}
 \subsection{Missing Values}
 \begin{note}
@@ -415,8 +438,10 @@ The data was rejected as unreasonable by data quality control algorithms.
         value that made it missing is not recorded in the table and therefore a latent cause
     \end{itemize}
 \end{itemize}
+
 \subsection{Example Customer Data}
 \includegraphics[width=\textwidth]{15.png}
+
 \subsection{Imputation}
 \begin{itemize}
     \item Imputation is risky (makes assumptions and “creates” missing values)
@@ -434,6 +459,7 @@ The data was rejected as unreasonable by data quality control algorithms.
         \item As they said in Ancient Rome: caveat imputor
     \end{itemize}
 \end{itemize}
+
 \subsection{Imputation Methods}
 \begin{itemize}
     \item String or categorical data
@@ -455,6 +481,7 @@ The data was rejected as unreasonable by data quality control algorithms.
         \item No response to a survey could mean “No” be default
     \end{itemize}
 \end{itemize}
+
 \subsection{Conditional Imputation}
 \begin{itemize}
     \item But wait, we can also conditionally impute!
@@ -484,8 +511,10 @@ The data was rejected as unreasonable by data quality control algorithms.
         \end{itemize}
     \end{itemize}
 \end{itemize}
+
 \section{Data Cleaning: Noise,
 Inconsistency, Redundancy}
+
 \subsection{Reality Check from Summary Statistics and Domain Knowledge}
 \begin{itemize}
     \item Range
@@ -509,13 +538,13 @@ Inconsistency, Redundancy}
     \end{itemize}
     \item For sorted strings, do both “Microsft” and “Microsoft” appear?
 \end{itemize}
+
 \subsection{Identify Outliers and Potential Errors}
 Could be bad values, poor data collection
 \begin{note}
     Outliers can be real data, but they can also be errors. Your analysis is skewed by outliers if they are not truly outliers.
     They can be removed if they are not representative of the population you intend to analyze.
 \end{note}
-
 
 \includegraphics[width=\textwidth]{16.png}
 \subsection{Data Cleaning Task: Entity Matching}
@@ -528,7 +557,6 @@ Could be bad values, poor data collection
         \item Deduplication methods provided by record linkage or entity linkage
     \end{itemize}
 \end{itemize}
-\newpage
 \section{Data Transformation:
 Improve Interpretability}
 \subsection{Data Transformation}
@@ -552,6 +580,6 @@ Improve Interpretability}
 \begin{note}
     Min-Max normalization does not consider standard deviation. If your data is dynamic then the range changes, so Z-score is preferred as it is more stable.
 \end{note}
-\includegraphics[width=\textwidth/2]{18.png}
-\includegraphics[width=\textwidth/2]{19.png}
+\includegraphics[width=\textwidth]{18.png}
+\includegraphics[width=\textwidth]{19.png}
 \end{document}

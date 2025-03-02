@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1738709367.30206 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_5/nlp_sentiment.tex" "nlp_sentiment.pdf" "nlp_sentiment" 1738709371.99838 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_5/nlp_sentiment.tex" 1738709367.03372 13883 58340e4d5f91b705891d792a759eb90a ""
+["pdflatex"] 1740955337.76694 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_5/nlp_sentiment.tex" "nlp_sentiment.pdf" "nlp_sentiment" 1740955342.39511 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_5/nlp_sentiment.tex" 1740955337.51854 14572 9f03b0079f7b482ae60dfd1a86c8eb59 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -30,8 +30,10 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1229303445 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb" 1136849748 45758 19968a0990191524e34e1994d4a31cb6 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1136849748 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1136849748 46026 6dab18b61c907687b520c72847215a68 ""
@@ -222,8 +224,8 @@
   "images/7.png" 1738703892.56744 331774 3bf21860add318b8d7f9402310c356f0 ""
   "images/8.png" 1738703909.21411 330186 c08958d6cfd872eedf39fb9dec764c21 ""
   "images/9.png" 1738703937.14862 578900 968559ec8a56ddbe82cd8c938531190f ""
-  "nlp_sentiment.aux" 1738709371.863 4319 b7012170c99986d459e41eff422e1301 "pdflatex"
-  "nlp_sentiment.tex" 1738709367.03372 13883 58340e4d5f91b705891d792a759eb90a ""
+  "nlp_sentiment.aux" 1740955342.26004 4314 4a50a05c9610473274acad2a796af097 "pdflatex"
+  "nlp_sentiment.tex" 1740955337.51854 14572 9f03b0079f7b482ae60dfd1a86c8eb59 ""
   (generated)
   "nlp_sentiment.aux"
   "nlp_sentiment.log"

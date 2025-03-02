@@ -100,7 +100,7 @@ Winter 2025
 \end{itemize}
 
 \subsection{Google Product Search}
-\includegraphics[width=\textwidth]{5.png}
+\includegraphics[width=\textwidth/2]{5.png}
 \begin{verbatim}
   How do we find the sentiment of a review? you can automatically 
   extract common tokens and phrases from the reviews and use them 
@@ -112,14 +112,14 @@ Winter 2025
 \end{verbatim}
 
 \subsection{Bing Shopping}
-\includegraphics[width=\textwidth]{6.png}
+\includegraphics[width=\textwidth/2]{6.png}
 \begin{verbatim}
   sentiment analysis is heavily used for product reviews
 \end{verbatim}
 
 \subsection{Twitter sentiment versus Gallup Poll of
 Consumer Confidence}
-\includegraphics[width=\textwidth]{7.png}
+\includegraphics[width=\textwidth/2]{7.png}
 \begin{itemize}
   \item gallup poll can be used to survey public opinion
   \item twitter sentiment can be used to predict public opinion
@@ -130,7 +130,7 @@ Consumer Confidence}
 \begin{itemize}
   \item CALM predicts
   DJIA 3 days
-  later
+  later, Twitter predicts the stock market shifts 2-6 days later
   \item At least one
   current hedge
   fund uses this
@@ -152,7 +152,7 @@ Consumer Confidence}
 \end{itemize}
 
 \subsection{Target Sentiment on Twitter}
-\includegraphics[width=\textwidth]{11.png}
+\includegraphics[width=\textwidth/2]{11.png}
 
 \subsection{Sentiment analysis has many other names}
 \begin{itemize}
@@ -176,23 +176,33 @@ Consumer Confidence}
 \subsection{Scherer Typology of Affective States}
 \begin{itemize}
   \item Emotion: brief organically synchronized ... evaluation of a major event
+  \begin{itemize}
   \item angry, sad, joyful, fearful, ashamed, proud, elated
+  \end{itemize}
   \item Mood: diffuse non-caused low-intensity long-duration change in subjective feeling
-  \item cheerful, gloomy, irritable, listless, depressed, buoyant
+  \begin{itemize}
+    \item cheerful, gloomy, irritable, listless, depressed, buoyant
+  \end{itemize}
   \item Interpersonal stances: affective stance toward another person in a specific interaction
-  \item friendly, flirtatious, distant, cold, warm, supportive, contemptuous
+  \begin{itemize}
+    \item friendly, flirtatious, distant, cold, warm, supportive, contemptuous
+  \end{itemize}
   \item Attitudes: enduring, affectively colored beliefs, dispositions towards objects or persons
-  \item liking, loving, hating, valuing, desiring
+  \begin{itemize}
+    \item liking, loving, hating, valuing, desiring
+  \end{itemize}
   \item Personality traits: stable personality dispositions and typical behavior tendencies
-  \item nervous, anxious, reckless, morose, hostile, jealous
+  \begin{itemize}
+    \item nervous, anxious, reckless, morose, hostile, jealous
+  \end{itemize}
 \end{itemize}
 \begin{note}
-  Majority of review sentiment focuses on attitudes. Public mood predits stock market
+  Majority of review sentiment focuses on attitudes. Public mood predicts stock market.
 \end{note}
 
 \subsection{Sentiment Analysis}
 \begin{itemize}
-  \item Sentiment analysis is the detection of attitudes
+  \item Sentiment analysis is the detection of \textbf{attitudes}
   \item “enduring, affectively colored beliefs, dispositions towards objects or persons”
 \end{itemize}
 \begin{enumerate}
@@ -202,18 +212,26 @@ Consumer Confidence}
   \begin{itemize}
     \item From a set of types like, love, hate, value, desire, etc.
     \item Or (more commonly) simple weighted polarity: 
-    \item positive, negative, neutral, together with strength
+    \begin{itemize}
+      \item positive, negative, neutral, together with strength
+    \end{itemize}
   \end{itemize}
   \item Text containing the attitude like sentence or entire document
   \item Coreference resolution: who is talking about what?
 \end{enumerate}
 \begin{itemize}
   \item Simplest task:
-  \item Is the attitude of this text positive or negative?
+  \begin{itemize}
+    \item Is the attitude of this text positive or negative?
+  \end{itemize}
   \item More complex:
-  \item Rank the attitude of this text from 1 to 5
+  \begin{itemize}
+    \item Rank the attitude of this text from 1 to 5
+  \end{itemize}
   \item Advanced:
-  \item Detect the target, source, or complex attitude types
+  \begin{itemize}
+    \item Detect the target, source, or complex attitude types
+  \end{itemize}
 \end{itemize}
 
 \section{Text Processing and
@@ -222,7 +240,9 @@ Limitations}
 \subsection{Sentiment Classification in Movie Reviews}
 \begin{itemize}
   \item Polarity detection:
-  \item Is an IMDB movie review positive or negative?
+  \begin{itemize}
+    \item Is an IMDB movie review positive or negative?
+  \end{itemize}
 \end{itemize}
 
 \subsection{IMDB data in the Pang and Lee database}
@@ -231,11 +251,15 @@ Limitations}
 \subsection{Sentiment Analysis and Prediction}
 \begin{itemize}
   \item Sentiment-aware tokenization
-  \item Important if text analysis should be sensitive to sentiment
+  \begin{itemize}
+    \item Important if text analysis should be sensitive to sentiment
+  \end{itemize}
 \end{itemize}
 \begin{itemize}
   \item Prediction using different classifiers / regressors
-  \item Could learn with Naïve Bayes, Logistic Regression, SVM
+  \begin{itemize}
+    \item Could learn with Naïve Bayes, Logistic Regression, SVM
+  \end{itemize}
   \begin{itemize}
     \item Vader is an off-the-shelf tool for predicting sentiment
     \item Actually a regressor, predicts strength of polarity [-1,+1]
@@ -257,18 +281,22 @@ sensitive to sentiment
   \item Emoticons (useful to express emotion)
   \item Useful code Regex
 \end{itemize}
-\includegraphics[width=\textwidth]{13.png}
+\includegraphics[width=\textwidth/2]{13.png}
 
 \subsection{Classification Results}
 \begin{itemize}
   \item Trained classifier achieves 92.1\% accuracy on movies
-  \item Off-the-shelf Vader would do well: around 80-85\% accuracy
+  \begin{itemize}
+    \item Off-the-shelf Vader would do well: around 80-85\% accuracy
+  \end{itemize}
 \end{itemize}
 \begin{itemize}
   \item Need to train a classifier per domain for best results
-  \item Scary movie = good!
-  \item Scary hotel = bad!
-  \item Hotel with “thin walls”?
+  \begin{itemize}
+    \item Scary movie = good!
+    \item Scary hotel = bad!
+    \item Hotel with “thin walls”?  
+  \end{itemize}
   \item Vader would deem scary bad even though it may be good for movies
 \end{itemize}
 
@@ -317,8 +345,10 @@ and Ordering Effects}
   deliver a good performance. However, it can’t hold up.”
   \item Well as usual Keanu Reeves is nothing special, but surprisingly, the very
   talented Laurence Fishbourne is not so good either, I was surprised
-  \item many good things but one bad thing turns the entire thing negative
 \end{itemize}
+\begin{note}
+  many good things but one bad thing turns the entire thing negative
+\end{note}
 
 \subsection{Sarcasm}
 \begin{itemize}
@@ -375,8 +405,10 @@ Categories:
 \begin{itemize}
   \item All WordNet synsets automatically annotated for degrees of positivity,
   negativity, and neutrality/objectiveness
-  \item [estimable(J,3)] “may be computed or estimated”
-  \item [estimable(J,1)] “deserving of respect or high regard
+  \item [] [estimable(J,3)] “may be computed or estimated”
+  \item Pos 0 Neg 0 Obj 1
+  \item [] [estimable(J,1)] “deserving of respect or high regard
+  \item Pos .75 Neg 0 Obj .25
 \end{itemize}
 
 \subsection{Disagreements between polarity lexicons}
@@ -395,7 +427,7 @@ Analysis (with PMI)}
   \item Scaled likelihood:
 \end{itemize}
 \begin{equation}
-  likelihood = \frac{f(w|c)}{\sum f(w|c)}
+  likelihood (P(w|c)) = \frac{f(w|c)}{\sum_{w \in c} f(w|c)}
 \end{equation}
 \begin{equation}
   \text{Scaled likelihood} = \frac{P(w|c)}{P(w)}

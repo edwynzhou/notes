@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1740879306.82383 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" "intro_to_data_science.pdf" "intro_to_data_science" 1740879311.62273 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" 1740879306.54808 13366 f37e0a6a4993012dd051e3b04c869123 ""
+["pdflatex"] 1740945878.7301 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" "intro_to_data_science.pdf" "intro_to_data_science" 1740945881.81281 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1/intro_to_data_science.tex" 1740945878.50938 13808 cc72be6d56f48a22a22cbb72c0074e62 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -184,6 +184,7 @@
   "images/11.png" 1736299091.14796 345688 30ab70dd6fa45a4ac743a7e0d1b2d191 ""
   "images/12.png" 1736299215.74781 1409097 7611944c112aec60349dcfb2132ace70 ""
   "images/14.png" 1740878082.21522 107187 33a6fa8d87834eaa2e7a24a1229cac28 ""
+  "images/15.png" 1740945630.83721 3115298 04f58f21fdad0e7e2e9db88486178bb4 ""
   "images/2.png" 1736295272.72156 878436 629f20005dc252872468f7c80a0892da ""
   "images/3.png" 1736295399.24816 371770 1eeb201df95bb54da3302aeca23ebce2 ""
   "images/5.png" 1736296435.15844 216650 9325e3e6303bc5c2e8e9371242244267 ""
@@ -191,8 +192,8 @@
   "images/7.png" 1736297875.90228 175911 4261cb8726d07b4aaf46f42324d9963b ""
   "images/8.png" 1736297926.04668 671221 08d7b70ddb8f24fda3af5a301328b48f ""
   "images/9.png" 1736298290.01006 433871 f266bfc0d733c2eb4e09f7ac6d237bd5 ""
-  "intro_to_data_science.aux" 1740879311.51004 3709 502c8a1b4d02b44196ec78d3f21e4fff "pdflatex"
-  "intro_to_data_science.tex" 1740879306.54808 13366 f37e0a6a4993012dd051e3b04c869123 ""
+  "intro_to_data_science.aux" 1740945881.74696 3409 895aa02b315a5311a5aa96eda563ffca "pdflatex"
+  "intro_to_data_science.tex" 1740945878.50938 13808 cc72be6d56f48a22a22cbb72c0074e62 ""
   (generated)
   "intro_to_data_science.aux"
   "intro_to_data_science.log"

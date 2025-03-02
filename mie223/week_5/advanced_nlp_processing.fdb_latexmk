@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1738604488.74395 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_5/advanced_nlp_processing.tex" "advanced_nlp_processing.pdf" "advanced_nlp_processing" 1738604490.81176 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_5/advanced_nlp_processing.tex" 1738604488.48739 9305 4e9e30071ae9607389b15f5fc734d11d ""
+["pdflatex"] 1740953531.32662 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_5/advanced_nlp_processing.tex" "advanced_nlp_processing.pdf" "advanced_nlp_processing" 1740953533.40019 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_5/advanced_nlp_processing.tex" 1740953531.06455 9363 c8fc42c536f47a19c7bdfe9f3fb810aa ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -188,8 +188,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "advanced_nlp_processing.aux" 1738604490.68591 2254 d52f3381945cfb3c9a38d36607f21653 "pdflatex"
-  "advanced_nlp_processing.tex" 1738604488.48739 9305 4e9e30071ae9607389b15f5fc734d11d ""
+  "advanced_nlp_processing.aux" 1740953533.26996 2254 cd4b9a6418d191a635ccae131f3b64cd "pdflatex"
+  "advanced_nlp_processing.tex" 1740953531.06455 9363 c8fc42c536f47a19c7bdfe9f3fb810aa ""
   "images/1.png" 1738603053.33349 417813 64bcd3753cf0aa5987d50cd52d975a67 ""
   "images/2.png" 1738603667.17729 27903 cadf362db56d0949588e699f60278f6c ""
   "images/3.png" 1738603961.66357 209996 98ad36e4d12f359a9d93435a70254a81 ""

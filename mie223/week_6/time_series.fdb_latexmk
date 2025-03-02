@@ -1,8 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1739313151.9566 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" "time_series.pdf" "time_series" 1739313156.43548 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" 1739313147.07736 11684 2fd96b9a1b778c7ad9dbc7d3810ae01a ""
+["pdflatex"] 1740956657.53035 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" "time_series.pdf" "time_series" 1740956662.01192 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_6/time_series.tex" 1740956652.76193 12311 fee8489f86852893117382667e56cb06 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768653 4524 6bce29db5bc272ba5f332261583fee9c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm" 1136768653 2124 2601a75482e9426d33db523edf23570a ""
@@ -30,8 +32,10 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb" 1136849748 45758 19968a0990191524e34e1994d4a31cb6 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1136849748 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1136849748 46026 6dab18b61c907687b520c72847215a68 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf" 1136768653 1344 6ff472164bf9de0fb2e864b28ac156d9 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf" 1136768653 1372 788387fea833ef5963f4c5bffe33eb89 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf" 1136768653 1380 0ea3a3370054be6da6acd929ec569f06 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf" 1136768653 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
@@ -169,6 +173,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1601326656 325 f9f16d12354225b7dd52a3321f085955 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/placeins/placeins.sty" 1137110565 4087 636308456f60d2b31cbf97867db5708d ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/preprint/fullpage.sty" 1137110595 2789 05b418f78b224ec872f5b11081138605 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd" 1137110629 985 1ed784d7bfe47179f3550d2303b073f8 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/times.sty" 1586716065 856 8e0e5c8cca7b18e0400f97f5a2b90a99 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd" 1137110629 619 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
@@ -223,8 +228,8 @@
   "images/7.png" 1739208654.75364 156005 8207f31ae40c069c03a2de8ae710642f ""
   "images/8.png" 1739208697.94572 122307 1238ce7038ea0cdf4ddff988fca87e6b ""
   "images/9.png" 1739208771.67057 137865 f41de436c4daa62794b9a13eb229883b ""
-  "time_series.aux" 1739313156.30342 3304 0a88f7ffbabf87981b6bba6c94813c25 "pdflatex"
-  "time_series.tex" 1739313147.07736 11684 2fd96b9a1b778c7ad9dbc7d3810ae01a ""
+  "time_series.aux" 1740956661.87705 3298 a9d809b06cb9c3898bc8eaf92c1bedc9 "pdflatex"
+  "time_series.tex" 1740956652.76193 12311 fee8489f86852893117382667e56cb06 ""
   (generated)
   "time_series.aux"
   "time_series.log"

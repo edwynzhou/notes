@@ -77,6 +77,7 @@
 \newtheorem{exer}{Exercise}
 \newtheorem{note}{Note}
 \graphicspath{ {./images/} }
+\linespread{0.75}
 \begin{document}
 \setcounter{section}{0}
 \title{MIE223 Lecture Notes}
@@ -92,32 +93,46 @@ Winter 2025
 \subsection{Time Series Data}
 \begin{itemize}
   \item Time series data are
-  \item Observations or measurements that
-  are indexed according to time
-  \item Instead of Xi we have Xt where t is
-  specifically a time index
+  \begin{itemize}
+    \item Observations or measurements that
+    are indexed according to time
+    \item Instead of Xi we have Xt where t is
+    specifically a time index  
+  \end{itemize}
   \item Why does time make it different?
-  \item The time index t has a special ordering
-  \item Data measured over time are not
-  exchangeable, which is what we often
-  assume when data are indexed by i
+  \begin{itemize}
+    \item The time index t has a special ordering  
+    \item Data measured over time are not
+    exchangeable, which is what we often
+    assume when data are indexed by i
+  \end{itemize}
 \end{itemize}
-\includegraphics[width=\textwidth]{1.png}
+\includegraphics[width=\textwidth/2]{1.png}
 
 \subsection{Goals of Time Series Analysis}
-\begin{itemize}
+\begin{enumerate}
   \item Time Scale Analysis: at what scale is data useful to analyze?
-  \item Is weather useful to analyze at the second, hour, or year level? Is it seasonal?
+  \begin{itemize}
+    \item Is weather useful to analyze at the second, hour, or year level? Is it seasonal?
+  \end{itemize}
   \item Smoothing: infer true state of past given a noisy signal (averaging out nearby timepoints)
-  \item Assuming gradual change, use nearby values in a time series to smooth noise
+  \begin{itemize}
+    \item Assuming gradual change, use nearby values in a time series to smooth noise
+  \end{itemize}
   \item Filtering: what is the true present state given a noisy signal
-  \item Tracking a rocket trajectory
-  \item Kalman filtering!
+  \begin{itemize}
+    \item Tracking a rocket trajectory
+    \item Kalman filtering!
+  \end{itemize}
   \item Forecasting: predict future values
-  \item What will the stock price be tomorrow, given the past?
+  \begin{itemize}
+    \item What will the stock price be tomorrow, given the past?
+  \end{itemize}
   \item Regression: give time two series, can we predict the association between them?
-  \item Does public sentiment predict the stock market at a delay?
-\end{itemize}
+  \begin{itemize}
+    \item Does public sentiment predict the stock market at a delay?
+  \end{itemize}
+\end{enumerate}
 
 \begin{note}
   Smoothing is about the past, filtering is about the present, forecasting is about the future
@@ -133,8 +148,10 @@ Winter 2025
   \item Is the association between ambient air pollution and mortality in
   a city primarily driven by large annual changes in pollution
   levels or by short-term spikes? there can be multiple causes of mortality, and need longer timeframe
-  \item granger causality says that you can predict something if you know the past
 \end{itemize}
+\begin{note}
+  granger causality says that you can predict something if you know the past
+\end{note}
 
 \subsection{Trend-Season-Residual Decomposition}
 A common tool to use is to
@@ -154,7 +171,16 @@ and are very common.
 
 These graphs can be made by smoothing over different intervals.
 
-\includegraphics[width=\textwidth]{2.png}
+\begin{itemize}
+  \item Residual after subtracting
+  long-term and seasonal trends
+  \item Subtract long-term trend,
+  smooth over local time window
+  \item Smooth (average) over
+  wide time window
+\end{itemize}
+
+\includegraphics[width=\textwidth/2]{2.png}
 
 \subsection{Trend-Season-Residual Example 1}
 \begin{itemize}
@@ -171,7 +197,7 @@ These graphs can be made by smoothing over different intervals.
   \end{itemize}
 \end{itemize}
 
-\includegraphics[width=\textwidth]{3.png}
+\includegraphics[width=\textwidth/4]{3.png}
 
 \subsection{Trend-Season-Residual Example 2}
 Three stocks: GOOG,
@@ -229,8 +255,8 @@ If x and y have standard deviations $\sigma x$ and $\sigma y$ respectively:
 independence implies correlation should be 0 but not vice versa
 
 \subsection{Autocorrelation}
-Auto-correlation: Compare the correlation of a time series with itself
-moved (lagged) by k positions
+\textbf{Auto-correlation: Compare the correlation of a time series with itself
+moved (lagged) by k positions}
 
 \includegraphics[width=\textwidth/2]{7.png}
 
@@ -240,6 +266,12 @@ the most correlated point. tracing out the correlation as a vector. have to get 
 \subsection{Autocorrelation:
 Measure of correlation in time series
 at different lags}
+
+\begin{itemize}
+  \item What is the value at lag t = 0?
+  \item What does a peak at t = 7 mean?
+\end{itemize}
+
 \includegraphics[width=\textwidth/2]{8.png}
 
 \subsection{Autocorrelation Example}
@@ -255,9 +287,11 @@ Chenai temperatures
 \end{itemize}
 
 \includegraphics[width=\textwidth/2]{9.png}
-
-daily measurements. negative correlation with the seasonal changes. there is autocorrelation
-in the air temperature. 
+\begin{verbatim}
+  daily measurements. negative correlation with the seasonal changes. 
+  there is autocorrelation
+  in the air temperature. lag: t.
+\end{verbatim}
 
 \subsection{Cross-correlation}
 \begin{itemize}
@@ -275,30 +309,36 @@ in the air temperature.
       rain because rain takes time
       to drain from the land
     \end{itemize}
+   \item  Compute Pearson
+   correlation of one time
+   series shifted by a lag of t
+   time steps vs. the other
   \end{itemize}
 \end{itemize}
 
 \includegraphics[width=\textwidth/2]{10.png}
 
-takes time for water to flow. the peak of the discharge is delayed behind the peak of the rain.
-
-Sample midterm question: Would you use VADER to predict the stock market?
-
-Answer: No, VADER is a sentiment analysis tool that is used to analyze text data. It is not used to predict the stock market.
-Simple polarity sentiment is not complex enough to analyze the stock market
+\begin{verbatim}
+  takes time for water to flow. 
+  the peak of the discharge is delayed behind the peak of the rain.
+\end{verbatim}
 
 \includegraphics[width=\textwidth/4]{11.png}
 \includegraphics[width=\textwidth/4]{12.png}
 
-how do we find the lag automatically? 
-shift at which the correlation peaks is the lag.
+\begin{note}
+  how do we find the lag automatically? 
+  shift at which the correlation peaks is the lag.
+\end{note}
 
 \subsection{Cross-correlation
 Measure of correlation between two time series
 at different lags}
 \includegraphics[width=\textwidth/2]{13.png}
 
-the cross-correlation does not necessarily peak at 0. the peak is the lag at which the two series are most correlated.
+\begin{note}
+  the cross-correlation does not necessarily peak at 0. the peak is the lag at which the two series are most correlated.
+\end{note}
 
 \section{Smoothing}
 \subsection{Smoothing}
@@ -313,12 +353,12 @@ the cross-correlation does not necessarily peak at 0. the peak is the lag at whi
 
 \subsection{Smoothing
 (example of 3-point weighted average smoothing)}
-\includegraphics[width = \textwidth]{14.png}
+\includegraphics[width = \textwidth/2]{14.png}
 
 i is the index of the data point, and t is the time index.
 
 \subsection{Non-causal Smoothing}
-\includegraphics[width = \textwidth]{15.png}
+\includegraphics[width = \textwidth/2]{15.png}
 
 you cannot use this form of smoothing for forecasting. the smoothed value depends on future values. causal smoothing is used for forecasting. causal smoothing is used for filtering and forecasting. non-causal smoothing is used for smoothing. causal smoothing is used for filtering and forecasting. 
 
@@ -328,7 +368,7 @@ filtering and forecasting not tested
 
 \subsection{Causal Smoothing
 (smoothed value does not depend on future)}
-\includegraphics[width = \textwidth]{16.png}
+\includegraphics[width = \textwidth/2]{16.png}
 
 only use lagged values to predict the current value.
 

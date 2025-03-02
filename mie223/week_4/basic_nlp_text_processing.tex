@@ -77,6 +77,7 @@
 \newtheorem{exer}{Exercise}
 \newtheorem{note}{Note}
 \graphicspath{ {./images/} }
+\linespread{0.75}
 \begin{document}
 \setcounter{section}{0}
 \title{MIE223 Lecture Notes}
@@ -91,9 +92,10 @@ Winter 2025
 \section{Basic NLP Text Processing.
  NLP=Natural Language Processing}
 \subsection{NLP Text Processing Pipeline}
-nltk provides
+
+\textbf{nltk provides
 implementations
-for most operations
+for most operations}
 
 \begin{itemize}
   \item Document → Sections and Paragraphs
@@ -130,9 +132,9 @@ Seuss’s cat in the hat is different from other cats
 
 \begin{itemize}
   \item Lemma: same stem, part of speech, rough word sense
-  \item cat and cats = same lemma
+  \item e.g. cat and cats = same lemma
   \item Wordform: the full inflected surface form
-  \item cat and cats = different wordforms
+  \item e.g. cat and cats = different wordforms
 \end{itemize}
 
 they lay back on the San Francisco grass and looked at the stars and their
@@ -171,13 +173,17 @@ Keep hyphens together? Remove contractions? Does upper and lower case matter?
 \subsection{Tokenization: language issues}
 \begin{itemize}
   \item French
-  \item L'ensemble → one token or two?
-  \item L ? L’ ? Le ?
-  \item Want l’ensemble to match with un ensemble
+  \begin{itemize}
+    \item L’ensemble → one token or two?
+    \item L ? L’ ? Le ?
+    \item Want l’ensemble to match with un ensemble
+  \end{itemize}
   \item German noun compounds are not segmented
-  \item Lebensversicherungsgesellschaftsangestellter
-  \item ‘life insurance company employee’
-  \item German information retrieval needs compound splitter
+  \begin{itemize}
+    \item Lebensversicherungsgesellschaftsangestellter
+    \item ‘life insurance company employee’
+    \item German information retrieval needs compound splitter
+  \end{itemize}
 \end{itemize}
 
 \includegraphics[width=\textwidth]{3.png}
@@ -199,9 +205,9 @@ Stemming}
   \end{itemize}
   \item Alternative: asymmetric expansion:
   \begin{itemize}
-    \item Enter: window Search: window, windows
-    \item Enter: windows Search: Windows, windows, window
-    \item Enter: Windows Search: Windows
+    \item Enter: window       Search: window, windows
+    \item Enter: windows      Search: Windows, windows, window
+    \item Enter: Windows      Search: Windows
   \end{itemize}
   \item Potentially more powerful, but less efficient
 \end{itemize}
@@ -287,11 +293,13 @@ sometimes necessary}
   \item Turkish
   \item Uygarlastiramadiklarimizdanmissinizcasina
   \item `(behaving) as if you are among those whom we could not civilize’
-  \item Uygar `civilized’ + las `become’
-  \item tir `cause’ + ama `not able’
-  \item dik `past’ + lar ‘plural’
-  \item imiz ‘p1pl’ + dan ‘abl’
-  \item mis ‘past’ + siniz ‘2pl’ + casina ‘as if’
+  \begin{itemize}
+    \item Uygar `civilized’ + las `become’
+    \item tir `cause’ + ama `not able’
+    \item dik `past’ + lar ‘plural’
+    \item imiz ‘p1pl’ + dan ‘abl’
+    \item mis ‘past’ + siniz ‘2pl’ + casina ‘as if’
+  \end{itemize}
 \end{itemize}
 
 \section{Sentence Segmentation
@@ -383,23 +391,6 @@ the: Misses capitalized examples
 
 [\^a-zA-Z][tT]he[\^a-zA-Z]
 
-\subsection{Exercise}
-\begin{itemize}
-  \item Write a regular expression to match dates
-  \begin{itemize}
-    \item November 9, 1989
-    \item 17 December 1967
-    \item 11-09-1989 (likely this form on midterm)
-    \item 12/17/67
-  \end{itemize}
-  \item Write a regular expression to match time expressions
-  \begin{itemize}
-    \item Next Wednesday at noon
-    \item Tomorrow morning
-    \item Can't really as there's no general pattern
-  \end{itemize}
-\end{itemize}
-
 \subsection{Errors}
 \begin{itemize}
   \item The process we just went through was based on fixing
@@ -422,6 +413,23 @@ the: Misses capitalized examples
   \begin{itemize}
     \item Increasing accuracy or precision (minimizing false positives)
     \item Increasing coverage or recall (minimizing false negatives).
+  \end{itemize}
+\end{itemize}
+
+\subsection{Exercise}
+\begin{itemize}
+  \item Write a regular expression to match dates
+  \begin{itemize}
+    \item November 9, 1989
+    \item 17 December 1967
+    \item 11-09-1989 (likely this form on midterm)
+    \item 12/17/67
+  \end{itemize}
+  \item Write a regular expression to match time expressions
+  \begin{itemize}
+    \item Next Wednesday at noon
+    \item Tomorrow morning
+    \item Can't really as there's no general pattern
   \end{itemize}
 \end{itemize}
 

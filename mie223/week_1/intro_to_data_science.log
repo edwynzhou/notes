@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  1 MAR 2025 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  1 MAR 2025 17:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -864,51 +864,56 @@ Package pdftex.def Info: ./images/3.png  used on input line 116.
 (pdftex.def)             Requested size: 469.75502pt x 316.7131pt.
  [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/2.png>] [2 <./images/3.png>]
-<./images/5.png, id=55, 2505.36pt x 1035.87pt>
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/2.png>]
+<./images/14.png, id=51, 541.02126pt x 711.65875pt>
+File: ./images/14.png Graphic file (type png)
+<use ./images/14.png>
+Package pdftex.def Info: ./images/14.png  used on input line 143.
+(pdftex.def)             Requested size: 117.43875pt x 154.46962pt.
+ [2 <./images/3.png>] [3 <./images/14.png>]
+<./images/5.png, id=60, 2505.36pt x 1035.87pt>
 File: ./images/5.png Graphic file (type png)
 <use ./images/5.png>
-Package pdftex.def Info: ./images/5.png  used on input line 201.
+Package pdftex.def Info: ./images/5.png  used on input line 205.
 (pdftex.def)             Requested size: 469.75502pt x 194.22514pt.
- [3] [4 <./images/5.png>]
-<./images/6.png, id=63, 2471.2325pt x 708.6475pt>
+<./images/6.png, id=61, 2471.2325pt x 708.6475pt>
 File: ./images/6.png Graphic file (type png)
 <use ./images/6.png>
-Package pdftex.def Info: ./images/6.png  used on input line 211.
+Package pdftex.def Info: ./images/6.png  used on input line 215.
 (pdftex.def)             Requested size: 442.37996pt x 126.84819pt.
-<./images/7.png, id=64, 1210.5225pt x 788.9475pt>
+ [4 <./images/5.png>]
+<./images/7.png, id=66, 1210.5225pt x 788.9475pt>
 File: ./images/7.png Graphic file (type png)
 <use ./images/7.png>
-Package pdftex.def Info: ./images/7.png  used on input line 238.
+Package pdftex.def Info: ./images/7.png  used on input line 242.
 (pdftex.def)             Requested size: 117.43875pt x 76.53984pt.
-<./images/8.png, id=65, 1074.0125pt x 923.45pt>
+<./images/8.png, id=67, 1074.0125pt x 923.45pt>
 File: ./images/8.png Graphic file (type png)
 <use ./images/8.png>
-Package pdftex.def Info: ./images/8.png  used on input line 244.
+Package pdftex.def Info: ./images/8.png  used on input line 248.
 (pdftex.def)             Requested size: 117.43875pt x 100.9739pt.
- [5 <./images/6.png>]
-<./images/9.png, id=70, 1411.2725pt x 1084.05pt>
+<./images/9.png, id=68, 1411.2725pt x 1084.05pt>
 File: ./images/9.png Graphic file (type png)
 <use ./images/9.png>
-Package pdftex.def Info: ./images/9.png  used on input line 260.
+Package pdftex.def Info: ./images/9.png  used on input line 264.
 (pdftex.def)             Requested size: 93.94955pt x 72.15292pt.
-<./images/10.png, id=71, 1387.1825pt x 1041.8925pt>
+<./images/10.png, id=69, 1387.1825pt x 1041.8925pt>
 File: ./images/10.png Graphic file (type png)
 <use ./images/10.png>
-Package pdftex.def Info: ./images/10.png  used on input line 266.
+Package pdftex.def Info: ./images/10.png  used on input line 270.
 (pdftex.def)             Requested size: 93.94955pt x 70.55522pt.
- [6 <./images/7.png> <./images/8.png>]
-<./images/11.png, id=77, 2378.8875pt x 985.6825pt>
+ [5 <./images/7.png> <./images/8.png> <./images/6.png>]
+<./images/11.png, id=76, 2378.8875pt x 985.6825pt>
 File: ./images/11.png Graphic file (type png)
 <use ./images/11.png>
-Package pdftex.def Info: ./images/11.png  used on input line 281.
+Package pdftex.def Info: ./images/11.png  used on input line 285.
 (pdftex.def)             Requested size: 469.75502pt x 194.6363pt.
-<./images/12.png, id=78, 2240.37pt x 1188.44pt>
+<./images/12.png, id=77, 2240.37pt x 1188.44pt>
 File: ./images/12.png Graphic file (type png)
 <use ./images/12.png>
-Package pdftex.def Info: ./images/12.png  used on input line 286.
+Package pdftex.def Info: ./images/12.png  used on input line 290.
 (pdftex.def)             Requested size: 469.75502pt x 249.18082pt.
- [7 <./images/9.png> <./images/10.png> <./images/11.png>] [8 <./images/12.png>] [9] [10] 
+ [6 <./images/9.png> <./images/10.png> <./images/11.png>] [7 <./images/12.png>] [8] [9] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./intro_to_data_science.aux)
  ***********
@@ -917,18 +922,18 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26321 strings out of 474116
- 552529 string characters out of 5743681
+ 26330 strings out of 474116
+ 552706 string characters out of 5743681
  1938187 words of memory out of 5000000
- 48221 multiletter control sequences out of 15000+600000
+ 48230 multiletter control sequences out of 15000+600000
  570956 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,9n,107p,514b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on intro_to_data_science.pdf (10 pages, 4030322 bytes).
+Output written on intro_to_data_science.pdf (9 pages, 4098824 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 

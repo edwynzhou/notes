@@ -334,6 +334,10 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT ./images/14.png
+INPUT ./images/14.png
+INPUT ./images/14.png
+INPUT ./images/14.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT ./images/5.png

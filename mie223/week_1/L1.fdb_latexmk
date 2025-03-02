@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1740945904.45081 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1/L1.tex" "L1.pdf" "L1" 1740945907.36148 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1/L1.tex" 1740945901.24705 13808 cc72be6d56f48a22a22cbb72c0074e62 ""
+["pdflatex"] 1740946242.56407 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1/L1.tex" "L1.pdf" "L1" 1740946243.6888 0
+  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_1/L1.tex" 1740946242.3422 11285 ae7f7f2c4b3547cf6e20f6e515ca716f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -180,20 +180,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "L1.aux" 1740945907.29262 3409 895aa02b315a5311a5aa96eda563ffca "pdflatex"
-  "L1.tex" 1740945901.24705 13808 cc72be6d56f48a22a22cbb72c0074e62 ""
-  "images/10.png" 1736298306.01347 335397 17dd248f51c22fabc2c3491afc0a0a6b ""
-  "images/11.png" 1736299091.14796 345688 30ab70dd6fa45a4ac743a7e0d1b2d191 ""
-  "images/12.png" 1736299215.74781 1409097 7611944c112aec60349dcfb2132ace70 ""
+  "L1.aux" 1740946243.62535 1986 9496d936d3ae47009744245694a54210 "pdflatex"
+  "L1.tex" 1740946242.3422 11285 ae7f7f2c4b3547cf6e20f6e515ca716f ""
   "images/14.png" 1740878082.21522 107187 33a6fa8d87834eaa2e7a24a1229cac28 ""
-  "images/15.png" 1740945630.83721 3115298 04f58f21fdad0e7e2e9db88486178bb4 ""
-  "images/2.png" 1736295272.72156 878436 629f20005dc252872468f7c80a0892da ""
   "images/3.png" 1736295399.24816 371770 1eeb201df95bb54da3302aeca23ebce2 ""
-  "images/5.png" 1736296435.15844 216650 9325e3e6303bc5c2e8e9371242244267 ""
-  "images/6.png" 1736296610.7004 140224 2e978d44be164afd83f732a27d46fd92 ""
-  "images/7.png" 1736297875.90228 175911 4261cb8726d07b4aaf46f42324d9963b ""
-  "images/8.png" 1736297926.04668 671221 08d7b70ddb8f24fda3af5a301328b48f ""
-  "images/9.png" 1736298290.01006 433871 f266bfc0d733c2eb4e09f7ac6d237bd5 ""
   (generated)
   "L1.aux"
   "L1.log"

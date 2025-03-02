@@ -112,9 +112,14 @@ We use data to make data-driven decisions. i.e. amazon takes your data to make d
   \item Prediction: After creating models, we inference on them to make decisions
   \item Prescription: Decisions result in prescription of what to do (acting) given what we know
 \end{itemize}
-\includegraphics[width=\textwidth/2]{2.png}
+
 \subsection{Data Science Hierarchy of Needs}
 \includegraphics[width=\textwidth/2]{3.png}
+
+% \begin{wrapfigure}{r}{0.25\textwidth} %this figure will be at the right
+%     \centering
+%     \includegraphics[width=0.25\textwidth]{4.png}
+% \end{wrapfigure}
 
 \section{The Science of Data}
 \subsection{Data are Observations of a Generative Process}
@@ -142,10 +147,6 @@ We use data to make data-driven decisions. i.e. amazon takes your data to make d
   \end{itemize}
 \end{itemize}
 \includegraphics[scale = 0.25]{14.png}
-% \begin{wrapfigure}{r}{0.25\textwidth} %this figure will be at the right
-%   \centering
-%   \includegraphics[width=0.25\textwidth]{4.png}
-% \end{wrapfigure}
 
 \subsection{Methodology of Data Science}
 \begin{enumerate}
@@ -204,104 +205,23 @@ e.g. does increased pollution lead to higher mortality?
   Spurious: comparing so many datapoints that it is bound to correlate. 
   Correlation is \textbf{not} conducive of causation.
 \end{note}
-\includegraphics[width = \textwidth]{5.png}
+% \includegraphics[width = \textwidth]{5.png}
 
 \section{Data Comes in All Shapes and Forms}
 Need proficiency in how to leverage structure of data and understanding of nuances of handling each data type
-\subsection{Tabular Data (i.e., Pandas)}
-\begin{note}
-  NaN: Not a Number.
-\end{note}
-  \begin{itemize}
-    \item Passengers on the Titanic
-    \item \includegraphics[width = \textwidth - 27.37506pt]{6.png}
-  \end{itemize}
-\subsection{Text Data and Analytics}
-% \begin{wrapfigure}{r}{0.25\textwidth} %this figure will be at the right
-%   \centering
-%   \includegraphics[width=0.25\textwidth]{13.png}
-% \end{wrapfigure}
-% \FloatBarrier
 \begin{itemize}
-  \item ~75\% of Data most IEs work with is text!
-  \item Sources:
-  \begin{itemize}
-    \item Customer Feedback
-    \item Reviews
-    \item Blogs
-    \item Social Media
-    \item Academic Publication
-    \item Healthcare / records
-    \item News
-  \end{itemize}
+    \item Tabular Data (i.e., Pandas)
+    \item Text Data and Analytics
+    \item Time Series Data
+    \item Network / Graph Data
+    \item Knowledge Graph Networks
+    \item Geographical Data (Choropleths)
+    \item Geographical (GIS) Data
 \end{itemize}
-\subsection{Time Series Data}
-Due to the famine and ex-immigration, the population in Ireland decreased while Europe's increased.
-\begin{figure}
-  \centering
-  \begin{subfigure}{.5\textwidth}
-    \centering
-    \includegraphics[width=.5\linewidth]{7.png}
-    \caption{Population of Europe and Ireland vs. Year (1740-1990)}
-    \label{fig:sub1}
-  \end{subfigure}%
-  \begin{subfigure}{.5\textwidth}
-    \centering
-    \includegraphics[width=.5\linewidth]{8.png}
-    \caption{Stream Graph of a Last.fm user’s Time Spent Listening to Different Artists}
-    \label{fig:sub2}
-  \end{subfigure}
-  \caption{Time Series Data}
-  \label{fig:1}
-\end{figure}
-\FloatBarrier
-\subsection{Network / Graph Data}
-Communication is aligned with management structure.
-
-Political blogs live in their own echo chambers.
-
-\includegraphics[width=.3\linewidth]{9.png}
-\includegraphics[width=.3\linewidth]{10.png}
-
-% \begin{figure}
-%   \centering
-%   \begin{subfigure}{.5\textwidth}
-%     \centering
-%     \includegraphics[width=.4\linewidth]{9.png}
-%     \caption{HP Labs Manager and Email Network}
-%     \label{fig:sub3}
-%   \end{subfigure}
-%   \begin{subfigure}{.5\textwidth}
-%     \centering
-%     \includegraphics[width=.4\linewidth]{10.png}
-%     \caption{Link Structure of Political Blogs}
-%     \label{fig:sub4}
-%   \end{subfigure}
-%   \caption{Network / Graph Data}
-%   \label{fig:2}
-% \end{figure}
-% \FloatBarrier
-\subsection{Knowledge Graph Networks: Ingredients}
-  Edges connect combined ingredients. 
-  There becomes two main clusters of ingredients that are commonly used together.
-  The two clusters are sweet and savoury ingredients.
-
-  \includegraphics[width=\textwidth/2]{15.png}
-
-\subsection{Geographical Data (Choropleths)}
-
-  \begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{11.png}
-    \caption{Per capita tweet (X) frequency across different international and U.S. locations for different topics}
-    \label{fig:3}
-  \end{figure}
-\subsection{Geographical (GIS) Data}
-\includegraphics[width = \textwidth/2]{12.png}
 
 \section{Content Highlights}
 \subsection{Data Cleaning and Exploratory Data Analysis}
-\begin{itemize}
+\begin{enumerate}
   \item Data Cleaning
   \begin{itemize}
     \item Data summary
@@ -331,7 +251,7 @@ Political blogs live in their own echo chambers.
       \item Custom and interactive visualization!
     \end{itemize}
   \end{itemize}
-\end{itemize}
+\end{enumerate}
 
 \subsection{Working with Structured Data}
 \begin{note}

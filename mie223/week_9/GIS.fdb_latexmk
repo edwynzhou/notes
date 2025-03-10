@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741625533.96413 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/GIS.tex" "GIS.pdf" "GIS" 1741625538.73856 0
-  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/GIS.tex" 1741625528.85759 9997 736eb56d5564cdabe1f4953b9e6eb451 ""
+["pdflatex"] 1741625801.38757 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/GIS.tex" "GIS.pdf" "GIS" 1741625806.28393 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/GIS.tex" 1741625800.70792 10103 28be0a47ec7c6a5ef21f8d11b460816d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -203,8 +203,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "GIS.aux" 1741625538.61037 4357 918cb92552e4092d53a6f5b7686588a1 "pdflatex"
-  "GIS.tex" 1741625528.85759 9997 736eb56d5564cdabe1f4953b9e6eb451 ""
+  "GIS.aux" 1741625806.1465 4357 918cb92552e4092d53a6f5b7686588a1 "pdflatex"
+  "GIS.tex" 1741625800.70792 10103 28be0a47ec7c6a5ef21f8d11b460816d ""
   "images/1.png" 1741623130.78623 251464 7cecd9b80400fc149f353f8b6783d7a5 ""
   "images/10.png" 1741624342.3549 290655 5e5ad1515ae06d6dff70cf91cfbee9ef ""
   "images/11.png" 1741624379.67854 1586934 abe9e7a4c64eb73c99365a16fe8bcc2e ""

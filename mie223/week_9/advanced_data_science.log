@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  11 MAR 2025 14:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  11 MAR 2025 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -887,7 +887,35 @@ File: ./images/32.png Graphic file (type png)
 <use ./images/32.png>
 Package pdftex.def Info: ./images/32.png  used on input line 172.
 (pdftex.def)             Requested size: 469.75502pt x 121.09003pt.
- [4 <./images/31.png> <./images/32.png>] 
+ [4 <./images/31.png> <./images/32.png>]
+<./images/33.png, id=69, 1928.20375pt x 683.55376pt>
+File: ./images/33.png Graphic file (type png)
+<use ./images/33.png>
+Package pdftex.def Info: ./images/33.png  used on input line 206.
+(pdftex.def)             Requested size: 469.75502pt x 166.5282pt.
+<./images/34.png, id=70, 1381.16pt x 946.53625pt>
+File: ./images/34.png Graphic file (type png)
+<use ./images/34.png>
+Package pdftex.def Info: ./images/34.png  used on input line 227.
+(pdftex.def)             Requested size: 469.75502pt x 321.91917pt.
+ [5 <./images/33.png>]
+<./images/35.png, id=75, 1970.36125pt x 390.45876pt>
+File: ./images/35.png Graphic file (type png)
+<use ./images/35.png>
+Package pdftex.def Info: ./images/35.png  used on input line 232.
+(pdftex.def)             Requested size: 469.75502pt x 93.08643pt.
+<./images/36.png, id=76, 1815.78375pt x 800.9925pt>
+File: ./images/36.png Graphic file (type png)
+<use ./images/36.png>
+Package pdftex.def Info: ./images/36.png  used on input line 243.
+(pdftex.def)             Requested size: 469.75502pt x 207.21425pt.
+ [6 <./images/34.png> <./images/35.png>]
+<./images/37.png, id=82, 1836.8625pt x 886.31125pt>
+File: ./images/37.png Graphic file (type png)
+<use ./images/37.png>
+Package pdftex.def Info: ./images/37.png  used on input line 250.
+(pdftex.def)             Requested size: 469.75502pt x 226.6623pt.
+ [7 <./images/36.png> <./images/37.png>] [8] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./advanced_data_science.aux)
  ***********
@@ -896,18 +924,18 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26244 strings out of 474116
- 551146 string characters out of 5743681
+ 26291 strings out of 474116
+ 552077 string characters out of 5743681
  1931187 words of memory out of 5000000
- 48145 multiletter control sequences out of 15000+600000
+ 48192 multiletter control sequences out of 15000+600000
  569371 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,6n,107p,514b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,6n,107p,514b,403s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on advanced_data_science.pdf (4 pages, 2020557 bytes).
+Output written on advanced_data_science.pdf (8 pages, 4310788 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741727267.32019 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/advanced_data_science.tex" "advanced_data_science.pdf" "advanced_data_science" 1741727270.1604 0
-  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/advanced_data_science.tex" 1741727267.06281 5155 d0877d0789e4f01ffc2de8a3720d4409 ""
+["pdflatex"] 1741729586.76712 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/advanced_data_science.tex" "advanced_data_science.pdf" "advanced_data_science" 1741729591.21053 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/advanced_data_science.tex" 1741729586.50616 8854 39c26102b949df15d3c483268937f75e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -180,14 +180,19 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "advanced_data_science.aux" 1741727270.04712 1013 b8a373445eefe47089cab3d23ba09ba7 "pdflatex"
-  "advanced_data_science.tex" 1741727267.06281 5155 d0877d0789e4f01ffc2de8a3720d4409 ""
+  "advanced_data_science.aux" 1741729591.0955 1861 44c31bc05d2b661950da4f19a0c29a4e "pdflatex"
+  "advanced_data_science.tex" 1741729586.50616 8854 39c26102b949df15d3c483268937f75e ""
   "images/27.png" 1741724452.53141 128301 064997e7a1bf6f4e1466b6903e197fd1 ""
   "images/28.png" 1741725150.00783 325874 9e169e5763be08e29e6ec2d44490695c ""
   "images/29.png" 1741725497.82243 409542 3c51ddc8ab0c50d4e846bf79b4491800 ""
   "images/30.png" 1741725558.50234 488002 f020931ad309a0696ee50d54f97a4d2d ""
   "images/31.png" 1741725583.09171 1000273 df6f0bf1f92abeb64d21b39f741dd8de ""
   "images/32.png" 1741725729.5865 144338 348b35ff5c6f04af01a6f2ec54b58ee6 ""
+  "images/33.png" 1741727949.09887 354544 d001da4c0de00b4c8d6acb7c552de427 ""
+  "images/34.png" 1741728030.38948 926482 05e0dd3b7d6b8d8671a395b8d18c52da ""
+  "images/35.png" 1741728066.27896 320367 6347abde8f5862aafa55434052292528 ""
+  "images/36.png" 1741728125.84115 221301 014e5cace376229d65736e02643d33c1 ""
+  "images/37.png" 1741729430.99918 800581 f7fa8f9ee77f40d826a50d85f34c8a8d ""
   (generated)
   "advanced_data_science.aux"
   "advanced_data_science.log"

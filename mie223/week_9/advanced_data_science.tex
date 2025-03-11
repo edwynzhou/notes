@@ -174,4 +174,115 @@ change your interpretation and decision!
 How do resolve this?
 – Which answer is correct depends on more knowledge
 
+Aggregating the data can lead to a different conclusion than looking at the data in its entirety.
+There is causal interference in the data. Certain doctors
+may prescribe differently. Treatment A is more effective but more 
+doctors prescribed treatment B to small stones. Small stones 
+generally have a higher recovery rate compared to large stones in general.
+
+Look at Wikipedia page on Simpson's paradox that has examples that can be on final exam.
+
+\subsection{Plotting “Right Censored” Time Series Data}
+
+when trying to measure an effect, 
+we need to be aware of the horizon effect with time.
+if you don't measure long enough you may not see that effect.
+
+\begin{itemize}
+    \item Be aware of horizon effects with time
+    \begin{itemize}
+        \item “right censored”: event may not have happened in all samples
+        \begin{itemize}
+            \item Or data may be incomplete (people left study, lost track, etc.)
+        \end{itemize}
+        \item Especially prominent in “survival/failure analysis”
+        \begin{itemize}
+            \item How long an engine lasts, how long a patient survives, etc.
+        \end{itemize}
+        \item For plotting: need to make incompleteness in data clear...
+    \end{itemize}
+\end{itemize}
+
+\includegraphics[width=\textwidth]{33.png}
+
+companies that started later have fewer years to exit compared to older startups.
+
+\section{Challenger Disaster}
+
+\subsection{Tufte’s Challenger Example}
+Should the Space Shuttle Challenger have been
+launched when the launch temperature was -1C?
+\begin{itemize}
+    \item Hashes show
+    post-launch
+    damage
+    evaluation.
+    \item This chart
+    does not help
+    us answer
+    the question.
+    Why not?
+\end{itemize}
+
+\includegraphics[width=\textwidth]{34.png}
+
+If temperature is what concerns us, let’s reorder by
+temperature:
+
+\includegraphics[width=\textwidth]{35.png}
+
+OK, some
+concentrated
+damage at lower
+temperatures, but not
+highly conclusive.
+
+Let us accurately represent the temperature scale and
+try one more time:
+
+\includegraphics[width=\textwidth]{36.png}
+
+\section{Custom Visualization}
+
+\subsection{Minard’s Map of the 1812 Russian Campaign}
+Sometimes you have to construct your own visualization...
+
+\includegraphics[width=\textwidth]{37.png}
+
+Modern redrawing of Charles Minard's map of Napoleon's disastrous Russian campaign of
+1812. The graphic is notable for its representation in two dimensions of six types of data: the
+number of Napoleon's troops; distance; temperature; the latitude and longitude; direction of
+travel; and location relative to specific dates
+
+\section{Debugging
+Data-oriented Code}
+For machine learning or complex
+data science analysis
+
+\subsection{Synthetic Data for Debugging}
+\begin{itemize}
+    \item Your code will have bugs!
+    \item How to debug data analysis / machine learning?
+    \begin{itemize}
+        \item Make a synthetic dataset
+        \begin{itemize}
+            \item E.g., (Features x: Age, Gender; Label y: {Snapchat, Facebook})
+            \begin{itemize}
+                \item Everyone under 20 uses Snapchat
+                \item Everyone 20 and over uses Facebook
+                \item Random selection for gender
+                \item or use label as a feature
+            \end{itemize}
+            \item Does your analysis uncover the expected trends?
+            \item What happens as you add noise?
+            \begin{itemize}
+                \item 90\%, 80\%, 70\% of people under 20 use Snapchat?
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+Inability to uncover expected trends indicates a bug in your code
+or the need to revisit your analysis approach or hypothesis space.
+
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  11 MAR 2025 14:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  11 MAR 2025 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -926,13 +926,13 @@ L3 programming layer <2024-02-20>
 Here is how much of TeX's memory you used:
  26291 strings out of 474116
  552077 string characters out of 5743681
- 1931187 words of memory out of 5000000
+ 1932187 words of memory out of 5000000
  48192 multiletter control sequences out of 15000+600000
  569371 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,6n,107p,514b,403s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on advanced_data_science.pdf (8 pages, 4310788 bytes).
+Output written on advanced_data_science.pdf (8 pages, 4310988 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream

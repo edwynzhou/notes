@@ -1,0 +1,300 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}	% Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=1cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+% -- Basic formatting
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{times}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{placeins}
+\setlength{\parindent}{0pt}
+\usepackage{indentfirst}% -- Defining colors:
+\usepackage[dvipsnames]{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}% Definig a custom style:
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codepurple},
+    keywordstyle=\color{NavyBlue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize\bfseries,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=t,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}% -- Setting up the custom style:
+\lstset{style=mystyle}
+\lstset{
+  style=mystyle,
+  framexleftmargin=3.5mm,
+  rulesepcolor=\color{black},
+  linewidth=0.6\linewidth,
+  xleftmargin=12pt,
+  aboveskip=12pt,
+  belowskip=12pt
+}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 1pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\graphicspath{ {./images/} }
+\begin{document}
+\setcounter{section}{0}
+\title{MIE223 Lecture Notes}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\LARGE \bf Introduction to Privacy and Anonymity}\\
+{\large MIE223}\\
+Winter 2025
+\end{center}
+\section{Privacy and Anonymity}
+
+\subsection{AOL Privacy Debacle}
+\begin{itemize}
+    \item In August 2006, AOL released anonymized search
+    query logs
+    \begin{itemize}
+        \item 657K users, 20M queries over 3 months
+        (March-May)
+    \end{itemize}
+    \item Opposing goals
+    \begin{itemize}
+        \item Analyze data for research purposes, provide
+        better services for users and advertisers
+        \item Protect privacy of AOL users
+        \begin{itemize}
+            \item Government laws and regulations
+            \item Search queries may reveal income, evaluations,
+            intentions to acquire goods and services, etc.
+        \end{itemize}
+    \end{itemize} 
+\end{itemize}
+
+\subsection{AOL User 4417749}
+\begin{itemize}
+    \item AOL query logs have the form
+    <AnonID, Query, QueryTime, ItemRank, ClickURL>
+    \begin{itemize}
+        \item ClickURL is the truncated URL
+    \end{itemize} 
+    \item NY Times re-identified AnonID 4417749
+    \begin{itemize}
+        \item Sample queries: “numb fingers”, “60 single men”,
+        “dog that urinates on everything”, “landscapers
+        in Lilburn, GA”, several people with the last
+        name Arnold
+        \begin{itemize}
+            \item Lilburn area has only 14 citizens with the last
+            name Arnold
+        \end{itemize}
+        \item NYT contacts the 14 citizens, finds out AOL User
+        4417749 is 62-year-old Thelma Arnold
+    \end{itemize}
+\end{itemize}
+
+\subsection{Foundations of Privacy}
+\begin{itemize}
+    \item Consent:
+    \begin{itemize}
+        \item GDPR (EU), US (Privacy Act of 1974)
+    \end{itemize} 
+    \item Notice: you have to accept collection practices
+    \begin{itemize}
+        \item Question: who are some of the major providers of user web data?
+    \end{itemize}
+    \item De-identification
+    \begin{itemize}
+        \item Only release attributes that could not identify you
+        \item Historically founded on principle of k-anonymity
+        \begin{itemize}
+            \item Re-identification: multiple attributes can as well as quasi-
+            identifiers (partial postal code) that link you accross datasets
+            (medical, voter) even with k-anonymity
+            \begin{itemize}
+                \item Sweeney (Harvard) used 1990 Census data to estimate that 0.04
+                percent of the United States population was uniquely identified
+                by the basic demographic fields allowed by the HIPAA Safe
+                Harbor – namely, year of birth, gender, and first 3 digits of ZIP
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+\subsection{Background}
+\begin{itemize}
+    \item Large amount of person-specific data has been
+    collected in recent years
+    \begin{itemize}
+        \item Both by governments and by private entities
+    \end{itemize}
+    \item Data and knowledge extracted by data mining
+    techniques represent a key asset to the society
+    \begin{itemize}
+        \item Analyzing trends and patterns
+        \item Formulating public policies
+    \end{itemize}
+    \item Laws and regulations require that some collected
+    data must be made public
+    \begin{itemize}
+        \item For example, Census data
+    \end{itemize}
+\end{itemize}
+
+\subsection{Public Data Conundrum}
+\begin{itemize}
+    \item Health-care datasets
+    \begin{itemize}
+        \item Clinical studies, hospital discharge databases
+    \end{itemize}
+    \item Genetic datasets
+    \begin{itemize}
+        \item \$1000 genome, HapMap, deCode
+    \end{itemize}
+    \item Demographic datasets
+    \begin{itemize}
+        \item U.S. Census Bureau, sociology studies
+    \end{itemize}
+    \item Search logs, recommender systems, social networks, blogs
+    \begin{itemize}
+        \item AOL search data, social networks of blogging sites, Netflix movie ratings, Amazon
+    \end{itemize}
+\end{itemize}
+
+\subsection{What About Privacy?}
+\begin{itemize}
+    \item First thought: anonymize the data
+    \item How?
+    \item Remove “personally identifying information” (PII)
+    \begin{itemize}
+        \item Name, Social Security number, phone number, email, address... what else?
+        \item Anything that identifies the person directly
+    \end{itemize}
+    \item Is this enough?
+\end{itemize}
+
+\subsection{Re-identification by Linking}
+\includegraphics[width=\textwidth/2]{14.png}
+
+\subsection{Latanya Sweeney’s Attack (1997)}
+\includegraphics[width=\textwidth/2]{15.png}
+
+\subsection{Quasi-Identifiers}
+\begin{itemize}
+    \item Key attributes
+    \begin{itemize}
+        \item Name, address, phone number - uniquely identifying!
+        \item Always removed before release
+    \end{itemize}
+    \item Quasi-identifiers
+    \begin{itemize}
+        \item (5-digit ZIP code, birth date, gender) uniquely identify 87% of the population in the U.S.
+        \item Can be used for linking anonymized dataset with other datasets
+    \end{itemize}
+\end{itemize}
+
+\subsection{Classification of Attributes}
+\begin{itemize}
+    \item Sensitive attributes
+    \begin{itemize}
+        \item Medical records, salaries, etc.
+        \item These attributes are what the researchers need, so they are always released directly
+    \end{itemize}
+\end{itemize}
+\includegraphics[width=\textwidth/2]{16.png}
+
+\subsection{K-Anonymity: Intuition}
+\begin{itemize}
+    \item The information for each person contained in the released table cannot be distinguished from at least k-1 individuals whose information also appears in the release
+    \begin{itemize}
+        \item Example: you try to identify a man in the released table, but the only information you have is his birth date and gender. There are k men in the table with the same birth date and gender.
+    \end{itemize}
+    \item Any quasi-identifier present in the released table must appear in at least k records
+\end{itemize}
+
+\subsection{k-Anonymity via Generalization}
+\begin{itemize}
+    \item Goal of k-Anonymity
+    \begin{itemize}
+        \item Each record is indistinguishable from at least k-1 other records
+        \item These k records form an equivalence class
+    \end{itemize}
+    \item Generalization: replace quasi-identifiers with less specific, but semantically consistent values
+\end{itemize}
+\includegraphics[width=\textwidth/2]{17.png}
+
+\subsection{Achieving k-Anonymity}
+\begin{itemize}
+    \item Generalization
+    \begin{itemize}
+        \item Replace specific quasi-identifiers with less specific values until get k identical values
+        \item Partition ordered-value domains into intervals
+    \end{itemize}
+    \item Problem: Suppression
+    \begin{itemize}
+        \item When generalization causes too much information loss
+        \item This is common with “outliers”
+    \end{itemize}
+    \item Lots of algorithms in the literature
+    \begin{itemize}
+        \item Aim to produce “useful” anonymizations
+        \item ... usually without any clear notion of utility
+    \end{itemize}
+\end{itemize}
+
+\subsection{Example of a k-Anonymous Table}
+\includegraphics[width=\textwidth/2]{18.png}
+
+\subsection{Example of Generalization (1)}
+\includegraphics[width=\textwidth/2]{19.png}
+
+\subsection{Example of Generalization (2)}
+\includegraphics[width=\textwidth/2]{20.png}
+
+If the adversary knows Alice’s quasi-identifier
+(47677, 29, F), they still do not know which of the
+first 3 records corresponds to Alice’s record
+
+
+
+\end{document}

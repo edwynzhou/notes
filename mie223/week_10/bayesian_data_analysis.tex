@@ -197,8 +197,6 @@ are most likely to generate the data}
 
 How likely is HTH given p? p(1-p)p.
 
-
-
 \includegraphics[width=\textwidth/2]{5.png}
 
 \subsection{Using a distribution over parameter values}
@@ -269,7 +267,60 @@ distribution for everything.
 \subsection{Aside: Bayesian Graphical Model Notation}
 \includegraphics[width=\textwidth]{11.png}
 
+bernoulli processes are iid.
+
+\subsection{Sanner on the Chalkboard}
+
+\begin{equation}
+    P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+\end{equation}
+
+It's proportional to P(B|A)P(A) because P(B) is a constant.
+
+posterior is proportional to likelihood times prior.
+
+proportiional to:
+
+\begin{equation}
+    \prod_{i=1}^{n} P(x_i|\theta)P(\theta)
+\end{equation}
+
+\subsection{Why Bayesian Data Analysis? Sparse Data}
+\begin{itemize}
+    \item Choropleth at
+    right shows
+    countries with
+    lowest 10\% death
+    rates for kidney
+    cancer
+    \item Should we live in
+    the Midwest to
+    avoid kidney
+    cancer?
+    \item What went
+    wrong?
+\end{itemize}
+
+\includegraphics[width=\textwidth/2]{13.png}
+
+\subsection{Why Bayesian Data Analysis? Small Data}
+
+\begin{itemize}
+    \item Why Bayesian? Small Data. (Gelman, 2005)
+    \begin{itemize}
+        \item Sample sizes are never large.
+        \item If N is too small to get a sufficiently-precise estimate, you need to get more
+        data (or make more assumptions).
+        \item But once N is "large enough”, you can start subdividing the data to learn
+        more (for example, in a public opinion poll, once you have a good estimate
+        for the entire country, you can estimate among men and women,
+        northerners and southerners, different age groups, etc.).
+        \item N is never enough because if it were "enough" you'd already be on to the
+        next problem for which you need more data.
+    \end{itemize}
+\end{itemize}
+
 \subsection{A More Complex Generative Process}
-\includegraphics[width=\textwidth]{12.png}
+\includegraphics[width=\textwidth/2]{12.png}
 
 \end{document}

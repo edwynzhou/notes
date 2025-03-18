@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1742331531.41242 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_10/bayesian_data_analysis.tex" "bayesian_data_analysis.pdf" "bayesian_data_analysis" 1742331535.36358 0
-  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_10/bayesian_data_analysis.tex" 1742331527.23472 9452 f867da6a3a5e2b2d4f65f5d90df80c48 ""
+["pdflatex"] 1742332860.50569 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_10/bayesian_data_analysis.tex" "bayesian_data_analysis.pdf" "bayesian_data_analysis" 1742332864.45462 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_10/bayesian_data_analysis.tex" 1742332860.22511 10172 7c6d9ce5375a5137cc3793de85f91049 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -206,8 +206,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "bayesian_data_analysis.aux" 1742331535.23208 2535 a05431a0dc1311908f8aabc46892a083 "pdflatex"
-  "bayesian_data_analysis.tex" 1742331527.23472 9452 f867da6a3a5e2b2d4f65f5d90df80c48 ""
+  "bayesian_data_analysis.aux" 1742332864.31802 2535 5c02f12357ca6d16a34a1acbbbc202fe "pdflatex"
+  "bayesian_data_analysis.tex" 1742332860.22511 10172 7c6d9ce5375a5137cc3793de85f91049 ""
   "images/1.png" 1742228232.91002 40452 b131a4a1cad11624724df884cdd7d664 ""
   "images/10.png" 1742229977.69937 385652 a3f89cd64b74f5842f1c16af6fad5e62 ""
   "images/11.png" 1742230058.78024 393094 c8353bab64c867d2db5fc1b31e647604 ""

@@ -243,29 +243,11 @@ How likely is HTH given p? p(1-p)p.
 \includegraphics[width=\textwidth/3]{7.png}
 \includegraphics[width=\textwidth/3]{8.png}
 
-\subsection{The Bayesian framework}
-
-The Bayesian framework assumes that we always have a prior
-distribution for everything.
-
-\begin{itemize}
-    \item The prior may be very vague.
-    \item When we see some data, we combine our prior distribution
-    with a likelihood term to get a posterior distribution.
-    \item The likelihood term takes into account how probable the
-    observed data is given the parameters of the model.
-    \begin{itemize}
-        \item It favors parameter settings that make the data likely.
-        \item It fights the prior
-        \item With enough data the likelihood terms always wins.
-    \end{itemize}
-\end{itemize}
-
 \subsection{Bayes Theorem}
 \includegraphics[width=\textwidth/2]{10.png}
 
 \subsection{Aside: Bayesian Graphical Model Notation}
-\includegraphics[width=\textwidth]{11.png}
+\includegraphics[width=\textwidth/2]{11.png}
 
 bernoulli processes are iid.
 
@@ -275,15 +257,28 @@ bernoulli processes are iid.
     P(A|B) = \frac{P(B|A)P(A)}{P(B)}
 \end{equation}
 
-It's proportional to P(B|A)P(A) because P(B) is a constant.
+It's proportional to P(B $\vert$ A)P(A) because P(B) is a constant.
 
 posterior is proportional to likelihood times prior.
 
-proportiional to:
+proportional to:
 
 \begin{equation}
     \prod_{i=1}^{n} P(x_i|\theta)P(\theta)
 \end{equation}
+
+\[
+P(p) =
+\begin{cases} 
+1 & \text{if } 0 \leq p \leq 1 \\
+0 & \text{otherwise}
+\end{cases}
+\]
+
+P(D$_1$ = Head$|$p) = p
+
+With enough data, the dirac delta function will peak at the true value of p.
+It also happens to be the maximum likelihood estimate.
 
 \subsection{Why Bayesian Data Analysis? Sparse Data}
 \begin{itemize}
@@ -298,7 +293,10 @@ proportiional to:
     avoid kidney
     cancer?
     \item What went
-    wrong?
+    wrong? Small data due to small populations.
+    A lot of people just don't get kidney cancer.
+    We come up with a prior distribution.
+    Then we can update our local beliefs based on the data.
 \end{itemize}
 
 \includegraphics[width=\textwidth/2]{13.png}
@@ -320,7 +318,30 @@ proportiional to:
     \end{itemize}
 \end{itemize}
 
+\subsection{The Bayesian framework}
+
+The Bayesian framework assumes that we always have a prior
+distribution for everything.
+
+\begin{itemize}
+    \item The prior may be very vague.
+    \item When we see some data, we combine our prior distribution
+    with a likelihood term to get a posterior distribution.
+    \item The likelihood term takes into account how probable the
+    observed data is given the parameters of the model.
+    \begin{itemize}
+        \item It favors parameter settings that make the data likely.
+        \item It fights the prior
+        \item With enough data the likelihood terms always wins.
+    \end{itemize}
+\end{itemize}
+
 \subsection{A More Complex Generative Process}
 \includegraphics[width=\textwidth/2]{12.png}
+
+Survey answer was inconsistent with the voting outcome. People who 
+wanted to vote for Trump in 2016 did not admit it. You have the observed data,
+so you can find the posterior distribution. This may reveal the percentage
+of Trump voters who would answer the survey.
 
 \end{document}

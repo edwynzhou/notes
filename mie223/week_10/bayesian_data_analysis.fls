@@ -401,6 +401,8 @@ INPUT ./images/11.png
 INPUT ./images/11.png
 INPUT ./images/11.png
 INPUT ./images/11.png
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT ./images/13.png
 INPUT ./images/13.png
 INPUT ./images/13.png

@@ -105,11 +105,11 @@ Winter 2025
     \item Which risk estimate would you use?
 \end{itemize}
 
-\includegraphics[width=\textwidth]{1.png}
-\includegraphics[width=\textwidth]{2.png}
+\includegraphics[width=\textwidth/2-2.08049pt]{1.png}
+\includegraphics[width=\textwidth/2]{2.png}
 
 \subsection{Bayesian Generative View of Data}
-\includegraphics[width=\textwidth]{3.png}
+\includegraphics[width=\textwidth/2]{3.png}
 
 \subsection{A coin tossing example}
 \begin{itemize}
@@ -133,8 +133,8 @@ Winter 2025
     \end{itemize}
 \end{itemize}
 
-\subsection{A coin tossing example: the math}
-\includegraphics[width=\textwidth]{4.png}
+\subsection{A coin tossing example: maximum likelihood (frequentist estimation)}
+\includegraphics[width=\textwidth/2]{4.png}
 
 \subsection{Some problems with picking the parameters that
 are most likely to generate the data}
@@ -176,53 +176,6 @@ are most likely to generate the data}
     value of p
 \end{itemize}
 
-\includegraphics[width=\textwidth]{5.png}
-
-\subsection{Using a distribution over parameter values}
-\begin{itemize}
-    \item Start with a prior distribution over
-    p. In this case we used a uniform
-    distribution.
-    \item Multiply the prior probability of
-    each parameter value by the
-    probability of observing a head
-    given that value (likelihood).
-    \item Then scale up all of the probability
-    densities so that their integral
-    comes to 1. This gives the
-    posterior distribution.
-\end{itemize}
-
-\includegraphics[width=\textwidth]{6.png}
-
-\subsection{Lets do it again: Suppose we get a tail}
-\begin{itemize}
-    \item Start with a prior distribution
-    over p.
-    \item Multiply the prior probability
-    of each parameter value by
-    the probability of observing
-    a tail given that value.
-    \item Then renormalize to get the
-    posterior distribution. Look
-    how sensible it is!
-\end{itemize}
-
-\includegraphics[width=\textwidth]{7.png}
-
-\subsection{Lets do it another 98 times}
-
-\begin{itemize}
-    \item After 53 heads and 47
-    tails we get a very
-    sensible posterior
-    distribution that has its
-    peak at 0.53 (assuming a
-    uniform prior)
-\end{itemize}
-
-\includegraphics[width=\textwidth]{8.png}
-
 \subsection{Generative Graphical Model for Biased Coin}
 
 \begin{itemize}
@@ -240,7 +193,57 @@ are most likely to generate the data}
     \end{itemize}
 \end{itemize}
 
-\includegraphics[width=\textwidth]{9.png}
+\includegraphics[width=\textwidth/2]{9.png}
+
+How likely is HTH given p? p(1-p)p.
+
+
+
+\includegraphics[width=\textwidth/2]{5.png}
+
+\subsection{Using a distribution over parameter values}
+\begin{itemize}
+    \item Start with a prior distribution over
+    p. In this case we used a uniform
+    distribution.
+    \item Multiply the prior probability of
+    each parameter value by the
+    probability of observing a head
+    given that value (likelihood).
+    \item Then scale up all of the probability
+    densities so that their integral
+    comes to 1. This gives the
+    posterior distribution.
+\end{itemize}
+
+
+\subsection{Lets do it again: Suppose we get a tail}
+\begin{itemize}
+    \item Start with a prior distribution
+    over p.
+    \item Multiply the prior probability
+    of each parameter value by
+    the probability of observing
+    a tail given that value.
+    \item Then renormalize to get the
+    posterior distribution. Look
+    how sensible it is!
+\end{itemize}
+
+\subsection{Lets do it another 98 times}
+
+\begin{itemize}
+    \item After 53 heads and 47
+    tails we get a very
+    sensible posterior
+    distribution that has its
+    peak at 0.53 (assuming a
+    uniform prior)
+\end{itemize}
+
+\includegraphics[width=\textwidth/3-4.16101pt]{6.png}
+\includegraphics[width=\textwidth/3]{7.png}
+\includegraphics[width=\textwidth/3]{8.png}
 
 \subsection{The Bayesian framework}
 
@@ -261,7 +264,7 @@ distribution for everything.
 \end{itemize}
 
 \subsection{Bayes Theorem}
-\includegraphics[width=\textwidth]{10.png}
+\includegraphics[width=\textwidth/2]{10.png}
 
 \subsection{Aside: Bayesian Graphical Model Notation}
 \includegraphics[width=\textwidth]{11.png}

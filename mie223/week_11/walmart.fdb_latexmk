@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1742937107.89377 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_11/walmart.tex" "walmart.pdf" "walmart" 1742937108.68264 0
-  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_11/walmart.tex" 1742937106.89568 2579 fede3d57144ec13cbaaa3adc0bd86478 ""
+["pdflatex"] 1742937128.69738 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_11/walmart.tex" "walmart.pdf" "walmart" 1742937129.59363 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_11/walmart.tex" 1742937128.50767 2578 6d3f4d4270ef490ed94ba8ef7b91b70e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -177,8 +177,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "walmart.aux" 1742937108.62302 419 07d00e0e2bb6e5114afd3b00fac8c7a8 "pdflatex"
-  "walmart.tex" 1742937106.89568 2579 fede3d57144ec13cbaaa3adc0bd86478 ""
+  "walmart.aux" 1742937129.52993 419 07d00e0e2bb6e5114afd3b00fac8c7a8 "pdflatex"
+  "walmart.tex" 1742937128.50767 2578 6d3f4d4270ef490ed94ba8ef7b91b70e ""
   (generated)
   "walmart.aux"
   "walmart.log"

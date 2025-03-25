@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  25 MAR 2025 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  25 MAR 2025 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -848,9 +848,12 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \c@lstlisting=\count369
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-[1
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 97.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] 
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2] [3] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./walmart.aux)
  ***********
@@ -859,18 +862,18 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26159 strings out of 474116
- 549412 string characters out of 5743681
- 1928187 words of memory out of 5000000
- 48065 multiletter control sequences out of 15000+600000
- 567431 words of font info for 49 fonts, out of 8000000 for 9000
+ 26190 strings out of 474116
+ 549919 string characters out of 5743681
+ 1935187 words of memory out of 5000000
+ 48091 multiletter control sequences out of 15000+600000
+ 569371 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,5n,107p,501b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,5n,107p,501b,268s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on walmart.pdf (1 page, 25512 bytes).
+Output written on walmart.pdf (3 pages, 38154 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

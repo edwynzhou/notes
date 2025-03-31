@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  18 MAR 2025 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  31 MAR 2025 09:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -874,25 +874,70 @@ Package pdftex.def Info: ./images/16.png  used on input line 248.
 <./images/17.png, id=60, 1733.47626pt x 522.95375pt>
 File: ./images/17.png Graphic file (type png)
 <use ./images/17.png>
-Package pdftex.def Info: ./images/17.png  used on input line 268.
+Package pdftex.def Info: ./images/17.png  used on input line 271.
 (pdftex.def)             Requested size: 234.8775pt x 70.85104pt.
 <./images/18.png, id=61, 1595.9625pt x 850.17625pt>
 File: ./images/18.png Graphic file (type png)
 <use ./images/18.png>
-Package pdftex.def Info: ./images/18.png  used on input line 290.
+Package pdftex.def Info: ./images/18.png  used on input line 293.
 (pdftex.def)             Requested size: 234.8775pt x 125.10802pt.
 <./images/19.png, id=62, 1811.76875pt x 952.55875pt>
 File: ./images/19.png Graphic file (type png)
 <use ./images/19.png>
-Package pdftex.def Info: ./images/19.png  used on input line 293.
+Package pdftex.def Info: ./images/19.png  used on input line 298.
 (pdftex.def)             Requested size: 234.8775pt x 123.48814pt.
  [4 <./images/17.png> <./images/18.png>]
 <./images/20.png, id=68, 1693.32625pt x 702.625pt>
 File: ./images/20.png Graphic file (type png)
 <use ./images/20.png>
-Package pdftex.def Info: ./images/20.png  used on input line 296.
+Package pdftex.def Info: ./images/20.png  used on input line 301.
 (pdftex.def)             Requested size: 234.8775pt x 97.45552pt.
- [5 <./images/19.png> <./images/20.png>] 
+ [5 <./images/19.png> <./images/20.png>]
+<./images/21.png, id=74, 1555.8125pt x 736.7525pt>
+File: ./images/21.png Graphic file (type png)
+<use ./images/21.png>
+Package pdftex.def Info: ./images/21.png  used on input line 372.
+(pdftex.def)             Requested size: 234.8775pt x 111.21634pt.
+<./images/22.png, id=75, 1800.7275pt x 1218.5525pt>
+File: ./images/22.png Graphic file (type png)
+<use ./images/22.png>
+Package pdftex.def Info: ./images/22.png  used on input line 375.
+(pdftex.def)             Requested size: 234.8775pt x 158.938pt.
+ [6 <./images/21.png> <./images/22.png>]
+<./images/23.png, id=81, 1539.7525pt x 471.7625pt>
+File: ./images/23.png Graphic file (type png)
+<use ./images/23.png>
+Package pdftex.def Info: ./images/23.png  used on input line 383.
+(pdftex.def)             Requested size: 234.8775pt x 71.96347pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 397.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 397.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 397.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+<./images/24.png, id=82, 782.925pt x 1024.82875pt>
+File: ./images/24.png Graphic file (type png)
+<use ./images/24.png>
+Package pdftex.def Info: ./images/24.png  used on input line 409.
+(pdftex.def)             Requested size: 117.43875pt x 153.71768pt.
+<./images/25.png, id=83, 924.45375pt x 984.67876pt>
+File: ./images/25.png Graphic file (type png)
+<use ./images/25.png>
+Package pdftex.def Info: ./images/25.png  used on input line 416.
+(pdftex.def)             Requested size: 156.585pt x 166.77715pt.
+ [7 <./images/23.png> <./images/24.png>]
+<./images/26.png, id=95, 1649.16125pt x 1028.84375pt>
+File: ./images/26.png Graphic file (type png)
+<use ./images/26.png>
+Package pdftex.def Info: ./images/26.png  used on input line 419.
+(pdftex.def)             Requested size: 156.585pt x 97.67838pt.
+ [8 <./images/25.png> <./images/26.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./privacy_and_anonymity.aux)
  ***********
@@ -901,18 +946,18 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26255 strings out of 474116
- 551372 string characters out of 5743681
+ 26374 strings out of 474116
+ 553594 string characters out of 5743681
  1938187 words of memory out of 5000000
- 48156 multiletter control sequences out of 15000+600000
- 569371 words of font info for 52 fonts, out of 8000000 for 9000
+ 48252 multiletter control sequences out of 15000+600000
+ 574213 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,5n,107p,515b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on privacy_and_anonymity.pdf (5 pages, 1667528 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on privacy_and_anonymity.pdf (8 pages, 2876368 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 words of extra memory for PDF output out of 10000 (max. 10000000)
 

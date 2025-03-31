@@ -210,7 +210,7 @@ Winter 2025
         \item Name, Social Security number, phone number, email, address... what else?
         \item Anything that identifies the person directly
     \end{itemize}
-    \item Is this enough?
+    \item Is this enough? No!
 \end{itemize}
 
 \subsection{Re-identification by Linking}
@@ -264,6 +264,9 @@ Voter registration data is all PII.
         \item These k records form an equivalence class
     \end{itemize}
     \item Generalization: replace quasi-identifiers with less specific, but semantically consistent values
+    \item If you just drop rows if not k-anonymous you cause missingness not at random
+    \item you want to avoid dropping rows to avoid changing decisions, you can just generate attributes instead
+    \item Example: replace 5-digit ZIP code with 3-digit ZIP code
 \end{itemize}
 \includegraphics[width=\textwidth/2]{17.png}
 
@@ -289,6 +292,8 @@ Voter registration data is all PII.
 \subsection{Example of a k-Anonymous Table}
 \includegraphics[width=\textwidth/2]{18.png}
 
+k = 2 and not k = 3 because we take the lowest k value.
+
 \subsection{Example of Generalization (1)}
 \includegraphics[width=\textwidth/2]{19.png}
 
@@ -299,6 +304,136 @@ If the adversary knows Alice’s quasi-identifier
 (47677, 29, F), they still do not know which of the
 first 3 records corresponds to Alice’s record
 
+\subsection{Curse of Dimensionality}
+\begin{itemize}
+    \item Generalization fundamentally relies on locality of quasi-identifiers
+    \begin{itemize}
+        \item Each record must have k close neighbors
+    \end{itemize}
+    \item Real-world datasets are very sparse
+    \begin{itemize}
+        \item Many attributes (dimensions)
+        \begin{itemize}
+            \item Netflix Prize dataset: 17,000 dimensions
+            \item Amazon customer records: several million dimensions
+        \end{itemize}
+        \item “Nearest neighbor” is very far
+    \end{itemize}
+    \item Projection to low dimensions loses all info
+    \begin{itemize}
+        \item k-anonymized datasets are useless
+    \end{itemize}
+\end{itemize}
 
+\subsection{HIPAA Privacy Rule (US)}
+"Under the safe harbor method, covered entities must remove all of a
+list of 18 enumerated identifiers and have no actual knowledge that
+the information remaining could be used, alone or in combination, to
+identify a subject of the information."
+
+“The identifiers that must be removed include direct identifiers, such
+as name, street address, social security number, as well as other
+identifiers, such as birth date, admission and discharge dates, and
+five-digit zip code. The safe harbor requires removal of geographic
+subdivisions smaller than a State, except for the initial three digits of a
+zip code if the geographic unit formed by combining all zip codes with
+the same initial three digits contains more than 20,000 people. In
+addition, age, if less than 90, gender, ethnicity, and other demographic
+information not listed may remain in the information. The safe harbor
+is intended to provide covered entities with a simple, definitive method
+that does not require much judgment by the covered entity to
+determine if the information is adequately de-identified."
+
+\subsection{Two (and a Half) Interpretations}
+\begin{enumerate}
+    \item Membership disclosure: Attacker cannot tell that a
+    given person in the dataset
+    \item Sensitive attribute disclosure: Attacker cannot tell
+    that a given person has a certain sensitive
+    attribute
+    \item Identity disclosure: Attacker cannot tell which
+    record corresponds to a given person
+\end{enumerate}
+
+This (3) interpretation is correct, assuming the attacker
+does not know anything other than quasi-identifiers
+But this does not imply any privacy!
+Example: k clinical records, all HIV+
+
+\subsection{Attacks on k-Anonymity}
+\begin{itemize}
+    \item k-Anonymity does not provide privacy if
+    \begin{itemize}
+        \item Sensitive values in an equivalence class lack diversity
+        \item The attacker has background knowledge
+    \end{itemize}
+\end{itemize}
+
+\includegraphics[width=\textwidth/2]{21.png}
+
+\subsection{l-Diversity}
+\includegraphics[width=\textwidth/2]{22.png}
+
+\subsection{Distinct l-Diversity}
+\begin{itemize}
+    \item Each equivalence class of quasi-identifiers has at
+    least l well-represented sensitive values
+    \item Doesn’t prevent probabilistic inference attacks
+\end{itemize}
+\includegraphics[width=\textwidth/2]{23.png}
+
+\subsection{Other Versions of l-Diversity}
+\begin{itemize}
+    \item Probabilistic l-diversity
+    \begin{itemize}
+        \item The frequency of the most frequent value in an equivalence class is bounded by 1/l
+    \end{itemize}
+    \item Entropy l-diversity
+    \begin{itemize}
+        \item The entropy of the distribution of sensitive values in each equivalence class is at least log(l)
+    \end{itemize}
+    \item Recursive (c,l)-diversity
+    \begin{itemize}
+        \item \( r_1 < c(r_l + r_{l+1} + \dots + r_m) \), where \( r_i \) is the frequency of the \( i \)-th most frequent value
+        \item Intuition: the most frequent value does not appear too frequently
+    \end{itemize}
+\end{itemize}
+
+\subsection{t-Closeness}
+Distribution of sensitive
+attributes within each
+quasi-identifier group should
+be “close” to their distribution
+in the entire original database
+
+\includegraphics[width=\textwidth/4]{24.png}
+
+\subsection{Anonymous, “t-Close” Dataset}
+This is k-anonymous,
+l-diverse and t-close...
+...so secure, right?
+
+\includegraphics[width=\textwidth/3]{25.png}
+
+\subsection{What Does Attacker Know?}
+\includegraphics[width=\textwidth/3]{26.png}
+
+\subsection{k-Anonymity is Not Enough!}
+\subsection{Syntactic Issues}
+\begin{itemize}
+    \item Syntactic
+    \begin{itemize}
+        \item Focuses on data transformation, not on what can be learned from the anonymized dataset
+        \item “k-anonymous” dataset can leak sensitive information
+    \end{itemize}
+    \item “Quasi-identifier” fallacy
+    \begin{itemize}
+        \item Assumes a priori that attacker will not know certain information about their target
+    \end{itemize}
+    \item Can increase levels of anonymity, but ...
+    \begin{itemize}
+        \item Destroys utility of many real-world datasets
+    \end{itemize}
+\end{itemize}
 
 \end{document}

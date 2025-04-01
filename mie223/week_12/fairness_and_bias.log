@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  1 APR 2025 13:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  1 APR 2025 13:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -880,7 +880,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 <./images/3.png, id=55, 1914.15125pt x 696.6025pt>
 File: ./images/3.png Graphic file (type png)
 <use ./images/3.png>
-Package pdftex.def Info: ./images/3.png  used on input line 227.
+Package pdftex.def Info: ./images/3.png  used on input line 230.
 (pdftex.def)             Requested size: 469.75502pt x 170.95078pt.
  [3] [4 <./images/3.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -899,7 +899,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  101i,6n,107p,511b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on fairness_and_bias.pdf (4 pages, 988584 bytes).
+Output written on fairness_and_bias.pdf (4 pages, 988678 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1743540851.15837 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_12/fairness_and_bias.tex" "fairness_and_bias.pdf" "fairness_and_bias" 1743540852.3727 0
-  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_12/fairness_and_bias.tex" 1743540849.58283 8354 2de386d2316dcaab45025adf84e9d4eb ""
+["pdflatex"] 1743542015.15838 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_12/fairness_and_bias.tex" "fairness_and_bias.pdf" "fairness_and_bias" 1743542017.29862 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_12/fairness_and_bias.tex" 1743542014.9517 10105 1b77ab73e6a388505e1bcb51df4dd73c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -203,11 +203,20 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "fairness_and_bias.aux" 1743540852.30356 1338 c2457ccaffbab0d4ff1f14e7f1876228 "pdflatex"
-  "fairness_and_bias.tex" 1743540849.58283 8354 2de386d2316dcaab45025adf84e9d4eb ""
+  "fairness_and_bias.aux" 1743542017.22687 1731 f4c206dacf98690727d68475c180dfd1 "pdflatex"
+  "fairness_and_bias.tex" 1743542014.9517 10105 1b77ab73e6a388505e1bcb51df4dd73c ""
   "images/1.png" 1743538499.68959 397041 eb122f344926111a37ce4ab7f1ca1c2b ""
+  "images/10.png" 1743541872.13751 182779 c713815fba526bf285106a903465ae14 ""
+  "images/11.png" 1743541920.12872 434110 4b4d1044d4c62a952d58307b72b95e2e ""
+  "images/12.png" 1743541946.39487 471772 eb9bb701979ae56d0e9e7fbc00f96d41 ""
   "images/2.png" 1743538636.22569 349639 6bd9cb980bd3ad9c49a185dfec50f1f5 ""
   "images/3.png" 1743538909.78362 431655 fedd2df4638441057430be282b6b3723 ""
+  "images/4.png" 1743541581.92911 1131811 017c33325fc5e5d865865391528cc562 ""
+  "images/5.png" 1743541604.76554 175798 62f024224e7e7064e06502a72636f3ed ""
+  "images/6.png" 1743541823.32593 282412 ab96164e60a180e4427e1c70a7063d75 ""
+  "images/7.png" 1743541836.73104 257895 54441352a1f28d3e194a4ab79eed96bf ""
+  "images/8.png" 1743541848.72999 102344 d3710b81c932d83e654088516f03f1fe ""
+  "images/9.png" 1743541859.9484 138264 620b30e2b66516d55c2bef30f792d559 ""
   (generated)
   "fairness_and_bias.aux"
   "fairness_and_bias.log"

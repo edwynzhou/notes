@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  1 APR 2025 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  1 APR 2025 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -898,7 +898,7 @@ Package pdftex.def Info: ./images/5.png  used on input line 254.
 File: ./images/6.png Graphic file (type png)
 <use ./images/6.png>
 Package pdftex.def Info: ./images/6.png  used on input line 274.
-(pdftex.def)             Requested size: 234.8775pt x 144.54663pt.
+(pdftex.def)             Requested size: 232.79701pt x 143.27249pt.
 <./images/7.png, id=70, 2139.995pt x 771.88374pt>
 File: ./images/7.png Graphic file (type png)
 <use ./images/7.png>
@@ -921,11 +921,6 @@ Package pdftex.def Info: ./images/10.png  used on input line 278.
 (pdftex.def)             Requested size: 234.8775pt x 114.99742pt.
 
 Overfull \hbox (2.08049pt too wide) in paragraph at lines 274--279
-[][] []
- []
-
-
-Overfull \hbox (2.08049pt too wide) in paragraph at lines 274--279
 [] []
  []
 
@@ -933,14 +928,14 @@ Overfull \hbox (2.08049pt too wide) in paragraph at lines 274--279
 <./images/11.png, id=83, 2148.025pt x 1138.2525pt>
 File: ./images/11.png Graphic file (type png)
 <use ./images/11.png>
-Package pdftex.def Info: ./images/11.png  used on input line 288.
+Package pdftex.def Info: ./images/11.png  used on input line 301.
 (pdftex.def)             Requested size: 469.75502pt x 248.92265pt.
 <./images/12.png, id=84, 2105.8675pt x 1136.245pt>
 File: ./images/12.png Graphic file (type png)
 <use ./images/12.png>
-Package pdftex.def Info: ./images/12.png  used on input line 289.
+Package pdftex.def Info: ./images/12.png  used on input line 302.
 (pdftex.def)             Requested size: 469.75502pt x 253.45953pt.
- [6 <./images/11.png> <./images/12.png>] [7] 
+ [6 <./images/11.png>] [7 <./images/12.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./fairness_and_bias.aux)
  ***********
@@ -956,11 +951,11 @@ Here is how much of TeX's memory you used:
  575227 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,6n,107p,511b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on fairness_and_bias.pdf (7 pages, 4066006 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on fairness_and_bias.pdf (7 pages, 4075296 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  217 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  18 MAR 2025 14:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  18 APR 2025 18:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -767,7 +767,7 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 \c@reg=\count358
 \c@exer=\count359
 \c@note=\count360
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 80.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 81.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -777,20 +777,20 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 ) (./bayesian_data_analysis.aux)
 \openout1 = `bayesian_data_analysis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count362
@@ -848,95 +848,94 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \c@lstlisting=\count369
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 95.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 96.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 <./images/1.png, id=41, 1483.5425pt x 302.12875pt>
 File: ./images/1.png Graphic file (type png)
 <use ./images/1.png>
-Package pdftex.def Info: ./images/1.png  used on input line 108.
+Package pdftex.def Info: ./images/1.png  used on input line 109.
 (pdftex.def)             Requested size: 232.79701pt x 47.40573pt.
 <./images/2.png, id=43, 1539.7525pt x 297.11pt>
 File: ./images/2.png Graphic file (type png)
 <use ./images/2.png>
-Package pdftex.def Info: ./images/2.png  used on input line 109.
+Package pdftex.def Info: ./images/2.png  used on input line 110.
 (pdftex.def)             Requested size: 234.8775pt x 45.32167pt.
 <./images/3.png, id=44, 1866.975pt x 1093.08376pt>
 File: ./images/3.png Graphic file (type png)
 <use ./images/3.png>
-Package pdftex.def Info: ./images/3.png  used on input line 112.
+Package pdftex.def Info: ./images/3.png  used on input line 113.
 (pdftex.def)             Requested size: 234.8775pt x 137.50244pt.
+<./images/4.png, id=45, 2211.26125pt x 984.67876pt>
+File: ./images/4.png Graphic file (type png)
+<use ./images/4.png>
+Package pdftex.def Info: ./images/4.png  used on input line 138.
+(pdftex.def)             Requested size: 234.8775pt x 104.5888pt.
  [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/1.png> <./images/2.png> <./images/3.png>]
-<./images/4.png, id=54, 2211.26125pt x 984.67876pt>
-File: ./images/4.png Graphic file (type png)
-<use ./images/4.png>
-Package pdftex.def Info: ./images/4.png  used on input line 137.
-(pdftex.def)             Requested size: 234.8775pt x 104.5888pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 182.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 183.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 182.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 183.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 182.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 183.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 <./images/9.png, id=55, 1528.71124pt x 765.86125pt>
 File: ./images/9.png Graphic file (type png)
 <use ./images/9.png>
-Package pdftex.def Info: ./images/9.png  used on input line 196.
+Package pdftex.def Info: ./images/9.png  used on input line 197.
 (pdftex.def)             Requested size: 234.8775pt x 117.6672pt.
- [2 <./images/4.png>]
-<./images/5.png, id=61, 1392.20125pt x 863.225pt>
+<./images/5.png, id=56, 1392.20125pt x 863.225pt>
 File: ./images/5.png Graphic file (type png)
 <use ./images/5.png>
-Package pdftex.def Info: ./images/5.png  used on input line 200.
+Package pdftex.def Info: ./images/5.png  used on input line 201.
 (pdftex.def)             Requested size: 234.8775pt x 145.62671pt.
-<./images/6.png, id=62, 948.54375pt x 1102.1175pt>
+ [2 <./images/4.png> <./images/9.png>]
+<./images/6.png, id=63, 948.54375pt x 1102.1175pt>
 File: ./images/6.png Graphic file (type png)
 <use ./images/6.png>
-Package pdftex.def Info: ./images/6.png  used on input line 242.
+Package pdftex.def Info: ./images/6.png  used on input line 243.
 (pdftex.def)             Requested size: 152.424pt x 177.09917pt.
-<./images/7.png, id=63, 923.45pt x 1125.20375pt>
+<./images/7.png, id=64, 923.45pt x 1125.20375pt>
 File: ./images/7.png Graphic file (type png)
 <use ./images/7.png>
-Package pdftex.def Info: ./images/7.png  used on input line 243.
+Package pdftex.def Info: ./images/7.png  used on input line 244.
 (pdftex.def)             Requested size: 156.585pt x 190.7842pt.
-<./images/8.png, id=64, 906.38625pt x 1133.23375pt>
+<./images/8.png, id=65, 906.38625pt x 1133.23375pt>
 File: ./images/8.png Graphic file (type png)
 <use ./images/8.png>
-Package pdftex.def Info: ./images/8.png  used on input line 244.
+Package pdftex.def Info: ./images/8.png  used on input line 245.
 (pdftex.def)             Requested size: 156.585pt x 195.7597pt.
- [3 <./images/9.png> <./images/5.png>]
-<./images/10.png, id=70, 2134.97626pt x 1180.41pt>
+<./images/10.png, id=66, 2134.97626pt x 1180.41pt>
 File: ./images/10.png Graphic file (type png)
 <use ./images/10.png>
-Package pdftex.def Info: ./images/10.png  used on input line 247.
+Package pdftex.def Info: ./images/10.png  used on input line 248.
 (pdftex.def)             Requested size: 234.8775pt x 129.8455pt.
-<./images/11.png, id=71, 2043.635pt x 1153.30875pt>
+ [3 <./images/5.png> <./images/6.png> <./images/7.png> <./images/8.png>]
+<./images/11.png, id=74, 2043.635pt x 1153.30875pt>
 File: ./images/11.png Graphic file (type png)
 <use ./images/11.png>
-Package pdftex.def Info: ./images/11.png  used on input line 250.
+Package pdftex.def Info: ./images/11.png  used on input line 251.
 (pdftex.def)             Requested size: 234.8775pt x 132.54852pt.
- [4 <./images/6.png> <./images/7.png> <./images/8.png> <./images/10.png> <./images/11.png>]
-<./images/13.png, id=82, 1521.685pt x 1024.82875pt>
+ [4 <./images/10.png> <./images/11.png>]
+<./images/13.png, id=85, 1521.685pt x 1024.82875pt>
 File: ./images/13.png Graphic file (type png)
 <use ./images/13.png>
-Package pdftex.def Info: ./images/13.png  used on input line 302.
+Package pdftex.def Info: ./images/13.png  used on input line 303.
 (pdftex.def)             Requested size: 234.8775pt x 158.1744pt.
- [5 <./images/13.png>]
-<./images/12.png, id=90, 2364.835pt x 1324.95pt>
+<./images/12.png, id=86, 2364.835pt x 1324.95pt>
 File: ./images/12.png Graphic file (type png)
 <use ./images/12.png>
-Package pdftex.def Info: ./images/12.png  used on input line 340.
+Package pdftex.def Info: ./images/12.png  used on input line 341.
 (pdftex.def)             Requested size: 234.8775pt x 131.59299pt.
- [6 <./images/12.png>] 
+ [5 <./images/13.png>] [6 <./images/12.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./bayesian_data_analysis.aux)
  ***********
@@ -951,9 +950,9 @@ Here is how much of TeX's memory you used:
  48254 multiletter control sequences out of 15000+600000
  575227 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,10n,107p,516b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,10n,107p,516b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on bayesian_data_analysis.pdf (6 pages, 3277174 bytes).
+Output written on bayesian_data_analysis.pdf (6 pages, 3277177 bytes).
 PDF statistics:
  130 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream

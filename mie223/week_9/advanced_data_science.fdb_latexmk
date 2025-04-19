@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741730300.95369 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/advanced_data_science.tex" "advanced_data_science.pdf" "advanced_data_science" 1741730305.32346 0
-  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/advanced_data_science.tex" 1741730296.31291 9191 b5c9997ae28df1da3baf115d2c2bb222 ""
+["pdflatex"] 1745024825.47214 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/advanced_data_science.tex" "advanced_data_science.pdf" "advanced_data_science" 1745024828.00602 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_9/advanced_data_science.tex" 1745024822.70976 9215 b5e2a2eb3c64a1476a8a9bb84efad031 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -180,8 +180,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "advanced_data_science.aux" 1741730305.21185 2104 f6a84beef2cdcce680e70fa46615a556 "pdflatex"
-  "advanced_data_science.tex" 1741730296.31291 9191 b5c9997ae28df1da3baf115d2c2bb222 ""
+  "advanced_data_science.aux" 1745024827.94066 2104 a43ff88b25f40bc565f30ad32416b9c6 "pdflatex"
+  "advanced_data_science.tex" 1745024822.70976 9215 b5e2a2eb3c64a1476a8a9bb84efad031 ""
   "images/27.png" 1741724452.53141 128301 064997e7a1bf6f4e1466b6903e197fd1 ""
   "images/28.png" 1741725150.00783 325874 9e169e5763be08e29e6ec2d44490695c ""
   "images/29.png" 1741725497.82243 409542 3c51ddc8ab0c50d4e846bf79b4491800 ""

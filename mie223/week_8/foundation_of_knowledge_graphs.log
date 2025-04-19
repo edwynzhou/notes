@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  3 MAR 2025 09:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  18 APR 2025 18:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_8/foundation_of_knowledge_graphs.tex
-(/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_8/foundation_of_knowledge_graphs.tex
+**/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_8/foundation_of_knowledge_graphs.tex
+(/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_8/foundation_of_knowledge_graphs.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -767,7 +767,7 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 \c@reg=\count358
 \c@exer=\count359
 \c@note=\count360
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 80.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 81.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -777,20 +777,20 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 ) (./foundation_of_knowledge_graphs.aux)
 \openout1 = `foundation_of_knowledge_graphs.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count362
@@ -848,14 +848,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \c@lstlisting=\count369
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 98.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 99.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 <./images/1.png, id=41, 1008.76875pt x 694.595pt>
 File: ./images/1.png Graphic file (type png)
 <use ./images/1.png>
-Package pdftex.def Info: ./images/1.png  used on input line 108.
+Package pdftex.def Info: ./images/1.png  used on input line 109.
 (pdftex.def)             Requested size: 234.8775pt x 161.72484pt.
  [1
 
@@ -863,84 +863,85 @@ Package pdftex.def Info: ./images/1.png  used on input line 108.
 <./images/2.png, id=50, 1528.71124pt x 828.09375pt>
 File: ./images/2.png Graphic file (type png)
 <use ./images/2.png>
-Package pdftex.def Info: ./images/2.png  used on input line 152.
+Package pdftex.def Info: ./images/2.png  used on input line 153.
 (pdftex.def)             Requested size: 232.79701pt x 126.10405pt.
 <./images/3.png, id=51, 1550.79375pt x 850.17625pt>
 File: ./images/3.png Graphic file (type png)
 <use ./images/3.png>
-Package pdftex.def Info: ./images/3.png  used on input line 153.
+Package pdftex.def Info: ./images/3.png  used on input line 154.
 (pdftex.def)             Requested size: 234.8775pt x 128.75333pt.
 <./images/4.png, id=52, 1526.70375pt x 844.15375pt>
 File: ./images/4.png Graphic file (type png)
 <use ./images/4.png>
-Package pdftex.def Info: ./images/4.png  used on input line 162.
+Package pdftex.def Info: ./images/4.png  used on input line 163.
 (pdftex.def)             Requested size: 232.79701pt x 128.71715pt.
 <./images/5.png, id=53, 1545.775pt x 848.16875pt>
 File: ./images/5.png Graphic file (type png)
 <use ./images/5.png>
-Package pdftex.def Info: ./images/5.png  used on input line 163.
+Package pdftex.def Info: ./images/5.png  used on input line 164.
 (pdftex.def)             Requested size: 234.8775pt x 128.87639pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 175.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 176.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [2 <./images/2.png> <./images/3.png> <./images/4.png> <./images/5.png>]
-<./images/6.png, id=61, 1450.41875pt x 950.55125pt>
+)
+<./images/6.png, id=54, 1450.41875pt x 950.55125pt>
 File: ./images/6.png Graphic file (type png)
 <use ./images/6.png>
-Package pdftex.def Info: ./images/6.png  used on input line 189.
+Package pdftex.def Info: ./images/6.png  used on input line 190.
 (pdftex.def)             Requested size: 232.79701pt x 152.55544pt.
-<./images/7.png, id=62, 1525.7pt x 1039.885pt>
+<./images/7.png, id=55, 1525.7pt x 1039.885pt>
 File: ./images/7.png Graphic file (type png)
 <use ./images/7.png>
-Package pdftex.def Info: ./images/7.png  used on input line 190.
+Package pdftex.def Info: ./images/7.png  used on input line 191.
 (pdftex.def)             Requested size: 234.8775pt x 160.08566pt.
-<./images/8.png, id=63, 1401.235pt x 813.0375pt>
+ [2 <./images/2.png> <./images/3.png> <./images/4.png> <./images/5.png>]
+<./images/8.png, id=64, 1401.235pt x 813.0375pt>
 File: ./images/8.png Graphic file (type png)
 <use ./images/8.png>
-Package pdftex.def Info: ./images/8.png  used on input line 196.
+Package pdftex.def Info: ./images/8.png  used on input line 197.
 (pdftex.def)             Requested size: 232.79701pt x 135.07584pt.
-<./images/9.png, id=64, 1421.31pt x 636.3775pt>
+<./images/9.png, id=65, 1421.31pt x 636.3775pt>
 File: ./images/9.png Graphic file (type png)
 <use ./images/9.png>
-Package pdftex.def Info: ./images/9.png  used on input line 197.
+Package pdftex.def Info: ./images/9.png  used on input line 198.
 (pdftex.def)             Requested size: 234.8775pt x 105.16283pt.
-<./images/10.png, id=65, 1403.2425pt x 758.835pt>
+<./images/10.png, id=66, 1403.2425pt x 758.835pt>
 File: ./images/10.png Graphic file (type png)
 <use ./images/10.png>
-Package pdftex.def Info: ./images/10.png  used on input line 200.
+Package pdftex.def Info: ./images/10.png  used on input line 201.
 (pdftex.def)             Requested size: 232.79701pt x 125.88553pt.
-<./images/11.png, id=66, 1465.475pt x 743.77875pt>
+<./images/11.png, id=67, 1465.475pt x 743.77875pt>
 File: ./images/11.png Graphic file (type png)
 <use ./images/11.png>
-Package pdftex.def Info: ./images/11.png  used on input line 201.
+Package pdftex.def Info: ./images/11.png  used on input line 202.
 (pdftex.def)             Requested size: 234.8775pt x 119.19997pt.
- [3 <./images/6.png> <./images/7.png> <./images/8.png> <./images/9.png>]
-<./images/12.png, id=75, 1296.845pt x 538.01pt>
+<./images/12.png, id=68, 1296.845pt x 538.01pt>
 File: ./images/12.png Graphic file (type png)
 <use ./images/12.png>
-Package pdftex.def Info: ./images/12.png  used on input line 204.
+Package pdftex.def Info: ./images/12.png  used on input line 205.
 (pdftex.def)             Requested size: 234.8775pt x 97.4369pt.
-<./images/13.png, id=76, 1510.64375pt x 972.63374pt>
+ [3 <./images/6.png> <./images/7.png> <./images/8.png> <./images/9.png> <./images/10.png> <./images/11.png>]
+<./images/13.png, id=78, 1510.64375pt x 972.63374pt>
 File: ./images/13.png Graphic file (type png)
 <use ./images/13.png>
-Package pdftex.def Info: ./images/13.png  used on input line 230.
+Package pdftex.def Info: ./images/13.png  used on input line 231.
 (pdftex.def)             Requested size: 234.8775pt x 151.21674pt.
- [4 <./images/10.png> <./images/11.png> <./images/12.png>]
-Overfull \hbox (36.13437pt too wide) in paragraph at lines 260--260
+ [4 <./images/12.png> <./images/13.png>]
+Overfull \hbox (36.13437pt too wide) in paragraph at lines 261--261
 []                \OT1/pcr/m/n/10.95 <a rel="foaf:homepage" href="http://example.com/bob/">Bob</a>[] 
  []
 
 
-Overfull \hbox (36.13437pt too wide) in paragraph at lines 263--263
+Overfull \hbox (36.13437pt too wide) in paragraph at lines 264--264
 []                \OT1/pcr/m/n/10.95 <a rel="foaf:homepage" href="http://example.com/eve/">Eve</a>[] 
  []
 
 
-Overfull \hbox (49.27435pt too wide) in paragraph at lines 266--266
+Overfull \hbox (49.27435pt too wide) in paragraph at lines 267--267
 []                \OT1/pcr/m/n/10.95 <a rel="foaf:homepage" href="http://example.com/manu/">Manu</a>[] 
  []
 
-[5 <./images/13.png>] [6] 
+[5] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./foundation_of_knowledge_graphs.aux)
  ***********
@@ -951,16 +952,16 @@ L3 programming layer <2024-02-20>
 Here is how much of TeX's memory you used:
  26349 strings out of 474116
  553069 string characters out of 5743681
- 1937187 words of memory out of 5000000
+ 1938187 words of memory out of 5000000
  48245 multiletter control sequences out of 15000+600000
  569886 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,5n,107p,523b,379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,5n,107p,523b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on foundation_of_knowledge_graphs.pdf (6 pages, 6030461 bytes).
+Output written on foundation_of_knowledge_graphs.pdf (5 pages, 6030104 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  222 words of extra memory for PDF output out of 10000 (max. 10000000)
 

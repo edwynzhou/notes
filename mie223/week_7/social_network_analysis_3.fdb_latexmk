@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741022033.64279 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_3.tex" "social_network_analysis_3.pdf" "social_network_analysis_3" 1741022034.98454 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_3.tex" 1741022032.03132 2567 0904024473b2dc1866fdbc74a5018f8b ""
+["pdflatex"] 1745024625.78571 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_3.tex" "social_network_analysis_3.pdf" "social_network_analysis_3" 1745024626.98889 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_3.tex" 1745024624.35321 2865 97d21efe19242113eaca843f51dc313a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -177,8 +177,13 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "social_network_analysis_3.aux" 1741022034.87924 426 005ec77d11f90e65a8c0b781b6f956c2 "pdflatex"
-  "social_network_analysis_3.tex" 1741022032.03132 2567 0904024473b2dc1866fdbc74a5018f8b ""
+  "images/37.png" 1745024494.90778 230475 1ea1631b5217cb30a8eff140405fa1d3 ""
+  "images/38.png" 1745024538.58907 430895 f01874de1e462d247126222fad83d5bd ""
+  "images/39.png" 1745024570.71698 475418 5401d6858e617ef8dcaffd17de197825 ""
+  "images/40.png" 1745024592.47525 710371 7d5ff25d249778b0e82a6f2bd7436fe3 ""
+  "images/41.png" 1745024616.97029 268003 33850a1cfff65e57d78c03ff2aac7354 ""
+  "social_network_analysis_3.aux" 1745024626.92709 648 73927a787b7f6463480850d43a9c8a18 "pdflatex"
+  "social_network_analysis_3.tex" 1745024624.35321 2865 97d21efe19242113eaca843f51dc313a ""
   (generated)
   "social_network_analysis_3.aux"
   "social_network_analysis_3.log"

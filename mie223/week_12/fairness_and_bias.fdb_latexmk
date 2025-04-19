@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1743542336.66936 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_12/fairness_and_bias.tex" "fairness_and_bias.pdf" "fairness_and_bias" 1743542338.78439 0
-  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_12/fairness_and_bias.tex" 1743542336.45829 10358 276ac92d0c7eec1fce5c08bceded7223 ""
+["pdflatex"] 1745024732.29176 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_12/fairness_and_bias.tex" "fairness_and_bias.pdf" "fairness_and_bias" 1745024734.55328 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_12/fairness_and_bias.tex" 1745024729.93634 10376 896151b74a36bcbf4b6a707d04718478 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -204,8 +204,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "fairness_and_bias.aux" 1743542338.71215 1841 5240983477095e92fec4d7ee59d9af81 "pdflatex"
-  "fairness_and_bias.tex" 1743542336.45829 10358 276ac92d0c7eec1fce5c08bceded7223 ""
+  "fairness_and_bias.aux" 1745024734.48043 1841 53a6ebb153a9b49e2487c87c77307038 "pdflatex"
+  "fairness_and_bias.tex" 1745024729.93634 10376 896151b74a36bcbf4b6a707d04718478 ""
   "images/1.png" 1743538499.68959 397041 eb122f344926111a37ce4ab7f1ca1c2b ""
   "images/10.png" 1743541872.13751 182779 c713815fba526bf285106a903465ae14 ""
   "images/11.png" 1743541920.12872 434110 4b4d1044d4c62a952d58307b72b95e2e ""

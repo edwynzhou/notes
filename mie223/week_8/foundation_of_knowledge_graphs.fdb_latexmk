@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741023843.25206 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_8/foundation_of_knowledge_graphs.tex" "foundation_of_knowledge_graphs.pdf" "foundation_of_knowledge_graphs" 1741023846.58026 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_8/foundation_of_knowledge_graphs.tex" 1741023839.74123 9039 af6998fc929e3f2b7ab689540bd47571 ""
+["pdflatex"] 1745024664.14787 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_8/foundation_of_knowledge_graphs.tex" "foundation_of_knowledge_graphs.pdf" "foundation_of_knowledge_graphs" 1745024666.01686 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_8/foundation_of_knowledge_graphs.tex" 1745024662.05341 9057 a9ce79b13a8fd054a6cc07832dceff46 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -185,8 +185,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735322167.12423 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735322112 8221437 d74292b2eb9c2eef019996724adc290f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "foundation_of_knowledge_graphs.aux" 1741023846.46231 2082 f74d6e35123159c6a99eab3f3bc0a79b "pdflatex"
-  "foundation_of_knowledge_graphs.tex" 1741023839.74123 9039 af6998fc929e3f2b7ab689540bd47571 ""
+  "foundation_of_knowledge_graphs.aux" 1745024665.9481 2082 69720e7d1f06320b32167fabd0a665f9 "pdflatex"
+  "foundation_of_knowledge_graphs.tex" 1745024662.05341 9057 a9ce79b13a8fd054a6cc07832dceff46 ""
   "images/1.png" 1741022438.43478 234964 1b2d6df3890ecc6c304d8012defae085 ""
   "images/10.png" 1741023278.52643 146704 5d25478c7aa04c79bb34b18e359fbd9d ""
   "images/11.png" 1741023302.0913 139857 b1458ce4d6c1ef35c7827115b27009ff ""

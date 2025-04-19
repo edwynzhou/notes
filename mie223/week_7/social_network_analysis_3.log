@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  3 MAR 2025 09:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.27)  18 APR 2025 18:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_3.tex
-(/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_3.tex
+**/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_3.tex
+(/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_3.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -767,7 +767,7 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 \c@reg=\count358
 \c@exer=\count359
 \c@note=\count360
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 80.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 81.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -777,20 +777,20 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 ) (./social_network_analysis_3.aux)
 \openout1 = `social_network_analysis_3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count362
@@ -848,9 +848,35 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \c@lstlisting=\count369
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+<./images/37.png, id=41, 945.5325pt x 567.11874pt>
+File: ./images/37.png Graphic file (type png)
+<use ./images/37.png>
+Package pdftex.def Info: ./images/37.png  used on input line 96.
+(pdftex.def)             Requested size: 469.75502pt x 281.75874pt.
+<./images/38.png, id=43, 916.42375pt x 576.1525pt>
+File: ./images/38.png Graphic file (type png)
+<use ./images/38.png>
+Package pdftex.def Info: ./images/38.png  used on input line 99.
+(pdftex.def)             Requested size: 469.75502pt x 295.3372pt.
+<./images/39.png, id=44, 863.225pt x 496.85625pt>
+File: ./images/39.png Graphic file (type png)
+<use ./images/39.png>
+Package pdftex.def Info: ./images/39.png  used on input line 100.
+(pdftex.def)             Requested size: 469.75502pt x 270.38326pt.
+<./images/40.png, id=45, 925.4575pt x 581.17125pt>
+File: ./images/40.png Graphic file (type png)
+<use ./images/40.png>
+Package pdftex.def Info: ./images/40.png  used on input line 101.
+(pdftex.def)             Requested size: 469.75502pt x 295.00114pt.
 [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] 
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/37.png>] [2 <./images/38.png> <./images/39.png>]
+<./images/41.png, id=58, 929.4725pt x 593.21625pt>
+File: ./images/41.png Graphic file (type png)
+<use ./images/41.png>
+Package pdftex.def Info: ./images/41.png  used on input line 104.
+(pdftex.def)             Requested size: 469.75502pt x 299.8117pt.
+ [3 <./images/40.png> <./images/41.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./social_network_analysis_3.aux)
  ***********
@@ -859,18 +885,18 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26159 strings out of 474116
- 549625 string characters out of 5743681
- 1928187 words of memory out of 5000000
- 48065 multiletter control sequences out of 15000+600000
+ 26204 strings out of 474116
+ 550510 string characters out of 5743681
+ 1929187 words of memory out of 5000000
+ 48110 multiletter control sequences out of 15000+600000
  567431 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,5n,107p,518b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on social_network_analysis_3.pdf (1 page, 23911 bytes).
+Output written on social_network_analysis_3.pdf (3 pages, 1812815 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 

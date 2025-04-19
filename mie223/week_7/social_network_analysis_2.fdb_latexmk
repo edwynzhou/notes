@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1740523836.52605 "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_2.tex" "social_network_analysis_2.pdf" "social_network_analysis_2" 1740523841.97309 0
-  "/Users/edwynzhou/Documents/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_2.tex" 1740523836.23856 8157 ca5b1c3af34d42ec30cb3348e2f8c5db ""
+["pdflatex"] 1745024386.86258 "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_2.tex" "social_network_analysis_2.pdf" "social_network_analysis_2" 1745024389.95129 0
+  "/Users/edwynzhou/Downloads/uoft/y2/notes/notes/mie223/week_7/social_network_analysis_2.tex" 1745024383.48907 8175 11715e7daff9c6a9447184fde65d5c13 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -223,8 +223,8 @@
   "images/34.png" 1740523506.46398 203450 2169d4bafed2818432968d45d494a167 ""
   "images/35.png" 1740523546.78469 128829 c76752681e770f7ab79d0ad14a24ad99 ""
   "images/36.png" 1740523690.12915 243769 ff1d2c4d0130c3176e4673ef6813d079 ""
-  "social_network_analysis_2.aux" 1740523841.84509 3000 f1d55c84ac48f5bb85aed1d396999ea9 "pdflatex"
-  "social_network_analysis_2.tex" 1740523836.23856 8157 ca5b1c3af34d42ec30cb3348e2f8c5db ""
+  "social_network_analysis_2.aux" 1745024389.87985 3000 45ab548f68f428b5abf32538b23153a3 "pdflatex"
+  "social_network_analysis_2.tex" 1745024383.48907 8175 11715e7daff9c6a9447184fde65d5c13 ""
   (generated)
   "social_network_analysis_2.aux"
   "social_network_analysis_2.log"
